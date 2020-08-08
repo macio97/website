@@ -1,0 +1,38 @@
+/* Light/Dark theme */
+:root {
+	--theme: var(--wolf);
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--theme: #00AAFE;
+	}
+}
+
+input {
+	outline: none;
+}
+
+.admin {
+	color: var(--theme);
+	width: 100%;
+	text-align: center;
+}
+
+.admin input {
+	background: #00AAFE33;
+	color: var(--wolf);
+	border: none;
+	margin-top: 10px;
+	width: 200px;
+	height: 35px;
+	font-size: 20px;
+	border-radius: 8px;
+	cursor: pointer;
+	transition: all 0.3s;
+}
+
+.admin input:hover {
+	background: var(--wolf);
+	color: var(--body);
+}

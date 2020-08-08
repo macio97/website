@@ -1,0 +1,12 @@
+/* Theme */
+:root {
+	--theme: var(--wolf);
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--theme: var(--trees);
+		--collap: var(--trees-back);
+		--collapdark: var(--trees-dark);
+	}
+}

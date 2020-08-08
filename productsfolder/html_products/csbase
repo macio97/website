@@ -1,0 +1,11 @@
+<div class="space"></div>
+<div class="countdown">
+  <ul>
+	<li><span id="days"></span>Days</li>
+	<li><span id="hours"></span>Hours</li>
+	<li><span id="minutes"></span>Mins</li>
+	<li><span id="seconds"></span>Secs</li>
+  </ul>
+</div>
+
+<script src="../scripts/countdown.js" type="text/javascript"></script>

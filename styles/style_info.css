@@ -1,0 +1,101 @@
+/* Content */
+p {
+	text-align: center;
+}
+
+h1 {
+	font-size: 30px;
+}
+
+h2 {
+	font-size: 26px;
+	margin-top: 0;
+	margin-bottom: 4px;
+}
+
+.wolves {
+	text-align: center;
+	overflow-x: auto;
+	white-space: nowrap;
+}
+
+.container {
+	text-align: center;
+	display: inline-block;
+	text-decoration: none;
+	margin: 0 20px;
+	width: 180px;
+	border-radius: 10%;
+	transition: all 0.3s;
+}
+
+.image {
+	width: 100%;
+	border-radius: 10% 10% 0 0;
+}
+
+.marco .image {
+	filter: invert(78%) sepia(35%) saturate(6105%) hue-rotate(142deg) brightness(104%) contrast(101%);
+}
+.marco h2 {
+	color: #00DCFF;
+}
+.marco:hover {
+	background: #00DCFF22;
+}
+
+.stefan .image {
+	filter: invert(34%) sepia(67%) saturate(5430%) hue-rotate(347deg) brightness(95%) contrast(114%);
+}
+.stefan h2 {
+	color: #FF2617;
+}
+.stefan:hover {
+	background: #FF261722;
+}
+
+
+/* Social Icons */
+.social {
+	display: block;
+	margin-left: -45px;
+}
+
+.social ul {
+	text-align: center;
+	overflow-x: auto;
+	white-space: nowrap;
+}
+
+.social ul li {
+	list-style: none;
+	display: inline-block;
+}
+
+.social ul li a {
+	position: relative;
+	font-size: 35px;
+	color: #777;
+	transition: .5s;
+	margin: 0 20px;
+}
+
+.social ul li:nth-child(1) a:hover {
+	color: #d44638;
+}
+
+.social ul li:nth-child(2) a:hover {
+	color: #3b5998;
+}
+
+.social ul li:nth-child(3) a:hover {
+	color: #ff0000;
+}
+
+.social ul li:nth-child(4) a:hover {
+	color: #1da1f2;
+}
+
+.social ul li:nth-child(5) a:hover {
+	color: #333333;
+}

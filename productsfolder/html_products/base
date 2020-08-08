@@ -1,0 +1,21 @@
+<cover_img_to_insert/>
+
+<h2>Title 1</h2>
+<div class="halfpage">
+	<div class="column1 panel">
+		<img class="panels" src="../images/sky/sky panel.webp" alt="">
+	</div>
+	<div class="column2">
+		<p>Text 1</p>
+		<div class="supcontainer">
+			<div class="container">
+				<img src="../images/sky/real sky.webp" alt="">
+				<p>Image 1</p>
+			</div>
+			<div class="container">
+				<img src="../images/sky/hosek-wilkie.webp" alt="">
+				<p>Image 2</p>
+			</div>
+		</div>
+	</div>
+</div>

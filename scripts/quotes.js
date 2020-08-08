@@ -1,0 +1,18 @@
+var r_text = new Array ();
+r_text[0] = "Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do. If you haven't found it yet, keep looking. Don't settle. As with all matters of the heart, you'll know when you find it - Steve Jobs";
+r_text[1] = "Your time is limited, don’t waste it living someone else’s life. Don’t be trapped by dogma, which is living the result of other people’s thinking. Don’t let the noise of other opinions drown your own inner voice. And most important, have the courage to follow your heart and intuition, they somehow already know what you truly want to become. Everything else is secondary - Steve Jobs";
+r_text[2] = "Here’s to the crazy ones, the misfits, the rebels, the troublemakers, the round pegs in the square holes… The ones who see things differently, they’re not fond of rules… You can quote them, disagree with them, glorify or vilify them, but the only thing you can’t do is ignore them because they change things… They push the human race forward, and while some may see them as the crazy ones, we see genius, because the ones who are crazy enough to think that they can change the world, are the ones who do - Steve Jobs";
+r_text[3] = "It’s better to be a pirate than to join the navy - Steve Jobs";
+r_text[4] = "Only the unknown frightens men. But once a man has faced the unknown, that terror becomes the known - Antoine de Saint-Exupery";
+r_text[5] = "I am enough of an artist to draw freely upon my imagination. Imagination is more important than knowledge. Knowledge is limited. Imagination encircles the world - Albert Einstein";
+r_text[6] = "Imagination is more important than knowledge. For knowledge is limited, whereas imagination embraces the entire world, stimulating progress, giving birth to evolution - Albert Einstein";
+r_text[7] = "Learn from yesterday, live for today, hope for tomorrow. The important thing is not to stop questioning - Albert Einstein";
+r_text[8] = "If you can't explain it simply, you don't understand it well enough - Albert Einstein";
+r_text[9] = "Live as if you were to die tomorrow. Learn as if you were to live forever - Mahatma Gandhi";
+r_text[10] = "I will not let anyone walk through my mind with their dirty feet - Mahatma Gandhi";
+r_text[11] = "Freedom is not worth having if it does not include the freedom to make mistakes - Mahatma Gandhi";
+r_text[12] = "All our dreams can come true if we have the courage to pursue them - Walt Disney";
+r_text[13] = "Our highest endeavor must be to develop free human beings who are able of themselves to impart purpose and direction to their lives. The need for imagination, a sense of truth, and a feeling of responsibility—these three forces are the very nerve of education - Rudolf Steiner";
+r_text[14] = "The main difference in the effectiveness of teaching comes from the thoughts the teacher has had during the entire time of his or her existence and brings into the classroom. A teacher concerned with developing humans affects the students quite differently from a teacher who never thinks about such things - Rudolf Steiner";
+var i = Math.floor(r_text.length * Math.random());
+document.write("<h2>" + r_text[i]  + "</h2>");

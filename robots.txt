@@ -1,0 +1,8 @@
+# Group 1
+User-agent: *
+Disallow: /components/
+Disallow: /backend/
+Disallow: /admin/
+Disallow: /styles/
+Disallow: /scripts/
+Disallow: adminpage.php

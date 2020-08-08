@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1000"
+   height="1000"
+   viewBox="0 0 264.58333 264.58333"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.4 (f8dce91, 2019-08-02)"
+   sodipodi:docname="Camera.svg"
+   inkscape:export-filename="/home/marco/Scrivania/Camera Icon.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96">
+  <defs
+     id="defs2">
+    <linearGradient
+       id="linearGradient5992"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop5990" />
+    </linearGradient>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="331.62751"
+     inkscape:cy="632.36927"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1853"
+     inkscape:window-height="1025"
+     inkscape:window-x="67"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Livello 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-32.41665)">
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 75.607272,83.210521 -29.037505,0.06201 0.0083,11.912452 -21.682914,-0.199472 c 0,0 -7.585537,0.376674 -14.380001,7.171139 -6.7944635,6.79447 -5.5603836,17.59376 -5.5603839,17.59376 l -0.083716,101.80515 c 0,0 -0.7174653,8.14711 4.9025431,13.76712 5.6200088,5.62001 15.0595458,5.21467 15.0595458,5.21467 L 239.049,240.46195 c 0,0 10.43939,0.90256 16.20728,-4.86533 5.7679,-5.7679 4.98264,-13.95212 4.98264,-13.95212 l 0.15658,-101.82893 c 0,0 2.04276,-10.23504 -5.71644,-17.99425 -7.75921,-7.759203 -15.16084,-6.536037 -15.16084,-6.536037 L 75.576265,95.295573 Z M 136.4263,107.35272 a 61.385108,61.385108 0 0 1 61.3854,61.3854 61.385108,61.385108 0 0 1 -61.3854,61.38488 61.385108,61.385108 0 0 1 -61.384888,-61.38488 61.385108,61.385108 0 0 1 61.384888,-61.3854 z"
+       id="path817"
+       inkscape:connector-curvature="0" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Livello 2"
+     style="display:none;opacity:0.18157181">
+    <circle
+       style="fill:#000000;fill-opacity:1;stroke:#00ff00;stroke-width:0.2985318;stroke-opacity:1"
+       id="path6026"
+       cx="131.91368"
+       cy="132.29166"
+       r="131.14076" />
+  </g>
+</svg>
