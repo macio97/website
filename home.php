@@ -13,11 +13,7 @@ $DOM = str_replace('<title_page_to_insert/>', 'Wolf', $DOM);
 ////////////
 
 //Setting css
-$DOM = str_replace('<stylesheets_to_insert/>', '<link rel="stylesheet" type="text/css" href="<relative_path_to_insert/>styles/style_all.css">
-	<link rel="stylesheet" type="text/css" href="<relative_path_to_insert/>styles/style_home.css">
-	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Allura&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css">', $DOM);
+$DOM = str_replace('<stylesheets_to_insert/>', '<link rel="stylesheet" type="text/css" href="<relative_path_to_insert/>styles/style_home.css">', $DOM);
 ////////////
 	
 //Setting javascripts

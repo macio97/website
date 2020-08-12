@@ -32,7 +32,6 @@ class product_creator{
 			<link rel="stylesheet" type="text/css" href="<relative_path_to_insert/>styles/style_color.css">
 			<link rel="stylesheet" type="text/css" href="styles/style_common.css">
 			<link rel="stylesheet" type="text/css" href="styles/<css_to_insert/>">
-			<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
 			<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css">', $DOM);
 		////////////
 		

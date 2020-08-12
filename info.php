@@ -16,7 +16,6 @@ $DOM = str_replace('<title_page_to_insert/>', 'Info', $DOM);
 //Setting css
 $DOM = str_replace('<stylesheets_to_insert/>', '<link rel="stylesheet" type="text/css" href="<relative_path_to_insert/>styles/style_all.css">
 	<link rel="stylesheet" type="text/css" href="<relative_path_to_insert/>styles/style_info.css">
-	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css">', $DOM);
 ////////////
 

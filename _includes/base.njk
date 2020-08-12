@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+    <head>
+		<meta charset="UTF-8">
+        <title>{{ title }}</title>
+		<meta name="description" content="{{ description }}">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="icon" type="image/png" href="/images/icons/wolf 32.png" sizes="32x32">
+		<link rel="icon" type="image/png" href="/images/icons/wolf 196.png" sizes="196x196">
+		<meta name="theme-color" content="#111111" />
+
+        {# Shared Stylesheets #}
+        <link rel="stylesheet" type="text/css" href="/styles/style_all.css">
+
+        {# Some pages require more than one stylesheet. These are listed in the `stylesheets` array in front-matter. #}
+        {# See index.njk for an example. #}
+        {%- for stylesheet in stylesheets -%}
+            <link rel="stylesheet" type="text/css" href="{{ stylesheet }}">
+        {%- endfor -%}
+
+
+        {# Shared Scripts #}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-118544137-1"></script>
+        <script src="/scripts/google_analytics.js" type="text/javascript"></script>
+        <script src="/scripts/menu_bar.js" type="text/javascript"></script>
+
+        {# Some pages include custom scripts. Include these here #}
+        {%- for script in scripts -%}
+            <script src="{{ script }}"></script>
+		{%- endfor -%}
+
+        {# Include all fonts on each page #}
+        <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+	    <link href="https://fonts.googleapis.com/css?family=Allura&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css">
+    </head>
+    <body>
+        <script src="/scripts/drag_menu.js" type="text/javascript"></script>
+
+        <header>
+            <div id="section">
+                <div id="menu">
+                    <input id="hambmenu" type="checkbox" onclick="openMenu()">
+                        <div class="hamburger"></div>
+                        <div class="hamburger"></div>
+                    </input>
+                    <div id="links" onmouseleave="mouseOut()">
+                        <ul>
+                            <li class="main"><a {# <home_selected_class_to_insert/> #} href="/">Home</a></li>
+                            <li class="main"><a {# <products_selected_class_to_insert/> #} href="/products/" onmouseover="mouseOver()">Products</a>
+                                <ul id="submenu">
+                                    <products_li_to_insert/>
+                                </ul>
+                            </li>
+                            <li class="main"><a {# <info_selected_class_to_insert/> #} href="/info/">Info</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        {# Include each page's unique content #}
+        {{ content | safe }}
+    </body>
+</html>

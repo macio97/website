@@ -1,0 +1,30 @@
+---
+layout: base.njk
+title: Wolf
+description: We are a group of 3D artists and we make Blender addons
+
+stylesheets: [
+    "/styles/style_home.css"
+]
+
+scripts: [
+    "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js",
+    "scripts/particles.js",
+]
+---
+
+<main id="content">
+	<canvas id="ParticleCanvas"></canvas>
+	<div class="wolf">
+		<img src="images/Wolf.webp" alt="wolf">
+	</div>
+</main>
+
+<div class="quotes">
+	<script src="scripts/quotes.js" type="text/javascript"></script>
+</div>
+
+<a class="chat" href="javascript:void(Tawk_API.toggle())">
+<i class="fas fa-comment"></i>
+</a>
+<script src="/scripts/chat.js" type="text/javascript"></script>
