@@ -49,9 +49,18 @@
                         <ul>
                             <li class="main"><a {# <home_selected_class_to_insert/> #} href="/">Home</a></li>
                             <li class="main"><a {# <products_selected_class_to_insert/> #} href="/products/" onmouseover="mouseOver()">Products</a>
+
                                 <ul id="submenu">
-                                    <products_li_to_insert/>
+                                    {# Add each product to the navigation #}
+                                    {%- for product in collections.products -%}
+                                    <li>
+										<a href="{{ product.url }}">
+										<img src="/{{ product.data.icon }}" alt="{{ product.data.name }}">
+										<br>{{ product.data.name }}</a>
+									</li>
+                                    {%- endfor -%}
                                 </ul>
+
                             </li>
                             <li class="main"><a {# <info_selected_class_to_insert/> #} href="/info/">Info</a></li>
                         </ul>

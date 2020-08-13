@@ -11,7 +11,22 @@ stylesheets: [
 
 <main id="content">
 	<div class="space"></div>
-	<products_list_to_insert/>
+
+	{%- for product in collections.products -%}
+	<a href="{{ product.url }}" class="{{ product.data.name | lower }}">
+		<div class="container">
+			<div class="column left">
+				{# Adding the `-` character ensures there is no whitespace #}
+				<img class="{{- product.data.name | lower -}}img" src="/{{ product.data.icon }}" alt="{{ product.data.name }}">
+			</div>
+			<div class="column right">
+				<h1>{{ product.data.name }}</h1>
+				<p>Real Snow is an addon that allows you to add snow on top of objects</p>
+			</div>
+		</div>
+	</a>
+	{%- endfor -%}
+
 	<div class="space"></div>
 </main>
 
