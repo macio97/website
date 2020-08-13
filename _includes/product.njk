@@ -1,0 +1,108 @@
+---
+layout: base.njk
+---
+
+{# This product page assumes a few things about each individual product #}
+
+<main id="content">
+	<h1>{{ name }}</h1>
+	<div class="video">
+	<iframe src="{{ video }}" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" width="560" height="315" frameborder="0">
+	</iframe>
+	</div>
+
+	<div class="space"></div>
+	<div class="halfpage">
+		<div class="column">
+			<h2>Description</h2>
+			<p class="description">{{ description }}</p>
+		</div>
+		<div class="column">
+			{# TODO: Work on the downstart issue #}
+			<div class="download">
+				<a class="downstart" href="{{ download_link }}" target="_blank">
+					{{ download_type }}
+				</a>
+
+				<a class="<download_class_to_insert/>" href="{{ guide_link }}" target="_blank">Guide</a>
+
+				{%- if versions -%}
+					<button class="collapsible <download_class_to_insert/>">Version</button>
+					<div class="collap">
+						{%- for version in versions -%}
+							<p>{{ version }}</p>
+						{%- endfor -%}
+					</div>
+				{%- endif -%}
+
+				{%- if info -%}
+					<a class="<download_class_to_insert/>" href="{{ info_link }}" target="_blank">Info</a>
+				{%- endif -%}
+
+				{%- if changelog -%}
+					<button class="collapsible <download_class_to_insert/>">Changelog</button>
+					<div class="collap">
+						<p>{{ changelog }}</p>
+					</div>
+				{%- endif -%}
+
+				{%- if requirements -%}
+					<button class="collapsible <download_class_to_insert/>">Requirements</button>
+					<div class="collap">
+						<h2>Minimum</h2>
+							{%- for req in requirements["minimum"] -%}
+								<p> - {{ req }}</p>
+							{%- endfor -%}
+						<h2>Recommended</h2>
+							{%- for req in requirements["recommended"] -%}
+								<p> - {{ req }}</p>
+							{%- endfor -%}
+					</div>
+				{%- endif -%}
+
+				{%- if license -%}
+					<button class="collapsible downend">License</button>
+					<div class="collap license">
+						<h2>{{ license }}</h2>
+						<p>{{ license_text }}</p>
+					</div>
+				{%- endif -%}
+			</div>
+		</div>
+	</div>
+	<div class="space"></div>
+
+	{{ content | safe }}
+
+	{% if renders %}
+		<div class="space"></div>
+
+		{% for render in renders %}
+			<div class="parallax" style="background-image: url({{ render['path'] }});"></div>
+			<img class="par-image" src="{{ render['path'] }}" alt="{{ render['alt'] }}" loading="lazy">
+		{% endfor %}
+	{% endif %}
+	<renders_to_insert/>
+</main>
+
+<div class="space"></div>
+
+<button class="collapsible comments">Comments</button>
+<div class="collap1">
+	<div class="disquscontainer">
+		<div id="disqus_thread"></div>
+	</div>
+</div>
+
+<div class="space"></div>
+
+<script src="/scripts/collapsible.js" type="text/javascript"></script>
+
+<script>
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = '<link_comment_to_insert/>';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>

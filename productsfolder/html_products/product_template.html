@@ -5,22 +5,27 @@
 	<div class="halfpage">
 		<div class="column">
 			<h2>Description</h2>
-			<p class="description"><description_to_insert/></p>
+			{# <p class="description"><description_to_insert/></p> #}
 		</div>
 		<div class="column">
 			<div class="download">
-				<download_section_to_insert/>
+				{# <download_section_to_insert/>
 				<guide_section_to_insert/>
 				<versions_section_to_insert/>
 				<info_section_to_insert/>
 				<changelog_section_to_insert/>
 				<requirements_to_insert/>
-				<license_section_to_insert/>
+				<license_section_to_insert/> #}
 			</div>
 		</div>
 	</div>
 	<div class="space"></div>
-	<content_product_to_insert/>
+
+
+	{# <content_product_to_insert/> #}
+	{{ content | safe }}
+	
+	
 	<renders_to_insert/>
 </main>
 
@@ -35,7 +40,7 @@
 
 <div class="space"></div>
 
-<script src="../scripts/collapsible.js" type="text/javascript"></script>
+<script src="/scripts/collapsible.js" type="text/javascript"></script>
 
 <script>
 (function() { // DON'T EDIT BELOW THIS LINE

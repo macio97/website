@@ -1,0 +1,127 @@
+h1 {
+	color: var(--theme);
+}
+
+h2 {
+	color: var(--theme);
+}
+
+p {
+	color: var(--theme);
+}
+
+.download a {
+	color: var(--theme);
+	border-color: var(--theme);
+}
+
+.download a:hover{
+	background: var(--theme);
+}
+
+
+/* Content */
+.panels {
+	border-radius: 20px/20px;
+	width: 250px;
+}
+
+.cover {
+	text-align: center;
+}
+
+.container {
+	display: inline-block;
+	max-width: 500px;
+}
+
+.container p {
+	text-align: center;
+}
+
+.supcontainer {
+	width: 100%;
+	text-align: center;
+}
+
+.container img {
+	width: 100%;
+}
+
+
+/* Collapsible */
+.collapsible {
+	color: var(--theme);
+}
+
+.collapsible:hover {
+	color: var(--body);
+	background-color: var(--theme);
+}
+
+.active {
+	color: var(--body);
+	background-color: var(--theme);
+}
+
+
+/* Parallax Images */
+.parallax {
+	height: 100vh;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.par-image {
+	width: 100%;
+	margin: 0;
+}
+
+
+/* Responsive */
+@media only screen and (max-width: 600px) {
+	.covimage {
+		width: 100%;
+	}
+	.panel {
+		text-align: center;
+	}
+	.desc p {
+		margin-right: 5%;
+	}
+	.parallax {
+		display: none;
+	}
+}
+
+@media only screen and (min-width: 600px) {
+	.par-image {
+		display: none;
+	}
+	.covimage {
+		width: 70%;
+	}
+	.panel {
+		text-align: center;
+	}
+	.desc p {
+		margin-right: 5%;
+	}
+	.par-image {
+		display: none;
+	}
+}
+
+@media only screen and (min-width: 992px) {
+	.covimage {
+		width: 70%;
+	}
+	.panel {
+		text-align: right;
+	}
+	.desc p {
+		margin-right: 30%;
+	}
+}
