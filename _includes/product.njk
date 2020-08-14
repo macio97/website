@@ -42,7 +42,7 @@ layout: base.njk
 				{%- if changelog -%}
 					<button class="collapsible <download_class_to_insert/>">Changelog</button>
 					<div class="collap">
-						<p>{{ changelog }}</p>
+						<p>{{ changelog | safe }}</p>
 					</div>
 				{%- endif -%}
 
