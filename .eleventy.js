@@ -6,6 +6,11 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy("scripts");
     eleventyConfig.addPassthroughCopy("styles");
 
+    /* Add a filter to remove .html from urls. */
+    eleventyConfig.addFilter("prettyURL", function(url) {
+        return url.replace(".html", "");
+    });
+
     /* This setting should be default in future versions of eleventy.
      * It allows the data in the files to behave nicer. */
     eleventyConfig.setDataDeepMerge(true);

@@ -53,7 +53,7 @@
                                     {# Add each product to the navigation #}
                                     {%- for product in collections.products -%}
                                     <li>
-										<a href="{{ product.url }}">
+										<a href="{{ product.url | prettyURL }}">
 										<img src="/{{ product.data.icon }}" alt="{{ product.data.name }}">
 										<br>{{ product.data.name }}</a>
 									</li>
