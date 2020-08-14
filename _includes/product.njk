@@ -72,13 +72,20 @@ layout: base.njk
 	</div>
 	<div class="space"></div>
 
+	{% if coverimg %}
+	<div class="cover">
+    	<img class="covimage panels" src="/{{ coverimg }}">
+	</div>
+    <div class="space"></div>
+	{% endif %}
+
 	{{ content | safe }}
 
 	{% if renders %}
 		<div class="space"></div>
 
 		{% for render in renders %}
-			<div class="parallax" style="background-image: url({{ render['path'] }});"></div>
+			<div class="parallax" style="background-image: url('{{ render['path'] }}');"></div>
 			<img class="par-image" src="{{ render['path'] }}" alt="{{ render['alt'] }}" loading="lazy">
 		{% endfor %}
 	{% endif %}
