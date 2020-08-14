@@ -22,6 +22,10 @@ module.exports = function(eleventyConfig) {
         return url.replace(".html", "");
     });
 
+    eleventyConfig.setBrowserSyncConfig(
+        require("./configs/browsersync.js")("_site")
+    );
+
     /* This setting should be default in future versions of eleventy.
      * It allows the data in the files to behave nicer. */
     eleventyConfig.setDataDeepMerge(true);
@@ -41,8 +45,6 @@ module.exports = function(eleventyConfig) {
                 sorted_products.push(found);
             }
         });
-
-        console.log("fun", sorted_products);
 
         return sorted_products;
     });

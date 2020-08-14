@@ -46,7 +46,7 @@
                     </input>
                     <div id="links" onmouseleave="mouseOut()">
                         <ul>
-                            <li class="main"><a href="/">Home</a></li>
+                            <li class="main"><a class="{% if "/" == page.url %} selected {% endif %}" href="/">Home</a></li>
                             <li class="main"><a href="/products" onmouseover="mouseOver()">Products</a>
 
                                 <ul id="submenu">
