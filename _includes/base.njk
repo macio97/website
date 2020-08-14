@@ -47,13 +47,13 @@
                     <div id="links" onmouseleave="mouseOut()">
                         <ul>
                             <li class="main"><a class="{% if "/" == page.url %} selected {% endif %}" href="/">Home</a></li>
-                            <li class="main"><a href="/products" onmouseover="mouseOver()">Products</a>
+                            <li class="main"><a class="{% if "products" in page.url %} selected {% endif %}" href="/products" onmouseover="mouseOver()">Products</a>
 
                                 <ul id="submenu">
                                     {# Add each product to the navigation #}
                                     {%- for product in collections.products -%}
                                     <li>
-										<a href="{{ product.url | prettyURL }}">
+										<a class="{% if product.fileSlug in page.url %} selected {% endif %}" href="{{ product.url | prettyURL }}">
 										<img src="/{{ product.data.icon }}" alt="{{ product.data.name }}">
 										<br>{{ product.data.name }}</a>
 									</li>
@@ -61,7 +61,7 @@
                                 </ul>
 
                             </li>
-                            <li class="main"><a href="/info">Info</a></li>
+                            <li class="main"><a class="{% if "info" in page.url %} selected {% endif %}" href="/info">Info</a></li>
                         </ul>
                     </div>
                 </div>
