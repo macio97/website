@@ -1,3 +1,14 @@
+function find_product(name, all_products) {
+    found_product = null;
+
+    all_products.forEach(function(product) {
+        if (product.data.name === name) {
+            found_product = product;
+        }
+    });
+
+    return found_product;
+}
 
 module.exports = function(eleventyConfig) {
     /* Eleventy only copies pages by default (.html, .njk, .md, etc.).
@@ -14,4 +25,25 @@ module.exports = function(eleventyConfig) {
     /* This setting should be default in future versions of eleventy.
      * It allows the data in the files to behave nicer. */
     eleventyConfig.setDataDeepMerge(true);
+
+    /* Ensure a fixed order for the products.
+     * Modify the order in this array to change the order on the products page and in the navigation. */
+    let products = ["Sky", "Grass", "Trees", "Environments", "ArchDec", "Materials", "Camera", "Snow"];
+
+    /* Reorder the product pages to match the above array. */
+    eleventyConfig.addCollection("products", function(collectionApi) {
+        let all_products = collectionApi.getFilteredByTag("product");
+        let sorted_products = [];
+
+        products.forEach(function(product) {
+            found = find_product(product, all_products);
+            if (found) {
+                sorted_products.push(found);
+            }
+        });
+
+        console.log("fun", sorted_products);
+
+        return sorted_products;
+    });
 };
