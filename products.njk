@@ -14,7 +14,7 @@ stylesheets: [
 	<div class="space"></div>
 
 	{%- for product in collections.products -%}
-	<a href="{{ product.url }}" class="{{ product.data.name | lower }}">
+	<a href="{{ product.url | prettyURL }}" class="{{ product.data.name | lower }}">
 		<div class="container">
 			<div class="column left">
 				{# Adding the `-` character ensures there is no whitespace #}
