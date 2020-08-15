@@ -26,12 +26,10 @@ layout: base.njk
 
 				<a class="<download_class_to_insert/>" href="{{ guide_link }}" target="_blank">Guide</a>
 
-				{%- if versions -%}
+				{%- if version -%}
 					<button class="collapsible <download_class_to_insert/>">Version</button>
-					<div class="collap">
-						{%- for version in versions -%}
-							<p>{{ version }}</p>
-						{%- endfor -%}
+					<div class="collap">						
+						<p>{{ version }}</p>
 					</div>
 				{%- endif -%}
 
