@@ -22,6 +22,11 @@ module.exports = function(eleventyConfig) {
         return url.replace(".html", "");
     });
 
+    eleventyConfig.addFilter("urlname", function(url) {
+        parts = url.replace(".html", "").split("/");
+        return parts[parts.length - 1];
+    });
+
     eleventyConfig.setBrowserSyncConfig(
         require("./configs/browsersync.js")("_site")
     );

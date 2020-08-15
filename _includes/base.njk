@@ -46,6 +46,11 @@
                     </input>
                     <div id="links" onmouseleave="mouseOut()">
                         <ul>
+                            {# Get only the end (name) of the page's url. See .eleventy.js for more info. #}
+                            {%- set url -%}
+                                {{- page.url | urlname -}}
+                            {%- endset -%}
+
                             <li class="main"><a class="{% if "/" == page.url %} selected {% endif %}" href="/">Home</a></li>
                             <li class="main"><a class="{% if "products" in page.url %} selected {% endif %}" href="/products" onmouseover="mouseOver()">Products</a>
 
@@ -53,7 +58,7 @@
                                     {# Add each product to the navigation #}
                                     {%- for product in collections.products -%}
                                     <li>
-										<a class="{% if product.fileSlug in page.url %} selected {% endif %}" href="{{ product.url | prettyURL }}">
+										<a class="{% if url === product.fileSlug %} selected {% endif %}" href="{{ product.url | prettyURL }}">
 										<img src="/{{ product.data.icon }}" alt="{{ product.data.name }}">
 										<br>{{ product.data.name }}</a>
 									</li>
