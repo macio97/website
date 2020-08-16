@@ -16,10 +16,16 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy("images");
     eleventyConfig.addPassthroughCopy("scripts");
     eleventyConfig.addPassthroughCopy("styles");
+    eleventyConfig.addPassthroughCopy("products/download/")
 
     /* Add a filter to remove .html from urls. */
     eleventyConfig.addFilter("prettyURL", function(url) {
         return url.replace(".html", "");
+    });
+
+    eleventyConfig.addFilter("urlname", function(url) {
+        parts = url.replace(".html", "").split("/");
+        return parts[parts.length - 1];
     });
 
     eleventyConfig.setBrowserSyncConfig(
