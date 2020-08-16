@@ -20,7 +20,9 @@ layout: base.njk
 		<div class="column">
 			{# TODO: Work on the downstart issue #}
 			<div class="download">
-				<a class="downstart" href="{{ download_link }}" target="_blank">
+				<a class="downstart" href="{{ download_link }}"
+					{{ 'target="_blank"' if download_type == "Buy" }}
+					{{ download if download_type === "Download" }}>
 					{{ download_type }}
 				</a>
 
