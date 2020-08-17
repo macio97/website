@@ -3,29 +3,37 @@ permalink: /products/archdec_2.html
 name: ArchDec 2
 full_name: ArchDec 2
 title: ArchDec 2
-icon: images/products/archdec.svg
-
-video: "https://www.youtube.com/embed/r8PHfRu44_U"
-description: Archdec 2 ...
+icon: images/products/archdec_2.svg
+coverimg: "images/archdec_2/cover.webp"
+video: "https://www.youtube.com/embed/YnDP4D1adig"
+description: Archdec 2 is coming in some hours!
 description_short: ArchDec 2 ...
 
 download_link: https://blendermarket.com/products/archdec-2
 download_type: Buy
 guide_link: https://docs.google.com/document/d/1L6tgtTCPh-riFNVb7kMMb7-v6EmouAdryWDhBryklc0/edit?usp=sharing
-versions: [
-    "2.0"
-]
-info_link:
-changelog: ""
-
+version: "2.0"
+changelog: "First version for Blender 2.83"
 license: Standard Royalty Free
 license_text: "You, the purchaser can use the product for personal, educational or commercial uses but: You can’t resell, redistribute, or repackage the purchased product without explicit permission from the author, You can't use the purchased product in a logo, watermark, or trademark of any kind except if it is a shader, a material or a texture."
 
-comments_link: https://archdec.disqus.com/embed.js
+renders: [
+    "path": "/images/archdec_2/Chair.webp",
+    "path": "/images/archdec_2/Kitchen.webp",
+    "path": "/images/archdec_2/Desk.webp"
+]
+
+comments_link: https://archdec-2.disqus.com/embed.js
 
 stylesheets: [
     "/styles/products/style_archdec.css"
 ]
 ---
 
-<h1>Test</h1>
+<div class="supcontainer">
+{% for img in archdec_2 %}
+<div class="container">
+    <img src="/{{img}}">
+</div>
+{% endfor %}
+</div>

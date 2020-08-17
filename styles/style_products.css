@@ -167,6 +167,23 @@ a {
 	filter: var(--archdec-img-hov);
 }
 
+/* ArchDec 2 */
+.archdec_2 .container {
+	background: var(--archdec_2-back);
+}
+.archdec_2 .container:hover {
+	background: var(--archdec_2);
+}
+.archdec_2 h1, .archdec_2 p {
+	color: var(--archdec_2);
+}
+.archdec_2img {
+	filter: var(--archdec_2-img);
+}
+.container:hover .archdec_2img{
+	filter: var(--archdec_2-img-hov);
+}
+
 /* Snow */
 .snow .container {
 	background: var(--snow-back);

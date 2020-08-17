@@ -9,6 +9,7 @@
 	--textures: #A84BE6;
 	--models: #676767;
 	--archdec: #F39728;
+	--archdec_2: #F39728;
 	--snow: #BAE2F5;
 	--sky-back: #00AAFE22;
 	--grass-back: #00E62722;
@@ -19,6 +20,7 @@
 	--textures-back: #A84BE622;
 	--models-back: #67676722;
 	--archdec-back: #F3972822;
+	--archdec_2-back: #F3972822;
 	--snow-back: #BAE2F522;
 	--sky-dark: #00AAFE11;
 	--grass-dark: #00E62711;
@@ -29,12 +31,14 @@
 	--textures-dark: #A84BE611;
 	--models-dark: #67676711;
 	--archdec-dark: #F3972811;
+	--archdec_2-dark: #F3972811;
 	--snow-dark: #BAE2F511;
 	--sky-img-hov: invert(95%);
 	--grass-img-hov: invert(95%);
 	--trees-img-hov: invert(95%);
 	--environments-img-hov: invert(95%);
 	--archdec-img-hov: invert(95%);
+	--archdec_2-img-hov: invert(95%);
 	--materials-img-hov: invert(95%);
 	--camera-img-hov: invert(95%);
 	--textures-img-hov: invert(95%);
@@ -45,6 +49,7 @@
 	--trees-img: invert(40%) sepia(86%) saturate(396%) hue-rotate(81deg) brightness(93%) contrast(91%);
 	--environments-img: invert(54%) sepia(30%) saturate(413%) hue-rotate(359deg) brightness(100%) contrast(95%);
 	--archdec-img: invert(79%) sepia(39%) saturate(4621%) hue-rotate(342deg) brightness(99%) contrast(92%);
+	--archdec_2-img: invert(79%) sepia(39%) saturate(4621%) hue-rotate(342deg) brightness(99%) contrast(92%);
 	--materials-img: invert(20%) sepia(48%) saturate(7496%) hue-rotate(13deg) brightness(99%) contrast(101%);
 	--camera-img: invert(94%) sepia(1%) saturate(407%) hue-rotate(176deg) brightness(111%) contrast(70%);
 	--textures-img: invert(32%) sepia(89%) saturate(2161%) hue-rotate(256deg) brightness(95%) contrast(89%);
@@ -59,6 +64,7 @@
 		--trees-img-hov: var(--trees-img) brightness(40%);
 		--environments-img-hov: var(--environments-img) brightness(40%);
 		--archdec-img-hov: var(--archdec-img) brightness(40%);
+		--archdec_2-img-hov: var(--archdec_2-img) brightness(40%);
 		--materials-img-hov: var(--materials-img) brightness(40%);
 		--camera-img-hov: var(--camera-img) brightness(40%);
 		--textures-img-hov: var(--textures-img) brightness(40%);
