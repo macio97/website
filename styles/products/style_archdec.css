@@ -10,14 +10,3 @@
 		--collapdark: var(--archdec-dark);
 	}
 }
-
-
-/* Contents */
-.test {
-	width: 30%;
-	margin-left: 35%;
-}
-
-img {
-	width: 100%;
-}

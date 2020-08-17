@@ -7,7 +7,7 @@ layout: base.njk
 <main id="content">
 	<h1>{{ full_name }}</h1>
 	<div class="video">
-	<iframe src="{{ video }}" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" width="560" height="315" frameborder="0">
+	<iframe width="560" height="315" src="{{ video }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
 	</iframe>
 	</div>
 
@@ -18,34 +18,29 @@ layout: base.njk
 			<p class="description">{{ description }}</p>
 		</div>
 		<div class="column">
-			{# TODO: Work on the downstart issue #}
 			<div class="download">
 				<a class="downstart" href="{{ download_link }}" target="_blank">
 					{{ download_type }}
 				</a>
 
-				<a class="<download_class_to_insert/>" href="{{ guide_link }}" target="_blank">Guide</a>
+				<a href="{{ guide_link }}" target="_blank">Guide</a>
 
 				{%- if version -%}
-					<button class="collapsible <download_class_to_insert/>">Version</button>
+					<button class="collapsible">Version</button>
 					<div class="collap">						
 						<p>{{ version }}</p>
 					</div>
 				{%- endif -%}
 
-				{%- if info -%}
-					<a class="<download_class_to_insert/>" href="{{ info_link }}" target="_blank">Info</a>
-				{%- endif -%}
-
 				{%- if changelog -%}
-					<button class="collapsible <download_class_to_insert/>">Changelog</button>
+					<button class="collapsible">Changelog</button>
 					<div class="collap">
 						<p>{{ changelog | safe }}</p>
 					</div>
 				{%- endif -%}
 
 				{%- if requirements -%}
-					<button class="collapsible <download_class_to_insert/>">Requirements</button>
+					<button class="collapsible">Requirements</button>
 					<div class="collap">
 						<h2>Minimum</h2>
 							{%- for req in requirements["minimum"] -%}

@@ -26,14 +26,27 @@ renders: [
 comments_link: https://archdec-2.disqus.com/embed.js
 
 stylesheets: [
-    "/styles/products/style_archdec.css"
+    "/styles/products/style_archdec_2.css"
 ]
 ---
 
-<div class="supcontainer">
-{% for img in archdec_2 %}
-<div class="container">
-    <img src="/{{img}}">
+<h2>Minimalism</h2>
+<div class="halfpage">
+	<div class="column panel">
+		<img src="../images/archdec_2/sketch.webp">
+	</div>
+	<div class="column desc">
+		<p>ArchDec 2 is an add-on that allows you to easily add architecture decoration models to the scene. It contains 76 models made by hand. All the models are based on a minimalist style, the ever growing architectural tendency of the modern era.</p>
+	</div>
 </div>
-{% endfor %}
+
+<div class="space"></div>
+
+<h2>Items</h2>
+<div class="supcontainer">
+    {% for img in archdec_2 %}
+    <div class="container">
+        <img src="/{{img}}">
+    </div>
+    {% endfor %}
 </div>
