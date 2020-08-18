@@ -10,22 +10,24 @@ stylesheets: [
 ]
 ---
 
-<main id="content">
+<main>
 	<div class="space"></div>
 
-	{%- for product in collections.products -%}
-	<a href="{{ product.url | prettyURL }}" class="{{ product.fileSlug | lower }}">
-		<div class="container">
-			<div class="column left">
-				<img class="{{product.fileSlug | lower -}}img" src="/{{ product.data.icon }}">
-			</div>
-			<div class="column right">
-				<h1>{{ product.data.name }}</h1>
-				<p>{{ product.data.description_short }}</p>
-			</div>
-		</div>
-	</a>
-	{%- endfor -%}
+	<div class="products">
+		{%- for product in collections.products -%}
+			<a href="{{ product.url | prettyURL }}" class="{{ product.fileSlug | lower }}">
+				<div class="box">
+					<div>
+						<img class="{{product.fileSlug | lower -}}img" src="/{{ product.data.icon }}">
+					</div>
+					<div>
+						<h2>{{ product.data.name }}</h2>
+						<p>{{ product.data.description_short }}</p>
+					</div>
+				</div>
+			</a>
+		{%- endfor -%}
+	</div>
 
 	<div class="space"></div>
 </main>

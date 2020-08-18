@@ -1,4 +1,8 @@
-h1 {
+main {
+	text-align: center;
+}
+
+h2 {
 	margin-top: 0;
 	margin-bottom: 0;
 	text-align: left;
@@ -15,274 +19,238 @@ a {
 
 
 /* Sky */
-.sky .container {
+.sky .box {
 	background: var(--sky-back);
 }
-.sky .container:hover {
+.sky .box:hover {
 	background: var(--sky);
 }
-.sky h1, .sky p {
+.sky h2, .sky p {
 	color: var(--sky);
 }
 .skyimg {
 	filter: var(--sky-img);
 }
-.container:hover .skyimg{
+.box:hover .skyimg{
 	filter: var(--sky-img-hov);
 }
 
 /* Grass */
-.grass .container {
+.grass .box {
 	background: var(--grass-back);
 }
-.grass .container:hover {
+.grass .box:hover {
 	background: var(--grass);
 }
-.grass h1, .grass p {
+.grass h2, .grass p {
 	color: var(--grass);
 }
 .grassimg {
 	filter: var(--grass-img);
 }
-.container:hover .grassimg{
+.box:hover .grassimg{
 	filter: var(--grass-img-hov);
 }
 
 /* Trees */
-.trees .container {
+.trees .box {
 	background: var(--trees-back);
 }
-.trees .container:hover {
+.trees .box:hover {
 	background: var(--trees);
 }
-.trees h1, .trees p {
+.trees h2, .trees p {
 	color: var(--trees);
 }
 .treesimg {
 	filter: var(--trees-img);
 }
-.container:hover .treesimg{
+.box:hover .treesimg{
 	filter: var(--trees-img-hov);
 }
 
 /* Environments */
-.environments .container {
+.environments .box {
 	background: var(--environments-back);
 }
-.environments .container:hover {
+.environments .box:hover {
 	background: var(--environments);
 }
-.environments h1, .environments p {
+.environments h2, .environments p {
 	color: var(--environments);
 }
 .environmentsimg {
 	filter: var(--environments-img);
 }
-.container:hover .environmentsimg{
+.box:hover .environmentsimg{
 	filter: var(--environments-img-hov);
 }
 
 /* Materials */
-.materials .container {
+.materials .box {
 	background: var(--materials-back);
 }
-.materials .container:hover {
+.materials .box:hover {
 	background: var(--materials);
 }
-.materials h1, .materials p {
+.materials h2, .materials p {
 	color: var(--materials);
 }
 .materialsimg {
 	filter: var(--materials-img);
 }
-.container:hover .materialsimg{
+.box:hover .materialsimg{
 	filter: var(--materials-img-hov);
 }
 
 /* Camera */
-.camera .container {
+.camera .box {
 	background: var(--camera-back);
 }
-.camera .container:hover {
+.camera .box:hover {
 	background: var(--camera);
 }
-.camera h1, .camera p {
+.camera h2, .camera p {
 	color: var(--camera);
 }
 .cameraimg {
 	filter: var(--camera-img);
 }
-.container:hover .cameraimg{
+.box:hover .cameraimg{
 	filter: var(--camera-img-hov);
 }
 
 /* Textures */
-.textures .container {
+.textures .box {
 	background: var(--textures-back);
 }
-.textures .container:hover {
+.textures .box:hover {
 	background: var(--textures);
 }
-.textures h1, .textures p {
+.textures h2, .textures p {
 	color: var(--textures);
 }
 .texturesimg {
 	filter: var(--textures-img);
 }
-.container:hover .texturesimg{
+.box:hover .texturesimg{
 	filter: var(--textures-img-hov);
 }
 
 /* Models */
-.models .container {
+.models .box {
 	background: var(--models-back);
 }
-.models .container:hover {
+.models .box:hover {
 	background: var(--models);
 }
-.models h1, .models p {
+.models h2, .models p {
 	color: var(--models);
 }
 .modelsimg {
 	filter: var(--models-img);
 }
-.container:hover .modelsimg{
+.box:hover .modelsimg{
 	filter: var(--models-img-hov);
 }
 
 /* ArchDec */
-.archdec .container {
+.archdec .box {
 	background: var(--archdec-back);
 }
-.archdec .container:hover {
+.archdec .box:hover {
 	background: var(--archdec);
 }
-.archdec h1, .archdec p {
+.archdec h2, .archdec p {
 	color: var(--archdec);
 }
 .archdecimg {
 	filter: var(--archdec-img);
 }
-.container:hover .archdecimg{
+.box:hover .archdecimg{
 	filter: var(--archdec-img-hov);
 }
 
 /* ArchDec 2 */
-.archdec_2 .container {
+.archdec_2 .box {
 	background: var(--archdec_2-back);
 }
-.archdec_2 .container:hover {
+.archdec_2 .box:hover {
 	background: var(--archdec_2);
 }
-.archdec_2 h1, .archdec_2 p {
+.archdec_2 h2, .archdec_2 p {
 	color: var(--archdec_2);
 }
 .archdec_2img {
 	filter: var(--archdec_2-img);
 }
-.container:hover .archdec_2img{
+.box:hover .archdec_2img{
 	filter: var(--archdec_2-img-hov);
 }
 
 /* Snow */
-.snow .container {
+.snow .box {
 	background: var(--snow-back);
 }
-.snow .container:hover {
+.snow .box:hover {
 	background: var(--snow);
 }
-.snow h1, .snow p {
+.snow h2, .snow p {
 	color: var(--snow);
 }
 .snowimg {
 	filter: var(--snow-img);
 }
-.container:hover .snowimg{
+.box:hover .snowimg{
 	filter: var(--snow-img-hov);
 }
 
 
 /* Content */
-.container {
-	display: inline-block;
-	transition: all 0.3s;
+.products {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding: 0 50px;
+}
+
+.box {
+	width: 400px;
+	height: 170px;
+	margin: 2px;
 	border-radius: 15px;
-	padding-top: 10px;
+	display: grid;
+	grid-template-columns: 25% auto;
+	place-items: center;
+	transition: all 0.3s;
 }
 
-.container:hover p {
-	color: var(--body);
-}
-
-.container:hover h1 {
-	color: var(--body);
-}
-
-.column img {
-	width: 90%;
-	margin-top: .5em;
-	float: right;
-}
-
-.container:after {
-	content: "";
-	display: table;
-	clear: both;
-}
-
-.column {
-	float: left;
-}
-
-.left {
-	width: 20%;
-}
-
-.right {
+.box img {
 	width: 80%;
 }
 
-#content {
-	text-align: center;
+.box div {
+	width: 100%;
+}
+
+.box:hover p {
+	color: var(--body);
+}
+
+.box:hover h2 {
+	color: var(--body);
 }
 
 
+/* Responsive */
 @media only screen and (max-width: 600px) {
-	.container {
-		width: 90%;
-		height: 13em;
+	.products {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		padding: 0 5%;
 	}
-	h1 {
-		font-size: 9vw;
-	}
-}
-
-@media only screen and (min-width: 600px) {
-	.container {
-		width: 45%;
-		height: 13em;
-	}
-	h1 {
-		font-size: 4.5vw;
-	}
-}
-
-@media only screen and (min-width: 992px) {
-	.container {
-		width: 40%;
-		height: 12em;
-	}
-	h1 {
-		font-size: 4vw;
-	}
-}
-
-@media only screen and (min-width: 1500px) {
-	.container {
-		width: 25%;
-		height: 11em;
-	}
-	h1 {
-		font-size: 2.5vw;
+	.box {
+		width: 100%;
 	}
 }
