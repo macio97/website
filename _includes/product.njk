@@ -79,7 +79,7 @@ layout: base.njk
 
 		{% for render in renders %}
 			<div class="parallax" style="background-image: url('{{ render['path'] }}');"></div>
-			<img class="par-image" src="{{ render['path'] }}" alt="{{ render['alt'] }}" loading="lazy">
+			<img class="par-image" src="{{ render['path'] }}" loading="lazy">
 		{% endfor %}
 	{% endif %}
 </main>

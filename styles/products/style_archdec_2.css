@@ -13,6 +13,9 @@
 
 
 /* Content */
+.container img {
+	border-radius: 14px;
+}
 
 
 /* Responsive */
