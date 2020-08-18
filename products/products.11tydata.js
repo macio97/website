@@ -11,5 +11,6 @@ function getFolderFilePaths(folder) {
 }
 
 module.exports = {
-    "archdec_2": getFolderFilePaths("images/archdec_2/icons")
+    "archdec_2": getFolderFilePaths("images/archdec_2/icons"),
+    "archdec": getFolderFilePaths("images/archdec/icons")
     };

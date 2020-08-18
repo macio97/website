@@ -4,7 +4,7 @@ layout: base.njk
 
 {# This product page assumes a few things about each individual product #}
 
-<main id="content">
+<main>
 	<h1>{{ full_name }}</h1>
 	<div class="video">
 	<iframe width="560" height="315" src="{{ video }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
@@ -19,11 +19,11 @@ layout: base.njk
 		</div>
 		<div class="column">
 			<div class="download">
-				<a class="downstart" href="{{ download_link }}" target="_blank">
+				<a class="downstart" href="{{ download_link }}">
 					{{ download_type }}
 				</a>
 
-				<a href="{{ guide_link }}" target="_blank">Guide</a>
+				<a href="{{ guide_link }}">Guide</a>
 
 				{%- if version -%}
 					<button class="collapsible">Version</button>
