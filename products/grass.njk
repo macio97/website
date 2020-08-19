@@ -57,68 +57,24 @@ The pack comes with:<br>
 
 <h2>Grass</h2>
 <div class="supcontainer">
-	<div class="container">
-		<img src="/images/grass/Grass/Bahiagrass.webp" alt="Bahiagrass">
-		<p>BahiaGrass</p>
-	</div>
-	<div class="container">
-		<img src="/images/grass/Grass/Bermudagrass.webp" alt="Bermudagrass">
-		<p>Bermudagrass</p>
-	</div>
-	<div class="container">
-		<img src="/images/grass/Grass/Buffalograss.webp" alt="Buffalograss">
-		<p>Buffalograss</p>
-	</div>
-	<div class="container">
-		<img src="/images/grass/Grass/Carpetgrass.webp" alt="Carpetgrass">
-		<p>Carpetgrass</p>
-	</div>
-	<div class="container">
-		<img src="/images/grass/Grass/Kentucky Bluegrass.webp" alt="Kentucky Bluegrass">
-		<p>Kentucky Bluegrass</p>
-	</div>
-	<div class="container">
-		<img src="/images/grass/Grass/Perennial Ryegrass.webp" alt="Perennial Ryegrass">
-		<p>Perennial Ryegrass</p>
-	</div>
-	<div class="container">
-		<img src="/images/grass/Grass/Red Fescue.webp" alt="Red Fescue">
-		<p>Red Fescue</p>
-	</div>
-	<div class="container">
-		<img src="/images/grass/Grass/St. Augustine.webp" alt="St. Augustine">
-		<p>St. Augustine</p>
-	</div>
+	{% for img in grass %}
+        <div class="container">
+            <img src="/{{img.path}}">
+			<p>{{img.name}}</p>
+        </div>
+    {% endfor %}
 </div>
 
 <div class="space"></div>
 
 <h2>Weeds</h2>
 <div class="supcontainer">
-	<div class="container">
-		<img src="/images/grass/Weeds/Buckhorn Plantain.webp" alt="Buckhorn Plantain">
-		<p>Buckhorn Plantain</p>
-	</div>
-	<div class="container">
-		<img src="/images/grass/Weeds/Clover.webp" alt="Clover">
-		<p>Clover</p>
-	</div>
-	<div class="container">
-		<img src="/images/grass/Weeds/Crabgrass.webp" alt="Crabgrass">
-		<p>Crabgrass</p>
-	</div>
-	<div class="container">
-		<img src="/images/grass/Weeds/Creeping Charlie.webp" alt="Creeping Charlie">
-		<p>Creeping Charlie</p>
-	</div>
-	<div class="container">
-		<img src="/images/grass/Weeds/Creeping Cinquefoil.webp" alt="Creeping Cinquefoil">
-		<p>Creeping Cinquefoil</p>
-	</div>
-	<div class="container">
-		<img src="/images/grass/Weeds/Dandelion.webp" alt="Dandelion">
-		<p>Dandelion</p>
-	</div>
+	{% for img in weeds %}
+        <div class="container">
+            <img src="/{{img.path}}">
+			<p>{{img.name}}</p>
+        </div>
+    {% endfor %}
 </div>
 		
 

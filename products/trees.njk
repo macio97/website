@@ -68,86 +68,12 @@ stylesheets: [
 
 <h2>Models</h2>
 <div class="supcontainer">
-	<div class="container">
-		<img src="../images/trees/icons/American Beech.webp" alt="American Beech">
-		<p>American Beech</p>
-	</div>
-	<div class="container">
-		<img src="../images/trees/icons/American Elm.webp" alt="American Elm">
-		<p>American Elm</p>
-	</div>
-	<div class="container">
-		<img src="../images/trees/icons/American Larch.webp" alt="American Larch">
-		<p>American Larch</p>
-	</div>
-	<div class="container">
-		<img src="../images/trees/icons/Ash.webp" alt="Ash">
-		<p>Ash</p>
-	</div>
-	<div class="container">
-		<img src="../images/trees/icons/Basswood.webp" alt="Basswood">
-		<p>Basswood</p>
-	</div>
-	<div class="container">
-		<img src="../images/trees/icons/Black Oak.webp" alt="Black Oak">
-		<p>Black Oak</p>
-	</div>
-	<div class="container">
-		<img src="../images/trees/icons/Black Walnut.webp" alt="Black Walnut">
-		<p>Black Walnut</p>
-	</div>
-	<div class="container">
-		<img src="../images/trees/icons/Cedar.webp" alt="Cedar">
-		<p>Cedar</p>
-	</div>
-	<div class="container">
-		<img src="../images/trees/icons/Eastern Cottonwood.webp" alt="Eastern Cottonwood">
-		<p>Eastern Cottonwood</p>
-	</div>
-	<div class="container">
-		<img src="../images/trees/icons/Eastern Hemlock.webp" alt="Eastern Hemlock">
-		<p>Eastern Hemlock</p>
-	</div>
-	<div class="container">
-		<img src="../images/trees/icons/Eastern White Pine.webp" alt="Eastern White Pine">
-		<p>Eastern White Pine</p>
-	</div>
-	<div class="container">
-		<img src="../images/trees/icons/Mahogany.webp" alt="Mahogany">
-		<p>Mahogany</p>
-	</div>
-	<div class="container">
-		<img src="../images/trees/icons/Pin Cherry.webp" alt="Pin Cherry">
-		<p>Pin Cherry</p>
-	</div>
-	<div class="container">
-		<img src="../images/trees/icons/Quaking Aspen.webp" alt="Quaking Aspen">
-		<p>Quaking Aspen</p>
-	</div>
-	<div class="container">
-		<img src="../images/trees/icons/Red Maple.webp" alt="Red Maple">
-		<p>Red Maple</p>
-	</div>
-	<div class="container">
-		<img src="../images/trees/icons/Red Spruce.webp" alt="Red Spruce">
-		<p>Red Spruce</p>
-	</div>
-	<div class="container">
-		<img src="../images/trees/icons/Silver Birch.webp" alt="Silver Birch">
-		<p>Silver Birch</p>
-	</div>
-	<div class="container">
-		<img src="../images/trees/icons/Sycamore.webp" alt="Sycamore">
-		<p>Sycamore</p>
-	</div>
-	<div class="container">
-		<img src="../images/trees/icons/Thuja.webp" alt="Thuja">
-		<p>Thuja</p>
-	</div>
-	<div class="container">
-		<img src="../images/trees/icons/White Spruce.webp" alt="White Spruce">
-		<p>White Spruce</p>
-	</div>
+	{% for img in trees %}
+        <div class="container">
+            <img src="/{{img.path}}">
+			<p>{{img.name}}</p>
+        </div>
+    {% endfor %}
 </div>
 
 	
