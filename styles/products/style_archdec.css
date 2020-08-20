@@ -1,12 +1,6 @@
 /* Theme */
 :root {
-	--theme: var(--wolf);
-}
-
-@media (prefers-color-scheme: dark) {
-	:root {
-		--theme: var(--archdec);
-		--collap: var(--archdec-back);
-		--collapdark: var(--archdec-dark);
-	}
+	--theme: var(--archdec);
+	--collap: var(--archdec-back);
+	--collapdark: var(--archdec-dark);
 }

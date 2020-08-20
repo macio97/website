@@ -1,17 +1,12 @@
 /* Theme */
 :root {
 	--theme: var(--wolf);
+	--theme: var(--environments);
+	--collap: var(--environments-back);
+	--collapdark: var(--environments-dark);
 	--height: 200px;
 	--fadecol: 20%;
 	--fadetra: 60%;
-}
-
-@media (prefers-color-scheme: dark) {
-	:root {
-		--theme: var(--environments);
-		--collap: var(--environments-back);
-		--collapdark: var(--environments-dark);
-	}
 }
 
 

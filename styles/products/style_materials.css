@@ -1,15 +1,10 @@
 /* Theme */
 :root {
-	--theme: var(--wolf);
+	--theme: var(--materials);
+	--collap: var(--materials-back);
+	--collapdark: var(--materials-dark);
 }
 
-@media (prefers-color-scheme: dark) {
-	:root {
-		--theme: var(--materials);
-		--collap: var(--materials-back);
-		--collapdark: var(--materials-dark);
-	}
-}
 	
 /* Content */
 .supcontainer {

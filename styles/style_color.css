@@ -1,38 +1,35 @@
 /* Light/Dark theme */
 :root {
-	--sky: #00AAFE;
-	--grass: #00E627;
-	--trees: #268D3B;
-	--environments: #A88F65;
-	--materials: #E62B00;
-	--camera: #D9D9D9;
-	--textures: #A84BE6;
-	--models: #676767;
-	--archdec: #F39728;
-	--archdec_2: #FFB06F;
-	--snow: #BAE2F5;
-	--sky-back: #00AAFE22;
-	--grass-back: #00E62722;
-	--trees-back: #268D3B22;
-	--environments-back: #A88F6522;
-	--materials-back: #E62B0022;
-	--camera-back: #D9D9D922;
-	--textures-back: #A84BE622;
-	--models-back: #67676722;
-	--archdec-back: #F3972822;
-	--archdec_2-back: #FFB06F22;
-	--snow-back: #BAE2F522;
-	--sky-dark: #00AAFE11;
-	--grass-dark: #00E62711;
-	--trees-dark: #268D3B11;
-	--environments-dark: #A88F6511;
-	--materials-dark: #E62B0011;
-	--camera-dark: #D9D9D911;
-	--textures-dark: #A84BE611;
-	--models-dark: #67676711;
-	--archdec-dark: #F3972811;
-	--archdec_2-dark: #FFB06F11;
-	--snow-dark: #BAE2F511;
+	--sky: #00aaff;
+	--grass: #00d423;
+	--trees: #00901d;
+	--environments: #a88f65;
+	--archdec: #f19d36;
+	--archdec_2: #ff986f;
+	--materials: #e2431f;
+	--camera: #8a8a8a;
+	--snow: #96c6dd;
+
+	--sky-back: #00aaff22;
+	--grass-back: #00d42322;
+	--trees-back: #00901d22;
+	--environments-back: #a88f6522;
+	--archdec-back: #f19d3622;
+	--archdec_2-back: #ff986f22;
+	--materials-back: #e2431f22;
+	--camera-back: #8a8a8a22;
+	--snow-back: #96c6dd22;
+
+	--sky-dark: #00aaff11;
+	--grass-dark: #00d42311;
+	--trees-dark: #00901d11;
+	--environments-dark: #a88f6511;
+	--archdec-dark: #f19d3611;
+	--archdec_2-dark: #ff986f11;
+	--materials-dark: #e2431f11;
+	--camera-dark: #8a8a8a11;
+	--snow-dark: #96c6dd11;
+
 	--sky-img-hov: invert(95%);
 	--grass-img-hov: invert(95%);
 	--trees-img-hov: invert(95%);
@@ -41,20 +38,17 @@
 	--archdec_2-img-hov: invert(95%);
 	--materials-img-hov: invert(95%);
 	--camera-img-hov: invert(95%);
-	--textures-img-hov: invert(95%);
-	--models-img-hov: invert(95%);
 	--snow-img-hov: invert(95%);
-	--sky-img: invert(54%) sepia(43%) saturate(4043%) hue-rotate(168deg) brightness(98%) contrast(103%);
-	--grass-img: invert(51%) sepia(76%) saturate(1528%) hue-rotate(92deg) brightness(107%) contrast(114%);
-	--trees-img: invert(40%) sepia(86%) saturate(396%) hue-rotate(81deg) brightness(93%) contrast(91%);
-	--environments-img: invert(54%) sepia(30%) saturate(413%) hue-rotate(359deg) brightness(100%) contrast(95%);
-	--archdec-img: invert(79%) sepia(39%) saturate(4621%) hue-rotate(342deg) brightness(99%) contrast(92%);
-	--archdec_2-img: invert(74%) sepia(34%) saturate(803%) hue-rotate(329deg) brightness(102%) contrast(101%);
-	--materials-img: invert(20%) sepia(48%) saturate(7496%) hue-rotate(13deg) brightness(99%) contrast(101%);
-	--camera-img: invert(94%) sepia(1%) saturate(407%) hue-rotate(176deg) brightness(111%) contrast(70%);
-	--textures-img: invert(32%) sepia(89%) saturate(2161%) hue-rotate(256deg) brightness(95%) contrast(89%);
-	--models-img: invert(40%) sepia(0%) saturate(0%) hue-rotate(177deg) brightness(102%) contrast(90%);
-	--snow-img: invert(90%) sepia(4%) saturate(2174%) hue-rotate(169deg) brightness(93%) contrast(108%);
+
+	--sky-img: invert(57%) sepia(32%) saturate(7492%) hue-rotate(173deg) brightness(102%) contrast(110%);
+	--grass-img: invert(50%) sepia(43%) saturate(1826%) hue-rotate(91deg) brightness(104%) contrast(105%);
+	--trees-img: invert(27%) sepia(94%) saturate(3139%) hue-rotate(130deg) brightness(94%) contrast(103%);
+	--environments-img: invert(66%) sepia(9%) saturate(1459%) hue-rotate(359deg) brightness(87%) contrast(86%);
+	--archdec-img: invert(59%) sepia(84%) saturate(427%) hue-rotate(348deg) brightness(99%) contrast(90%);
+	--archdec_2-img: invert(74%) sepia(59%) saturate(1612%) hue-rotate(314deg) brightness(105%) contrast(101%);
+	--materials-img: invert(29%) sepia(28%) saturate(2793%) hue-rotate(338deg) brightness(119%) contrast(109%);
+	--camera-img: invert(59%) sepia(0%) saturate(14%) hue-rotate(139deg) brightness(93%) contrast(83%);
+	--snow-img: invert(83%) sepia(11%) saturate(955%) hue-rotate(161deg) brightness(90%) contrast(91%);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -67,8 +61,6 @@
 		--archdec_2-img-hov: var(--archdec_2-img) brightness(40%);
 		--materials-img-hov: var(--materials-img) brightness(40%);
 		--camera-img-hov: var(--camera-img) brightness(40%);
-		--textures-img-hov: var(--textures-img) brightness(40%);
-		--models-img-hov: var(--models-img) brightness(40%);
 		--snow-img-hov: var(--snow-img) brightness(40%);
 	}
 }
