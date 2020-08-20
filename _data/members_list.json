@@ -1,0 +1,26 @@
+{
+    "joe": {
+        "name": "Joe",
+        "link": "https://www.facebook.com/joseph.dowling.1610"
+    },
+    "joel": {
+        "name": "Joel",
+        "link": "https://www.facebook.com/profile.php?id=100010535227760"
+    },
+    "marco": {
+        "name": "Marco",
+        "link": "https://www.facebook.com/marco.pavanello.97/"
+    },
+    "nathan": {
+        "name": "Nathan",
+        "link": "https://nathancraddock.com"
+    },
+    "richard": {
+        "name": "Richard",
+        "link": "https://blendermarket.com/creators/richard-traynor"
+    },
+    "stefan": {
+        "name": "Stefan",
+        "link": "https://www.artstation.com/stefan-thadeus-radenkovic"
+    }
+}

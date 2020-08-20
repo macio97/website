@@ -39,6 +39,20 @@ layout: base.njk
 					</div>
 				{%- endif -%}
 
+				{%- if members -%}
+					<button class="collapsible">Collaborators</button>
+					<div class="collap">
+						<div class="members">
+							{% for member in members %}
+								<a title="{{members_list[member].name}}" href="{{members_list[member].link}}">
+									<img src="/images/icons/logo.svg">
+									<p>{{members_list[member].name}}</p>
+								</a>
+							{% endfor %}
+						</div>
+					</div>
+				{%- endif -%}
+
 				{%- if requirements -%}
 					<button class="collapsible">Requirements</button>
 					<div class="collap">

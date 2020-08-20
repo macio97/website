@@ -61,6 +61,36 @@ p {
 }
 
 
+/* Members */
+.members {
+	text-align: center;
+	overflow-x: auto;
+	white-space: nowrap;
+}
+
+.members a {
+	text-align: center;
+	display: inline-block;
+	text-decoration: none;
+	width: 150px;
+	border-radius: 10px;
+	transition: all 0.3s;
+}
+
+.members a:hover p{
+	color: var(--body);
+}
+
+.members img {
+	width: 100%;
+	filter: invert(100%) brightness(50%);
+}
+
+.members p {
+	margin: 0;
+}
+
+
 /* Parallax Images */
 .parallax {
 	height: 100vh;

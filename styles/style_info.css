@@ -29,12 +29,12 @@ h2 {
 	transition: all 0.3s;
 }
 
-.image {
+.container img {
 	width: 100%;
 	border-radius: 10% 10% 0 0;
 }
 
-.marco .image {
+.marco img {
 	filter: invert(78%) sepia(35%) saturate(6105%) hue-rotate(142deg) brightness(104%) contrast(101%);
 }
 .marco h2 {
@@ -44,7 +44,7 @@ h2 {
 	background: #00DCFF22;
 }
 
-.stefan .image {
+.stefan img {
 	filter: invert(34%) sepia(67%) saturate(5430%) hue-rotate(347deg) brightness(95%) contrast(114%);
 }
 .stefan h2 {
