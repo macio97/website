@@ -4,3 +4,9 @@
 	--collap: var(--trees-back);
 	--collapdark: var(--trees-dark);
 }
+
+
+/* Content */
+.treefeatures img {
+	width: 100%;
+}
