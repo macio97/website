@@ -7,18 +7,19 @@ layout: base.njk
 <main>
 	<h1>{{ full_name }}</h1>
 	<div class="video">
-	<iframe width="560" height="315" src="{{ video }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-	</iframe>
+		<iframe width="560" height="315" src="{{ video }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+		</iframe>
 	</div>
 
 	<div class="space"></div>
+
 	<div class="halfpage">
 		<div class="column">
 			<h2>Description</h2>
 			<p class="description">{{ description }}</p>
 		</div>
 		<div class="column">
-			<div class="download">
+			<div class="buttons">
 				<a class="downstart" href="{{ download_link }}">
 					{{ download_type }}
 				</a>
@@ -71,7 +72,7 @@ layout: base.njk
 					<button class="collapsible downend">License</button>
 					<div class="collap license">
 						<h2>{{ license }}</h2>
-						<p>{{ license_text }}</p>
+						<p>{{licenses_list[license].description}}</p>
 					</div>
 				{%- endif -%}
 			</div>
@@ -101,7 +102,7 @@ layout: base.njk
 <div class="space"></div>
 
 <button class="collapsible comments">Comments</button>
-<div class="collap1">
+<div class="collap-comments">
 	<div class="disquscontainer">
 		<div id="disqus_thread"></div>
 	</div>

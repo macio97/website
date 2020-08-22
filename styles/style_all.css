@@ -37,7 +37,7 @@ p {
 	margin-right: 5%;
 }
 
-a, .collapsible, #menu input {
+a, #menu input {
 	-webkit-tap-highlight-color: transparent;
 }
 
@@ -51,8 +51,6 @@ main {
 	--wolf: #333333;
 	--body: #EEEEEE;
 	--menu: #EEEEEE88;
-	--collap: #CCCCCC;
-	--collapdark: #AAAAAA;
 	--menuimg: brightness(0%);
 }
 
@@ -108,7 +106,6 @@ main {
 	border-radius: 3px;
 	transform: translateY(6px);
 	transition: transform 0.5s,
-	background 0.5s,
 	opacity 0.5s;
 }
 
@@ -243,7 +240,7 @@ main {
 }
 
 
-/* Description */
+/* Content */
 .halfpage {
 	margin: 0;
 }
@@ -259,98 +256,6 @@ main {
 	clear: both;
 }
 
-.description {
-	text-align: center;
-	line-height: 1.6;
-	margin-left: 20%;
-	margin-right: 20%;
-}
-
-
-/* Download */
-.download {
-	position: relative;
-	text-align: center;
-	display: inline-block;
-	width: 200px;
-	margin-top: 20px;
-	left: 50%;
-	margin-left: -100px;
-}
-
-.download a {
-	display: block;
-	font-size: 20px;
-	color: var(--wolf);
-	background-color: var(--collap);
-	width: 200px;
-	line-height: 2em;
-	text-decoration: none;
-	text-transform: uppercase;
-	transition: all 0.3s;
-}
-
-.downstart {
-	border-radius: 8px 8px 0 0;
-}
-
-.downend {
-	border-radius: 0 0 8px 8px;
-}
-
-.download a:hover{
-	color: var(--body);
-	background: var(--wolf);
-}
-
-.download p {
-	margin: 10px 0;
-}
-
-.ver {
-	text-align: center;
-}
-
-
-/* Collapsible */
-.collapsible {
-	border: none;
-	display: block;
-	cursor: pointer;
-	outline: none;
-	font-size: 20px;
-	background-color: var(--collap);
-	width: 200px;
-	line-height: 2em;
-	text-decoration: none;
-	text-transform: uppercase;
-	transition: all 0.3s;
-}
-
-button {
-	font: normal 20px Montserrat !important;
-	padding: 0 !important;
-	line-height: 2em !important;
-}
-
-.collap {
-	background-color: var(--collapdark);
-	border-radius: 8px;
-	padding: 0 10px;
-	position: relative;
-	max-height: 0;
-	overflow: hidden;
-	transition: all 0.3s;
-}
-
-.collap p {
-	text-align: center;
-}
-
-.license p {
-	text-align: left;
-}
-
 
 /* Comments */
 .comments {
@@ -359,7 +264,7 @@ button {
 	transform: translateX(-100px);
 }
 
-.collap1 {
+.collap-comments {
 	position: relative;
 	max-height: 0;
 	overflow: hidden;
@@ -414,10 +319,6 @@ button {
 	#links a {
 		padding: 12px 0;
 	}
-	.collap {
-		margin-left: calc(100px - 50vw);
-		width: 100vw;
-	}
 	.disquscontainer {
 		width: 95%;
 		margin-left: 2.5%;
@@ -454,10 +355,6 @@ button {
 	.main {
 		display: inline-block;
 		width: auto;
-	}
-	.collap {
-		margin-left: -100px;
-		width: 400px;
 	}
 	.disquscontainer {
 		width: 70%;
