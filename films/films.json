@@ -1,0 +1,9 @@
+{
+    "tags": [
+        "films"
+    ],
+    "layout": "base.njk",
+    "stylesheets": [
+        "/styles/style_color.css"
+    ]
+}
