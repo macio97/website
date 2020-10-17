@@ -3,6 +3,8 @@
 	--theme: var(--sky);
 	--collap: var(--sky-back);
 	--collapdark: var(--sky-dark);
+	--img: var(--sky-img);
+	--img-hov: var(--sky-img-hov);
 }
 
 

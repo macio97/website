@@ -3,4 +3,6 @@
 	--theme: var(--snow);
 	--collap: var(--snow-back);
 	--collapdark: var(--snow-dark);
+	--img: var(--snow-img);
+	--img-hov: var(--snow-img-hov);
 }

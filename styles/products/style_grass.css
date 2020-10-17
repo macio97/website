@@ -3,6 +3,8 @@
 	--theme: var(--grass);
 	--collap: var(--grass-back);
 	--collapdark: var(--grass-dark);
+	--img: var(--grass-img);
+	--img-hov: var(--grass-img-hov);
 }
 
 	

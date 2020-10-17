@@ -3,6 +3,8 @@
 	--theme: var(--camera);
 	--collap: var(--camera-back);
 	--collapdark: var(--camera-dark);
+	--img: var(--camera-img);
+	--img-hov: var(--camera-img-hov);
 }
 
 

@@ -3,6 +3,8 @@
 	--theme: var(--materials);
 	--collap: var(--materials-back);
 	--collapdark: var(--materials-dark);
+	--img: var(--materials-img);
+	--img-hov: var(--materials-img-hov);
 }
 
 	

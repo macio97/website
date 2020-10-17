@@ -3,6 +3,8 @@
 	--theme: var(--trees);
 	--collap: var(--trees-back);
 	--collapdark: var(--trees-dark);
+	--img: var(--trees-img);
+	--img-hov: var(--trees-img-hov);
 }
 
 

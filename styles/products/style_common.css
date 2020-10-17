@@ -171,12 +171,11 @@ button {
 
 .members img {
 	width: 100%;
-	filter: invert(100%) brightness(50%);
+	filter: var(--img);
 }
 
 .members a:hover img{
-	filter: invert(0%);
-	opacity: 0.5;
+	filter: var(--img-hov);
 }
 
 

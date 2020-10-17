@@ -1,9 +1,10 @@
 /* Theme */
 :root {
-	--theme: var(--wolf);
 	--theme: var(--environments);
 	--collap: var(--environments-back);
 	--collapdark: var(--environments-dark);
+	--img: var(--environments-img);
+	--img-hov: var(--environments-img-hov);
 	--height: 200px;
 	--fadecol: 20%;
 	--fadetra: 60%;

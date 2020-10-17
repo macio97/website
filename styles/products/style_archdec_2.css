@@ -3,6 +3,8 @@
 	--theme: var(--archdec_2);
 	--collap: var(--archdec_2-back);
 	--collapdark: var(--archdec_2-dark);
+	--img: var(--archdec_2-img);
+	--img-hov: var(--archdec_2-img-hov);
 }
 
 
