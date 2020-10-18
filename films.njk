@@ -2,13 +2,22 @@
 layout: base.njk
 permalink: /films.html
 title: Films
+
+stylesheets: [
+    "/styles/style_films.css"
+]
 ---
 
 <main id="content">
-	<div>
-		<h1>WIP...</h1>
+	<div class="space"></div>
+	<div class="countdown">
+		<div><span id="days"></span>Days</div>
+		<div><span id="hours"></span>Hours</div>
+		<div><span id="minutes"></span>Minutes</div>
+		<div><span id="seconds"></span>Seconds</div>
 	</div>
+	<div class="space"></div>
+	<h2>WIP...</h2>
 </main>
 
-<a class="chat" href="javascript:void(Tawk_API.toggle())"><i class="fas fa-comment"></i></a>
-<script src="/scripts/chat.js" type="text/javascript"></script>
+<script src="/scripts/countdown.js" type="text/javascript"></script>

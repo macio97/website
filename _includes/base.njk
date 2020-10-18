@@ -74,5 +74,18 @@
 
         {# Include each page's unique content #}
         {{ content | safe }}
+
+        <a class="chat" href="javascript:void(Tawk_API.toggle())"><i class="fas fa-comment"></i></a>
+        <script src="/scripts/chat.js" type="text/javascript"></script>
+
+        <script>
+        (function() { // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+        s.src = '{{ comments_link }}';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+        })();
+        </script>
+
     </body>
 </html>

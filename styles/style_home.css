@@ -46,7 +46,6 @@ h2 {
 	font-family: 'Allura', cursive;
 	font-size: 40px;
 	font-weight: normal;
-	color: var(--wolf);
 	opacity: 0.8;
 	animation: fadein 3s;
 }
