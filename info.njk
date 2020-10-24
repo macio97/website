@@ -14,13 +14,11 @@ stylesheets: [
 ---
 
 <main id="content">
-
-	<h1>Members</h1>
-	
+	<h2>Members</h2>
 	<div class="wolves">
 		{% for member in members %}
-			<a class="container {{ member }}" title="{{members_list[member].name}}" href="{{members_list[member].link}}">
-				<img src="/images/icons/logo.svg">
+			<a class="box {{ member }}" title="{{members_list[member].name}}" href="{{members_list[member].link}}">
+				<img src="/images/logos/wolf.svg">
 				<h2>{{members_list[member].name}}</h2>
 			</a>
 		{% endfor %}
@@ -28,10 +26,8 @@ stylesheets: [
 
 	<div class="space"></div>
 
-	<div>
-		<h1>Who</h1>
-		<p>We are a group of artists who use Blender 3D for making free and paid tools</p>
-	</div>
+	<h2>Who</h2>
+	<p>We are a group of artists who use Blender 3D for making free and paid tools</p>
 
 	<div class="space"></div>
 

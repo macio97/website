@@ -46,7 +46,7 @@ layout: base.njk
 						<div class="members">
 							{% for member in members %}
 								<a title="{{members_list[member].name}}" href="{{members_list[member].link}}">
-									<img src="/images/icons/logo.svg">
+									<img src="/images/logos/wolf.svg">
 									<p>{{members_list[member].name}}</p>
 								</a>
 							{% endfor %}
@@ -98,15 +98,6 @@ layout: base.njk
 		{% endfor %}
 	{% endif %}
 </main>
-
-<div class="space"></div>
-
-<button class="collapsible comments">Comments</button>
-<div class="collap-comments">
-	<div class="disquscontainer">
-		<div id="disqus_thread"></div>
-	</div>
-</div>
 
 <div class="space"></div>
 

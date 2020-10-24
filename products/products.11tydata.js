@@ -24,12 +24,12 @@ function getFolderFilePathsWithNames(folder) {
 }
 
 module.exports = {
-    "archdec_2": getFolderFilePaths("images/archdec_2/icons"),
-    "archdec": getFolderFilePaths("images/archdec/icons"),
-    "dielectrics": getFolderFilePathsWithNames("images/materials/dielectrics"),
-    "metals": getFolderFilePathsWithNames("images/materials/metals"),
-    "textures": getFolderFilePathsWithNames("images/materials/textures"),
-    "grass": getFolderFilePathsWithNames("images/grass/grass"),
-    "weeds": getFolderFilePathsWithNames("images/grass/weeds"),
-    "trees": getFolderFilePathsWithNames("images/trees/icons")
+    "archdec_2": getFolderFilePaths("images/products/archdec_2/icons"),
+    "archdec": getFolderFilePaths("images/products/archdec/icons"),
+    "dielectrics": getFolderFilePathsWithNames("images/products/materials/dielectrics"),
+    "metals": getFolderFilePathsWithNames("images/products/materials/metals"),
+    "textures": getFolderFilePathsWithNames("images/products/materials/textures"),
+    "grass": getFolderFilePathsWithNames("images/products/grass/grass"),
+    "weeds": getFolderFilePathsWithNames("images/products/grass/weeds"),
+    "trees": getFolderFilePathsWithNames("images/products/trees/icons")
 };

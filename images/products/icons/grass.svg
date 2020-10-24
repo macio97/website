@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
 <svg
    xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
    xmlns:dc="http://purl.org/dc/elements/1.1/"
@@ -15,8 +13,8 @@
    viewBox="0 0 264.58333 264.58333"
    version="1.1"
    id="svg8"
-   inkscape:version="0.92.4 (f8dce91, 2019-08-02)"
-   sodipodi:docname="Grass.svg"
+   inkscape:version="1.0.1 (0767f8302a, 2020-10-17)"
+   sodipodi:docname="grass.svg"
    inkscape:export-filename="/home/marco/Scrivania/Grass Icon.png"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96">
@@ -45,11 +43,12 @@
      inkscape:current-layer="layer1"
      showgrid="false"
      units="px"
-     inkscape:window-width="1853"
-     inkscape:window-height="1025"
-     inkscape:window-x="67"
+     inkscape:window-width="1848"
+     inkscape:window-height="1016"
+     inkscape:window-x="72"
      inkscape:window-y="27"
-     inkscape:window-maximized="1" />
+     inkscape:window-maximized="1"
+     inkscape:document-rotation="0" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -68,7 +67,7 @@
      id="layer1"
      transform="translate(0,-32.41665)">
     <path
-       style="fill:#141414;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 1.889881,201.561 c -7.0442076,30.62814 21.645232,37.3409 46.88991,37.44074 23.711507,0.0938 141.085309,0.29896 164.444439,0.38277 25.69769,0.0922 55.23021,-7.18597 50.41416,-38.39048 -17.67679,-35.7743 -18.22223,-60.56712 -6.2366,-103.565475 0,0 -21.46787,8.151545 -44.41221,32.742185 -16.24723,17.413 -25.51339,48.14472 -25.51339,48.14472 l -26.45833,-55.18453 c 0,0 14.09308,49.4577 -2.64583,72.57143 0,0 -17.16423,-21.39653 -24.37368,-48.38432 -8.34571,-31.24125 15.22526,-72.988636 15.22526,-72.988636 0,0 -33.1289,16.518587 -52.009527,47.282426 -17.229251,28.07311 -23.508727,55.19172 -23.508727,55.19172 0,0 -7.069356,-20.83456 -23.812499,-47.62499 C 35.20673,105.67953 10.583333,88.357126 10.583333,88.357126 c 0,0 18.862511,67.838374 -8.693452,113.203874 z"
        id="path6004"
        inkscape:connector-curvature="0"

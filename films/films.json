@@ -4,6 +4,7 @@
     ],
     "layout": "base.njk",
     "stylesheets": [
+        "/styles/films/style_common.css",
         "/styles/style_color.css"
     ]
 }

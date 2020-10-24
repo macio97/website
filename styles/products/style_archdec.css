@@ -1,8 +1,6 @@
 /* Theme */
 :root {
-	--theme: var(--archdec);
-	--collap: var(--archdec-back);
-	--collapdark: var(--archdec-dark);
+	--theme: var(--archdec-text);
+	--collap: var(--archdec-box);
 	--img: var(--archdec-img);
-	--img-hov: var(--archdec-img-hov);
 }

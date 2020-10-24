@@ -1,14 +1,85 @@
-.countdown {
+main {
 	text-align: center;
-	color: var(--wolf);
 }
 
-.countdown div {
-	display: inline-block;
-	padding: 25px;
+h2 {
+	margin-top: 0;
+	margin-bottom: 0;
+	text-align: left;
 }
-  
-.countdown span {
-	display: block;
-	font-size: 50px;
+
+p {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+/* Content */
+.films {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding: 0 50px;
+}
+
+.box {
+	width: 600px;
+	height: 200px;
+	margin: 2px;
+	border-radius: 14px;
+	display: grid;
+	grid-template-columns: 25% auto;
+	place-items: center;
+	transition: all 0.3s;
+}
+
+.box img {
+	width: 80%;
+}
+
+.box div {
+	width: 100%;
+}
+
+.box:hover p {
+	color: var(--body);
+}
+
+.box:hover h2 {
+	color: var(--body);
+}
+
+
+.box {
+	background: var(--wolf-transp);
+}
+.box:hover {
+	background: var(--wolf-hov);
+}
+.pebble h2, .pebble p {
+	color: var(--wolf);
+}
+.pebble-img {
+	filter: var(--wolf-img);
+}
+.box:hover .pebble-img{
+	filter: var(--wolf-img-hov);
+}
+
+
+/* Responsive */
+@media only screen and (max-width: 600px) {
+	.films {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		padding: 0 5%;
+	}
+	.box {
+		width: 100%;
+	}
 }

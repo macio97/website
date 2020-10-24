@@ -1,10 +1,8 @@
 /* Theme */
 :root {
-	--theme: var(--grass);
-	--collap: var(--grass-back);
-	--collapdark: var(--grass-dark);
+	--theme: var(--grass-text);
+	--collap: var(--grass-box);
 	--img: var(--grass-img);
-	--img-hov: var(--grass-img-hov);
 }
 
 	

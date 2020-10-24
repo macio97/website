@@ -20,189 +20,128 @@ a {
 
 /* Sky */
 .sky .box {
-	background: var(--sky-back);
+	background: rgba(var(--sky-box), var(--dp1));
 }
 .sky .box:hover {
-	background: var(--sky);
+	background: rgba(var(--sky-box), var(--dp8));
 }
 .sky h2, .sky p {
-	color: var(--sky);
+	color: var(--sky-text);
 }
-.skyimg {
+.sky img {
 	filter: var(--sky-img);
-}
-.box:hover .skyimg{
-	filter: var(--sky-img-hov);
 }
 
 /* Grass */
 .grass .box {
-	background: var(--grass-back);
+	background: rgba(var(--grass-box), var(--dp1));
 }
 .grass .box:hover {
-	background: var(--grass);
+	background: rgba(var(--grass-box), var(--dp8));
 }
 .grass h2, .grass p {
-	color: var(--grass);
+	color: var(--grass-text);
 }
-.grassimg {
+.grass img {
 	filter: var(--grass-img);
-}
-.box:hover .grassimg{
-	filter: var(--grass-img-hov);
 }
 
 /* Trees */
 .trees .box {
-	background: var(--trees-back);
+	background: rgba(var(--trees-box), var(--dp1));
 }
 .trees .box:hover {
-	background: var(--trees);
+	background: rgba(var(--trees-box), var(--dp8));
 }
 .trees h2, .trees p {
-	color: var(--trees);
+	color: var(--trees-text);
 }
-.treesimg {
+.trees img {
 	filter: var(--trees-img);
-}
-.box:hover .treesimg{
-	filter: var(--trees-img-hov);
 }
 
 /* Environments */
 .environments .box {
-	background: var(--environments-back);
+	background: rgba(var(--environments-box), var(--dp1));
 }
 .environments .box:hover {
-	background: var(--environments);
+	background: rgba(var(--environments-box), var(--dp8));
 }
 .environments h2, .environments p {
-	color: var(--environments);
+	color: var(--environments-text);
 }
-.environmentsimg {
+.environments img {
 	filter: var(--environments-img);
-}
-.box:hover .environmentsimg{
-	filter: var(--environments-img-hov);
-}
-
-/* Materials */
-.materials .box {
-	background: var(--materials-back);
-}
-.materials .box:hover {
-	background: var(--materials);
-}
-.materials h2, .materials p {
-	color: var(--materials);
-}
-.materialsimg {
-	filter: var(--materials-img);
-}
-.box:hover .materialsimg{
-	filter: var(--materials-img-hov);
-}
-
-/* Camera */
-.camera .box {
-	background: var(--camera-back);
-}
-.camera .box:hover {
-	background: var(--camera);
-}
-.camera h2, .camera p {
-	color: var(--camera);
-}
-.cameraimg {
-	filter: var(--camera-img);
-}
-.box:hover .cameraimg{
-	filter: var(--camera-img-hov);
-}
-
-/* Textures */
-.textures .box {
-	background: var(--textures-back);
-}
-.textures .box:hover {
-	background: var(--textures);
-}
-.textures h2, .textures p {
-	color: var(--textures);
-}
-.texturesimg {
-	filter: var(--textures-img);
-}
-.box:hover .texturesimg{
-	filter: var(--textures-img-hov);
-}
-
-/* Models */
-.models .box {
-	background: var(--models-back);
-}
-.models .box:hover {
-	background: var(--models);
-}
-.models h2, .models p {
-	color: var(--models);
-}
-.modelsimg {
-	filter: var(--models-img);
-}
-.box:hover .modelsimg{
-	filter: var(--models-img-hov);
 }
 
 /* ArchDec */
 .archdec .box {
-	background: var(--archdec-back);
+	background: rgba(var(--archdec-box), var(--dp1));
 }
 .archdec .box:hover {
-	background: var(--archdec);
+	background: rgba(var(--archdec-box), var(--dp8));
 }
 .archdec h2, .archdec p {
-	color: var(--archdec);
+	color: var(--archdec-text);
 }
-.archdecimg {
+.archdec img {
 	filter: var(--archdec-img);
-}
-.box:hover .archdecimg{
-	filter: var(--archdec-img-hov);
 }
 
 /* ArchDec 2 */
 .archdec_2 .box {
-	background: var(--archdec_2-back);
+	background: rgba(var(--archdec_2-box), var(--dp1));
 }
 .archdec_2 .box:hover {
-	background: var(--archdec_2);
+	background: rgba(var(--archdec_2-box), var(--dp8));
 }
 .archdec_2 h2, .archdec_2 p {
-	color: var(--archdec_2);
+	color: var(--archdec_2-text);
 }
-.archdec_2img {
+.archdec_2 img {
 	filter: var(--archdec_2-img);
 }
-.box:hover .archdec_2img{
-	filter: var(--archdec_2-img-hov);
+
+/* Materials */
+.materials .box {
+	background: rgba(var(--materials-box), var(--dp1));
+}
+.materials .box:hover {
+	background: rgba(var(--materials-box), var(--dp8));
+}
+.materials h2, .materials p {
+	color: var(--materials-text);
+}
+.materials img {
+	filter: var(--materials-img);
+}
+
+/* Camera */
+.camera .box {
+	background: rgba(var(--camera-box), var(--dp1));
+}
+.camera .box:hover {
+	background: rgba(var(--camera-box), var(--dp8));
+}
+.camera h2, .camera p {
+	color: var(--camera-text);
+}
+.camera img {
+	filter: var(--camera-img);
 }
 
 /* Snow */
 .snow .box {
-	background: var(--snow-back);
+	background: rgba(var(--snow-box), var(--dp1));
 }
 .snow .box:hover {
-	background: var(--snow);
+	background: rgba(var(--snow-box), var(--dp8));
 }
 .snow h2, .snow p {
-	color: var(--snow);
+	color: var(--snow-text);
 }
-.snowimg {
+.snow img {
 	filter: var(--snow-img);
-}
-.box:hover .snowimg{
-	filter: var(--snow-img-hov);
 }
 
 
@@ -218,7 +157,7 @@ a {
 	width: 400px;
 	height: 170px;
 	margin: 2px;
-	border-radius: 15px;
+	border-radius: 14px;
 	display: grid;
 	grid-template-columns: 25% auto;
 	place-items: center;
@@ -231,14 +170,6 @@ a {
 
 .box div {
 	width: 100%;
-}
-
-.box:hover p {
-	color: var(--body);
-}
-
-.box:hover h2 {
-	color: var(--body);
 }
 
 

@@ -1,10 +1,8 @@
 /* Theme */
 :root {
-	--theme: var(--camera);
-	--collap: var(--camera-back);
-	--collapdark: var(--camera-dark);
+	--theme: var(--camera-text);
+	--collap: var(--camera-box);
 	--img: var(--camera-img);
-	--img-hov: var(--camera-img-hov);
 }
 
 

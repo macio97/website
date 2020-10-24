@@ -1,32 +1,8 @@
 /* Theme */
 :root {
-	--theme: var(--environments);
-	--collap: var(--environments-back);
-	--collapdark: var(--environments-dark);
+	--theme: var(--environments-text);
+	--collap: var(--environments-box);
 	--img: var(--environments-img);
-	--img-hov: var(--environments-img-hov);
-	--height: 200px;
-	--fadecol: 20%;
-	--fadetra: 60%;
-}
-
-
-/* Countdown */
-.countdown {
-	color: var(--theme);
-	margin: 0 auto;
-	text-align: center;
-}
-
-.countdown li {
-  display: inline-block;
-  list-style-type: none;
-  padding: 20px;
-}
-
-.countdown li span {
-	display: block;
-	font-size: 50px;
 }
 
 

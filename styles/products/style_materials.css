@@ -1,10 +1,8 @@
 /* Theme */
 :root {
-	--theme: var(--materials);
-	--collap: var(--materials-back);
-	--collapdark: var(--materials-dark);
+	--theme: var(--materials-text);
+	--collap: var(--materials-box);
 	--img: var(--materials-img);
-	--img-hov: var(--materials-img-hov);
 }
 
 	

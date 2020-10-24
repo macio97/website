@@ -1,10 +1,8 @@
 /* Theme */
 :root {
-	--theme: var(--trees);
-	--collap: var(--trees-back);
-	--collapdark: var(--trees-dark);
+	--theme: var(--trees-text);
+	--collap: var(--trees-box);
 	--img: var(--trees-img);
-	--img-hov: var(--trees-img-hov);
 }
 
 

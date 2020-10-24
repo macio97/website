@@ -1,10 +1,8 @@
 /* Theme */
 :root {
-	--theme: var(--sky);
-	--collap: var(--sky-back);
-	--collapdark: var(--sky-dark);
+	--theme: var(--sky-text);
+	--collap: var(--sky-box);
 	--img: var(--sky-img);
-	--img-hov: var(--sky-img-hov);
 }
 
 
