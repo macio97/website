@@ -4,7 +4,6 @@
     ],
     "layout": "product.njk",
     "stylesheets": [
-        "/styles/products/style_common.css",
-        "/styles/style_color.css"
+        "/styles/products/style_common.css"
     ]
 }

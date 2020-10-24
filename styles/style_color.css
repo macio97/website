@@ -44,25 +44,9 @@
 	--snow-box: 150, 198, 221;
 	--snow-img: invert(76%) sepia(60%) saturate(258%) hue-rotate(169deg) brightness(93%) contrast(86%);
 
-	--sky-back: #00aaff22;
-	--grass-back: #00d42322;
-	--trees-back: #00901d22;
-	--environments-back: #a88f6522;
-	--archdec-back: #f19d3622;
-	--archdec_2-back: #ff986f22;
-	--materials-back: #e2431f22;
-	--camera-back: #8a8a8a22;
-	--snow-back: #96c6dd22;
-
-	--sky-dark: #00aaff11;
-	--grass-dark: #00d42311;
-	--trees-dark: #00901d11;
-	--environments-dark: #a88f6511;
-	--archdec-dark: #f19d3611;
-	--archdec_2-dark: #ff986f11;
-	--materials-dark: #e2431f11;
-	--camera-dark: #8a8a8a11;
-	--snow-dark: #96c6dd11;
+	--pebble-text: #72bc00;
+	--pebble-box: 114, 188, 0;
+	--pebble-img: invert(62%) sepia(13%) saturate(6566%) hue-rotate(44deg) brightness(98%) contrast(104%);
 
 	--marco-text: #00aaff;
 	--marco-box: 0, 170, 255;
@@ -78,7 +62,7 @@
 	:root {
 		--body: #121212;
 		--wolf-text: #81d5ff;
-		--menu: #121212bb;
+		--menu: #121212cc;
 		--menuimg: invert(72%) sepia(59%) saturate(556%) hue-rotate(173deg) brightness(102%) contrast(103%);
 
 		--sky-text: #81d5ff;
@@ -116,6 +100,10 @@
 		--snow-text: #bcddeb;
 		--snow-box: 188, 221, 235;
 		--snow-img: invert(90%) sepia(22%) saturate(566%) hue-rotate(168deg) brightness(98%) contrast(88%);
+
+		--pebble-text: #bbdd92;
+		--pebble-box: 187, 221, 146;
+		--pebble-img: invert(94%) sepia(10%) saturate(1279%) hue-rotate(31deg) brightness(94%) contrast(85%);
 		
 		--marco-text: #81d5ff;
 		--marco-box: 129, 213, 255;
