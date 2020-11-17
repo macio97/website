@@ -39,6 +39,16 @@ p {
 
 
 /* Content */
+.title {
+	width: 100%;
+	text-align: center;
+}
+
+.title img {
+	height: 200px;
+	filter: var(--pebble-img);
+}
+
 .supcontainer {
 	padding: 0 5%;
 	width: 100%;
