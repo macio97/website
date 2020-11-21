@@ -45,7 +45,7 @@ p {
 }
 
 .title img {
-	height: 200px;
+	width: 300px;
 	filter: var(--pebble-img);
 }
 
@@ -72,6 +72,9 @@ p {
 
 /* Responsive */
 @media only screen and (max-width: 600px) {
+	.title img {
+		width: 80%;
+	}
 	.video {
 		padding-bottom: 56.25%;
 		width: 100%;
