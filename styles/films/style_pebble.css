@@ -70,15 +70,80 @@ p {
 }
 
 
+/* Parallax */
+.concept {
+	position: relative;
+	height: 100vh;
+}
+
+.concept-image {
+	height: 100%;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.concept-filter {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: linear-gradient(var(--body)0%, rgba(0,0,0,0)25%);
+}
+
+.concept-description {
+	position: absolute;
+	display: block;
+	width: 400px;
+	height: 150px;
+	bottom: 10%;
+	background: rgba(0,0,0,0);
+	backdrop-filter: blur(20px);
+	border-radius: 14px;
+	z-index: 1;
+}
+
+.concept-left {
+	left: 10%;
+}
+
+.concept-right {
+	right: 10%;
+}
+
+.concept-description h2, .concept-description p {
+	color: var(--body);
+}
+
+
 /* Responsive */
 @media only screen and (max-width: 600px) {
 	.title img {
-		width: 80%;
+		width: 70%;
 	}
 	.video {
 		padding-bottom: 56.25%;
 		width: 100%;
 		left: 0;
+	}
+	.concept {
+		height: 50vh;
+	}
+	.concept-image {
+		background-attachment: scroll;
+	}
+	.concept-description {
+		width: 100%;
+		height: 120px;
+		bottom: 0;
+	}
+	.concept-left {
+		left: 0;
+	}
+	.concept-right {
+		right: 0;
 	}
 }
 
