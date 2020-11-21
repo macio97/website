@@ -3,7 +3,7 @@
 	--dp1: 0.05;
 	--dp8: 0.12;
 
-	--body: #ffffff;
+	--body: rgb(255,255,255);;
 	--wolf-text: #000000;
 	--menu: #ffffff88;
 	--menuimg: brightness(0%);
@@ -61,7 +61,7 @@
 /* Dark theme */
 @media (prefers-color-scheme: dark) {
 	:root {
-		--body: #121212;
+		--body: rgb(18,18,18);
 		--wolf-text: #81d5ff;
 		--menu: #121212cc;
 		--menuimg: invert(72%) sepia(59%) saturate(556%) hue-rotate(173deg) brightness(102%) contrast(103%);

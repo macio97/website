@@ -189,11 +189,6 @@ button {
 	background-size: cover;
 }
 
-.par-image {
-	width: 100%;
-	margin: 0;
-}
-
 
 /* Responsive */
 @media only screen and (max-width: 600px) {
@@ -220,7 +215,8 @@ button {
 		width: 100vw;
 	}
 	.parallax {
-		display: none;
+		height: 50vh;
+		background-attachment: scroll;
 	}
 }
 
@@ -249,9 +245,6 @@ button {
 	.collap {
 		margin-left: -100px;
 		width: 400px;
-	}
-	.par-image {
-		display: none;
 	}
 }
 
