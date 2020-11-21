@@ -31,7 +31,7 @@ p {
 .marco:hover {
 	background: rgba(var(--marco-box), var(--dp8));
 }
-.marco h2 {
+.marco p {
 	color: var(--marco-text);
 }
 .marco img {
@@ -45,7 +45,7 @@ p {
 .joseph:hover {
 	background: rgba(var(--joseph-box), var(--dp8));
 }
-.joseph h2 {
+.joseph p {
 	color: var(--joseph-text);
 }
 .joseph img {

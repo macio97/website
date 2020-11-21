@@ -19,7 +19,7 @@ stylesheets: [
 		{% for member in members %}
 			<a class="box {{ member }}" title="{{members_list[member].name}}" href="{{members_list[member].link}}">
 				<img src="/images/logos/wolf.svg">
-				<h2>{{members_list[member].name}}</h2>
+				<p>{{members_list[member].name}}</p>
 			</a>
 		{% endfor %}
 	</div>
