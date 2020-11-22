@@ -213,27 +213,6 @@ main {
 }
 
 
-/* Chat */
-.chat {
-	position: fixed;
-	display: block;
-	text-align: center;
-	padding-top: 3px;
-	font-size: 27px;
-	color: var(--wolf-text);
-	background: var(--menu);
-	border-radius: 50%;
-	width: 40px;
-	height: 40px;
-	bottom: 20px;
-	right: 20px;
-}
-
-.chat i {
-	transform: scale(0.9, 1);
-}
-
-
 /* Space */
 .space {
 	height: 100px;
