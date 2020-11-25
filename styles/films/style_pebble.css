@@ -1,16 +1,16 @@
 /* Theme */
 :root {
-	--peb-img: brightness(100%);
+	--logos: brightness(100%);
 }
 
 @media (prefers-color-scheme: dark) {
 	:root {
-		--peb-img: var(--pebble-img);
+		--logos: var(--pebble-img);
 	}
 }
 
 h1, h2, p {
-	color: var(--pebble-text);
+	color: rgba(var(--pebble), 1);
 }
 
 p {
@@ -34,7 +34,7 @@ p {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: var(--pebble-text);
+	background: rgba(var(--pebble), 1);
 }
 
 
@@ -62,7 +62,7 @@ p {
 .container img {
 	width: 128px;
 	padding: 0 20px;
-	filter: var(--peb-img);
+	filter: var(--logos);
 }
 
 .container p {
@@ -90,7 +90,7 @@ p {
 	right: 0;
 	bottom: 0;
 	left: 0;
-	background: linear-gradient(var(--body)0%, rgba(0,0,0,0)25%);
+	background: linear-gradient(rgba(var(--body), 1))0%, rgba(0,0,0,0)25%);
 }
 
 .concept-description {
@@ -114,7 +114,7 @@ p {
 }
 
 .concept-description h2, .concept-description p {
-	color: var(--body);
+	color: rgba(var(--body), 1);
 }
 
 

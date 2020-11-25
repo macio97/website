@@ -1,6 +1,6 @@
 /* Theme */
 :root {
-	--theme: var(--snow-text);
-	--collap: var(--snow-box);
+	--theme: rgba(var(--snow), 1);
+	--collap: var(--snow);
 	--img: var(--snow-img);
 }

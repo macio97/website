@@ -31,7 +31,6 @@ a {
 	height: 200px;
 	margin: 2px;
 	border-radius: 14px;
-	background: rgba(var(--sky-box), var(--dp1));
 	display: grid;
 	grid-template-columns: 25% auto;
 	place-items: center;
@@ -49,13 +48,13 @@ a {
 
 /* Pebble */
 .pebble .box {
-	background: rgba(var(--pebble-box), var(--dp1));
+	background: rgba(var(--pebble), var(--dp1));
 }
 .pebble .box:hover {
-	background: rgba(var(--pebble-box), var(--dp8));
+	background: rgba(var(--pebble), var(--dp8));
 }
 .pebble h2, .pebble p {
-	color: var(--pebble-text);
+	color: rgba(var(--pebble), 1);
 }
 .pebble img {
 	filter: var(--pebble-img);

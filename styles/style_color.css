@@ -3,57 +3,45 @@
 	--dp1: 0.05;
 	--dp8: 0.12;
 
-	--body: rgb(255,255,255);;
+	--body: 255,255,255;
+	--menu-opa: 0.5;
+	--menu-img: brightness(0%);
 	--wolf-text: #000000;
-	--menu: #ffffff88;
-	--menuimg: brightness(0%);
 
-	--sky-text: #00aaff;
-	--sky-box: 0, 170, 255;
+	--sky: 0, 170, 255;
 	--sky-img: invert(69%) sepia(91%) saturate(5104%) hue-rotate(174deg) brightness(104%) contrast(107%);
 
-	--grass-text: #00d423;
-	--grass-box: 0, 212, 35;
+	--grass: 0, 212, 35;
 	--grass-img: invert(57%) sepia(52%) saturate(7094%) hue-rotate(109deg) brightness(114%) contrast(111%);
 
-	--trees-text: #00901d;
-	--trees-box: 156, 215, 156;
+	--trees: 156, 215, 156;
 	--trees-img: invert(26%) sepia(92%) saturate(5292%) hue-rotate(139deg) brightness(101%) contrast(102%);
 
-	--environments-text: #a88f65;
-	--environments-box: 168, 143, 101;
+	--environments: 168, 143, 101;
 	--environments-img: invert(53%) sepia(42%) saturate(321%) hue-rotate(359deg) brightness(100%) contrast(87%);
 
-	--archdec-text: #f19d36;
-	--archdec-box: 241, 157, 54;
+	--archdec: 241, 157, 54;
 	--archdec-img: invert(72%) sepia(86%) saturate(1710%) hue-rotate(336deg) brightness(101%) contrast(89%);
 
-	--archdec_2-text: #ff986f;
-	--archdec_2-box: 255, 152, 111;
+	--archdec_2: 255, 152, 111;
 	--archdec_2-img: invert(92%) sepia(15%) saturate(6373%) hue-rotate(307deg) brightness(93%) contrast(118%);
 
-	--materials-text: #e2431f;
-	--materials-box: 226, 67, 31;
+	--materials: 226, 67, 31;
 	--materials-img: invert(30%) sepia(42%) saturate(4160%) hue-rotate(353deg) brightness(94%) contrast(88%);
 
-	--camera-text: #8a8a8a;
-	--camera-box: 138, 138, 138;
+	--camera: 138, 138, 138;
 	--camera-img: invert(59%) sepia(8%) saturate(0%) hue-rotate(268deg) brightness(91%) contrast(94%);
 
-	--snow-text: #96c6dd;
-	--snow-box: 150, 198, 221;
+	--snow: 150, 198, 221;
 	--snow-img: invert(76%) sepia(60%) saturate(258%) hue-rotate(169deg) brightness(93%) contrast(86%);
 
-	--pebble-text: #72bc00;
-	--pebble-box: 114, 188, 0;
+	--pebble: 114, 188, 0;
 	--pebble-img: invert(62%) sepia(13%) saturate(6566%) hue-rotate(44deg) brightness(98%) contrast(104%);
 
-	--marco-text: #00aaff;
-	--marco-box: 0, 170, 255;
+	--marco: 0, 170, 255;
 	--marco-img: invert(69%) sepia(91%) saturate(5104%) hue-rotate(174deg) brightness(104%) contrast(107%);
-	
-	--joseph-text: #ff0800;
-	--joseph-box: 255, 8, 0;
+
+	--joseph: 255, 8, 0;
 	--joseph-img: invert(10%) sepia(100%) saturate(7291%) hue-rotate(2deg) brightness(104%) contrast(101%);
 }
 
@@ -61,57 +49,45 @@
 /* Dark theme */
 @media (prefers-color-scheme: dark) {
 	:root {
-		--body: rgb(18,18,18);
+		--body: 18, 18, 18;
+		--menu-opa: 0.8;
+		--menu-img: invert(72%) sepia(59%) saturate(556%) hue-rotate(173deg) brightness(102%) contrast(103%);
 		--wolf-text: #81d5ff;
-		--menu: #121212cc;
-		--menuimg: invert(72%) sepia(59%) saturate(556%) hue-rotate(173deg) brightness(102%) contrast(103%);
 
-		--sky-text: #81d5ff;
-		--sky-box: 129, 213, 255;
+		--sky: 129, 213, 255;
 		--sky-img: invert(72%) sepia(59%) saturate(556%) hue-rotate(173deg) brightness(102%) contrast(103%);
 
-		--grass-text: #a5eb9c;
-		--grass-box: 165, 235, 156;
+		--grass: 165, 235, 156;
 		--grass-img: invert(89%) sepia(51%) saturate(371%) hue-rotate(47deg) brightness(97%) contrast(90%);
 
-		--trees-text: #9cd79c;
-		--trees-box: 156, 215, 156;
+		--trees: 156, 215, 156;
 		--trees-img: invert(93%) sepia(8%) saturate(1519%) hue-rotate(58deg) brightness(89%) contrast(87%);
 
-		--environments-text: #c7ae8a;
-		--environments-box: 199, 174, 138;
+		--environments: 199, 174, 138;
 		--environments-img: invert(90%) sepia(4%) saturate(3298%) hue-rotate(338deg) brightness(84%) contrast(82%);
 
-		--archdec-text: #f8cd8c;
-		--archdec-box: 248, 205, 140;
+		--archdec: 248, 205, 140;
 		--archdec-img: invert(96%) sepia(94%) saturate(844%) hue-rotate(309deg) brightness(101%) contrast(95%);
 
-		--archdec_2-text: #ffb498;
-		--archdec_2-box: 255, 180, 152;
+		--archdec_2: 255, 180, 152;
 		--archdec_2-img: invert(65%) sepia(74%) saturate(226%) hue-rotate(327deg) brightness(103%) contrast(102%);
 
-		--materials-text: #ffad96;
-		--materials-box: 255, 173, 150;
+		--materials: 255, 173, 150;
 		--materials-img: invert(84%) sepia(21%) saturate(1623%) hue-rotate(304deg) brightness(106%) contrast(101%);
 
-		--camera-text: #e2e2e2;
-		--camera-box: 226, 226, 226;
+		--camera: 226, 226, 226;
 		--camera-img: invert(100%) sepia(3%) saturate(566%) hue-rotate(312deg) brightness(114%) contrast(77%);
 
-		--snow-text: #bcddeb;
-		--snow-box: 188, 221, 235;
+		--snow: 188, 221, 235;
 		--snow-img: invert(90%) sepia(22%) saturate(566%) hue-rotate(168deg) brightness(98%) contrast(88%);
 
-		--pebble-text: #bbdd92;
-		--pebble-box: 187, 221, 146;
+		--pebble: 187, 221, 146;
 		--pebble-img: invert(94%) sepia(10%) saturate(1279%) hue-rotate(31deg) brightness(94%) contrast(85%);
-		
-		--marco-text: #81d5ff;
-		--marco-box: 129, 213, 255;
+
+		--marco: 129, 213, 255;
 		--marco-img: invert(72%) sepia(59%) saturate(556%) hue-rotate(173deg) brightness(102%) contrast(103%);
 
-		--joseph-text: #ffa28a;
-		--joseph-box: 255, 162, 138;
+		--joseph: 255, 162, 138;
 		--joseph-img: invert(75%) sepia(20%) saturate(1328%) hue-rotate(316deg) brightness(101%) contrast(101%);
 	}
 }

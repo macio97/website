@@ -20,13 +20,13 @@ a {
 
 /* Sky */
 .sky .box {
-	background: rgba(var(--sky-box), var(--dp1));
+	background: rgba(var(--sky), var(--dp1));
 }
 .sky .box:hover {
-	background: rgba(var(--sky-box), var(--dp8));
+	background: rgba(var(--sky), var(--dp8));
 }
 .sky h2, .sky p {
-	color: var(--sky-text);
+	color: rgba(var(--sky), 1);
 }
 .sky img {
 	filter: var(--sky-img);
@@ -34,13 +34,13 @@ a {
 
 /* Grass */
 .grass .box {
-	background: rgba(var(--grass-box), var(--dp1));
+	background: rgba(var(--grass), var(--dp1));
 }
 .grass .box:hover {
-	background: rgba(var(--grass-box), var(--dp8));
+	background: rgba(var(--grass), var(--dp8));
 }
 .grass h2, .grass p {
-	color: var(--grass-text);
+	color: rgba(var(--grass), 1);
 }
 .grass img {
 	filter: var(--grass-img);
@@ -48,13 +48,13 @@ a {
 
 /* Trees */
 .trees .box {
-	background: rgba(var(--trees-box), var(--dp1));
+	background: rgba(var(--trees), var(--dp1));
 }
 .trees .box:hover {
-	background: rgba(var(--trees-box), var(--dp8));
+	background: rgba(var(--trees), var(--dp8));
 }
 .trees h2, .trees p {
-	color: var(--trees-text);
+	color: rgba(var(--trees), 1);
 }
 .trees img {
 	filter: var(--trees-img);
@@ -62,13 +62,13 @@ a {
 
 /* Environments */
 .environments .box {
-	background: rgba(var(--environments-box), var(--dp1));
+	background: rgba(var(--environments), var(--dp1));
 }
 .environments .box:hover {
-	background: rgba(var(--environments-box), var(--dp8));
+	background: rgba(var(--environments), var(--dp8));
 }
 .environments h2, .environments p {
-	color: var(--environments-text);
+	color: rgba(var(--environments), 1);
 }
 .environments img {
 	filter: var(--environments-img);
@@ -76,13 +76,13 @@ a {
 
 /* ArchDec */
 .archdec .box {
-	background: rgba(var(--archdec-box), var(--dp1));
+	background: rgba(var(--archdec), var(--dp1));
 }
 .archdec .box:hover {
-	background: rgba(var(--archdec-box), var(--dp8));
+	background: rgba(var(--archdec), var(--dp8));
 }
 .archdec h2, .archdec p {
-	color: var(--archdec-text);
+	color: rgba(var(--archdec), 1);
 }
 .archdec img {
 	filter: var(--archdec-img);
@@ -90,13 +90,13 @@ a {
 
 /* ArchDec 2 */
 .archdec_2 .box {
-	background: rgba(var(--archdec_2-box), var(--dp1));
+	background: rgba(var(--archdec_2), var(--dp1));
 }
 .archdec_2 .box:hover {
-	background: rgba(var(--archdec_2-box), var(--dp8));
+	background: rgba(var(--archdec_2), var(--dp8));
 }
 .archdec_2 h2, .archdec_2 p {
-	color: var(--archdec_2-text);
+	color: rgba(var(--archdec_2), 1);
 }
 .archdec_2 img {
 	filter: var(--archdec_2-img);
@@ -104,13 +104,13 @@ a {
 
 /* Materials */
 .materials .box {
-	background: rgba(var(--materials-box), var(--dp1));
+	background: rgba(var(--materials), var(--dp1));
 }
 .materials .box:hover {
-	background: rgba(var(--materials-box), var(--dp8));
+	background: rgba(var(--materials), var(--dp8));
 }
 .materials h2, .materials p {
-	color: var(--materials-text);
+	color: rgba(var(--materials), 1);
 }
 .materials img {
 	filter: var(--materials-img);
@@ -118,13 +118,13 @@ a {
 
 /* Camera */
 .camera .box {
-	background: rgba(var(--camera-box), var(--dp1));
+	background: rgba(var(--camera), var(--dp1));
 }
 .camera .box:hover {
-	background: rgba(var(--camera-box), var(--dp8));
+	background: rgba(var(--camera), var(--dp8));
 }
 .camera h2, .camera p {
-	color: var(--camera-text);
+	color: rgba(var(--camera), 1);
 }
 .camera img {
 	filter: var(--camera-img);
@@ -132,13 +132,13 @@ a {
 
 /* Snow */
 .snow .box {
-	background: rgba(var(--snow-box), var(--dp1));
+	background: rgba(var(--snow), var(--dp1));
 }
 .snow .box:hover {
-	background: rgba(var(--snow-box), var(--dp8));
+	background: rgba(var(--snow), var(--dp8));
 }
 .snow h2, .snow p {
-	color: var(--snow-text);
+	color: rgba(var(--snow), 1);
 }
 .snow img {
 	filter: var(--snow-img);

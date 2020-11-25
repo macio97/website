@@ -1,7 +1,7 @@
 /* Theme */
 :root {
-	--theme: var(--environments-text);
-	--collap: var(--environments-box);
+	--theme: rgba(var(--environments), 1);
+	--collap: var(--environments);
 	--img: var(--environments-img);
 	--height: 200px;
 	--fadecol: 20%;
@@ -24,7 +24,7 @@
 	z-index: 1;
 }
 .fadeleft h2 {
-	color: var(--body);
+	color: rgba(var(--body), 1);
 	text-align: right;
 	margin: auto;
 }
@@ -52,7 +52,7 @@
 	z-index: 1;
 }
 .faderight h2 {
-	color: var(--body);
+	color: rgba(var(--body), 1);
 	text-align: left;
 	margin: auto;
 }

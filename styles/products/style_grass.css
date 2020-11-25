@@ -1,7 +1,7 @@
 /* Theme */
 :root {
-	--theme: var(--grass-text);
-	--collap: var(--grass-box);
+	--theme: rgba(var(--grass), 1);
+	--collap: var(--grass);
 	--img: var(--grass-img);
 }
 

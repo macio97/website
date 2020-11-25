@@ -5,7 +5,7 @@
 
 body {
 	font-family: 'Montserrat', sans-serif;
-	background: var(--body);
+	background: rgba(var(--body), 1);
 	margin: 0;
 	padding: 0;
 }
@@ -50,7 +50,7 @@ main {
 	height: 50px;
 	overflow: hidden;
 	position: fixed;
-	background: var(--menu);
+	background: rgba(var(--body), var(--menu-opa));
 	backdrop-filter: blur(20px);
 	z-index: 3;
 	transition: all 0.3s;
@@ -190,11 +190,11 @@ main {
 }
 
 #submenu .selected img {
-	filter: var(--menuimg);
+	filter: var(--menu-img);
 }
 
 #submenu li:hover img {
-	filter: var(--menuimg);
+	filter: var(--menu-img);
 }
 
 
