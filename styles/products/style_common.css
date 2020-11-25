@@ -22,7 +22,7 @@ p {
 	overflow: hidden;
 	width: 100%;
 	height: 100%;
-	border-radius: 18px;
+	border-radius: var(--round);
 }
 
 .video iframe {
@@ -62,11 +62,11 @@ p {
 }
 
 .downstart {
-	border-radius: 8px 8px 0 0;
+	border-radius: var(--round) var(--round) 0 0;
 }
 
 .downend {
-	border-radius: 0 0 8px 8px;
+	border-radius: 0 0 var(--round) var(--round);
 }
 
 .buttons p {
@@ -102,7 +102,7 @@ button {
 
 .collap {
 	background: rgba(var(--collap), var(--dp1));
-	border-radius: 8px;
+	border-radius: var(--round);
 	padding: 0 10px;
 	position: relative;
 	max-height: 0;
@@ -131,7 +131,7 @@ button {
 }
 
 .panels {
-	border-radius: 18px;
+	border-radius: var(--round);
 	width: 250px;
 }
 
@@ -166,7 +166,7 @@ button {
 	display: inline-block;
 	text-decoration: none;
 	width: 150px;
-	border-radius: 14px;
+	border-radius: var(--round);
 	transition: all 0.3s;
 }
 

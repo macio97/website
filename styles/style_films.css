@@ -30,7 +30,7 @@ a {
 	width: 600px;
 	height: 200px;
 	margin: 2px;
-	border-radius: 14px;
+	border-radius: var(--round);
 	display: grid;
 	grid-template-columns: 25% auto;
 	place-items: center;

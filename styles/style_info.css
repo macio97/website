@@ -15,7 +15,7 @@ p {
 	text-decoration: none;
 	margin: 0 20px;
 	width: 180px;
-	border-radius: 14px;
+	border-radius: var(--round);
 	transition: all 0.3s;
 }
 
@@ -81,8 +81,6 @@ p {
 
 .social ul {
 	text-align: center;
-	overflow-x: auto;
-	white-space: nowrap;
 }
 
 .social ul li {
