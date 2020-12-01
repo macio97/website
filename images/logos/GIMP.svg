@@ -14,7 +14,7 @@
    version="1.1"
    id="svg106"
    sodipodi:docname="GIMP.svg"
-   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)">
+   inkscape:version="1.0.1 (0767f8302a, 2020-10-17)">
   <metadata
      id="metadata112">
     <rdf:RDF>
@@ -23,7 +23,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -119,7 +119,8 @@
      inkscape:window-x="72"
      inkscape:window-y="27"
      inkscape:window-maximized="1"
-     inkscape:current-layer="g104" />
+     inkscape:current-layer="g104"
+     inkscape:document-rotation="0" />
   <linearGradient
      id="a">
     <stop
@@ -304,7 +305,7 @@
        offset="0"
        stop-color="#857c63"
        id="stop51"
-       style="stop-color:#494949;stop-opacity:1" />
+       style="stop-color:#a4a4a4;stop-opacity:1" />
     <stop
        offset="1"
        stop-color="#221f19"
@@ -321,7 +322,7 @@
        stroke="#2e3436"
        stroke-miterlimit="10"
        id="path58"
-       style="fill:url(#n)" />
+       style="opacity:1;fill:url(#n);stroke:#2e3436;stroke-opacity:1" />
     <path
        d="m 15.73779,30.066049 c 6.7389,1.347837 10.170691,0.09809 12.179175,-1.452776 -0.53033,-0.68501 -1.43631,-1.436311 -1.43631,-1.436311 0,0 2.353317,0.653942 3.18198,1.723573 0.82629,1.066568 0.306808,1.723707 0.09056,3.08837 -0.481411,-1.198599 -1.379981,-1.648092 -1.501634,-2.124332 -1.806268,2.496927 -6.306442,2.3932 -12.513771,0.201476 z"
        fill="url(#m)"
@@ -421,7 +422,7 @@
            fill="url(#f)"
            stroke="#673907"
            id="path84"
-           style="opacity:0.995;fill:url(#f);filter:url(#filter1145);stroke:#373737;stroke-opacity:1" />
+           style="opacity:0.995;fill:url(#f);stroke:#373737;stroke-opacity:1;filter:url(#filter1145)" />
         <path
            d="m -30.449715,32.813894 2.24632,1.93382 8.492766,-7.367031 0.275061,-0.705828 1.094405,-0.01782 c -0.4375,-1.5625 -2.941514,-4.383455 -4.816514,-4.383455 l 0.08202,1.090075 -0.669991,0.380027 -6.704066,9.070207 z"
            fill="url(#e)"

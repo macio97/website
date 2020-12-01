@@ -12,7 +12,7 @@
    viewBox="0 0 512 512"
    version="1.1"
    id="svg8"
-   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
+   inkscape:version="1.0.1 (0767f8302a, 2020-10-17)"
    sodipodi:docname="Storyboarder.svg">
   <defs
      id="defs2" />
@@ -57,7 +57,7 @@
        id="path847"
        sodipodi:nodetypes="cccccc" />
     <path
-       style="opacity:1;fill:#595959;fill-opacity:1;stroke:#404040;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="opacity:1;fill:#8e8e8e;fill-opacity:1;stroke:#404040;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="M 52.666517,324.52722 37.337135,295.89113 c -1.549954,-6.59749 -0.32756,-10.7979 3.378575,-14.64253 l 47.157113,-25.65202 c 6.776439,-1.34873 10.437091,0.11468 14.390907,4.50937 l 16.44455,30.08781 z"
        id="path849"
        sodipodi:nodetypes="ccccccc" />
@@ -67,7 +67,7 @@
        id="path851"
        sodipodi:nodetypes="ccccccc" />
     <path
-       style="fill:#595959;fill-opacity:1;stroke:#404040;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="fill:#8f8f8f;fill-opacity:1;stroke:#404040;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 199.02625,264.93441 v -15.91685 c 2.09773,-7.06972 5.00783,-9.85396 11.57439,-11.54908 h 228.7299 c 6.83491,1.96416 9.42752,4.93766 11.18282,11.55001 l -0.0498,15.46067 -251.43732,0.45525"
        id="path853"
        sodipodi:nodetypes="ccccccc" />

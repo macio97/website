@@ -17,7 +17,7 @@
    xml:space="preserve"
    id="svg18"
    sodipodi:docname="PureRef.svg"
-   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"><metadata
+   inkscape:version="1.0.1 (0767f8302a, 2020-10-17)"><metadata
    id="metadata24"><rdf:RDF><cc:Work
        rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
          rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title /></cc:Work></rdf:RDF></metadata><defs
@@ -36,11 +36,11 @@
    showgrid="false"
    inkscape:zoom="1.705718"
    inkscape:cx="263.98439"
-   inkscape:cy="248.80903"
+   inkscape:cy="214.31797"
    inkscape:window-x="72"
    inkscape:window-y="27"
    inkscape:window-maximized="1"
-   inkscape:current-layer="svg18"
+   inkscape:current-layer="Original_Logo"
    inkscape:document-rotation="0" />
 <g
    id="Original_Logo"
@@ -71,7 +71,7 @@
    fill="#ffffff"
    d="M 418.903,377.506 C 449.701,337.879 468.049,288.097 468.049,234.024 468.05,104.776 363.272,0 234.024,0 104.777,0 0,104.776 0,234.024 c 0,0.663 0.02,1.322 0.025,1.984 H 0.022 v 320.737 h 137.671 v -109.38 c 29.379,13.287 61.991,20.684 96.331,20.684 24.981,0 49.042,-3.93 71.616,-11.179 l 85.378,99.875 104.704,-89.39 z M 234.025,321.508 c -48.561,0 -87.926,-39.366 -87.926,-87.925 0,-48.56 39.366,-87.926 87.926,-87.926 48.56,0 87.926,39.366 87.926,87.926 0,48.559 -39.366,87.925 -87.926,87.925 z"
    id="path6"
-   style="fill:#595959;fill-opacity:1" />
+   style="fill:#9f9f9f;fill-opacity:1" />
 	<path
    fill-rule="evenodd"
    clip-rule="evenodd"
