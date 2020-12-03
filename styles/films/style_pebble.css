@@ -84,7 +84,7 @@ p {
 	background-size: cover;
 }
 
-.concept-filter {
+.concept-filter-top {
 	position: absolute;
 	top: 0;
 	right: 0;
@@ -93,12 +93,21 @@ p {
 	background: linear-gradient(rgba(var(--body), 1)0%, rgba(0,0,0,0)25%);
 }
 
+.concept-filter-bottom {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: linear-gradient(rgba(0,0,0,0)75%, rgba(var(--body), 1)100%);
+}
+
 .concept-description {
 	position: absolute;
 	display: block;
 	width: 400px;
-	height: 150px;
-	bottom: 10%;
+	height: 170px;
+	top: 30%;
 	background: rgba(0,0,0,0);
 	backdrop-filter: blur(20px);
 	border-radius: var(--round);
@@ -115,6 +124,18 @@ p {
 
 .concept-description h2, .concept-description p {
 	color: rgba(var(--body), 1);
+}
+
+
+.storyboard {
+	width: 100%;
+	text-align: center;
+}
+
+.storyboard video {
+	width: 60%;
+	border-radius: var(--round);
+	-webkit-tap-highlight-color: transparent;
 }
 
 
@@ -144,6 +165,9 @@ p {
 	}
 	.concept-right {
 		right: 0;
+	}
+	.storyboard video {
+		width: 100%;
 	}
 }
 
