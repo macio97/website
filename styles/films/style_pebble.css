@@ -106,11 +106,9 @@ p {
 	display: block;
 	width: 400px;
 	height: 170px;
-	top: 30%;
 	background: rgba(0,0,0,0);
 	backdrop-filter: blur(20px);
 	border-radius: var(--round);
-	z-index: 1;
 }
 
 .concept-left {
@@ -154,16 +152,21 @@ p {
 	.concept-image {
 		background-attachment: scroll;
 	}
+	.concept-description h2, .concept-description p {
+		color: rgba(var(--pebble), 1);
+	}
 	.concept-description {
 		width: 100%;
-		height: 120px;
-		bottom: 0;
+		height: auto;
+		backdrop-filter: blur(0);
 	}
 	.concept-left {
 		left: 0;
+		bottom: 0;
 	}
 	.concept-right {
 		right: 0;
+		top : 0;
 	}
 	.storyboard video {
 		width: 100%;
@@ -183,5 +186,8 @@ p {
 		padding-bottom: 39.375%;
 		width: 70%;
 		left: 15%;
+	}
+	.concept-description {
+		top: 30%;
 	}
 }
