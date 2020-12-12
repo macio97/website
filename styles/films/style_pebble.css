@@ -18,22 +18,6 @@ p {
 }
 
 
-.countdown {
-	text-align: center;
-	color: rgba(var(--pebble), 1);
-}
-
-.countdown div {
-	display: inline-block;
-	padding: 25px;
-}
-
-.countdown span {
-	display: block;
-	font-size: 50px;
-}
-
-
 /* YouTube */
 .video {
 	position: relative;
