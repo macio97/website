@@ -124,12 +124,12 @@ p {
 }
 
 
-.storyboard {
+.process {
 	width: 100%;
 	text-align: center;
 }
 
-.storyboard video {
+.process video {
 	width: 60%;
 	border-radius: var(--round);
 	-webkit-tap-highlight-color: transparent;
@@ -168,7 +168,7 @@ p {
 		right: 0;
 		top : 0;
 	}
-	.storyboard video {
+	.process video {
 		width: 100%;
 	}
 }
