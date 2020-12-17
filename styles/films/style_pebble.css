@@ -39,6 +39,7 @@ p {
 
 /* Content */
 .title {
+	margin-top: 50px;
 	width: 100%;
 	text-align: center;
 }
@@ -66,6 +67,11 @@ p {
 
 .container p {
 	text-align: center;
+}
+
+
+.description p {
+	text-align: left;
 }
 
 

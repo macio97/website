@@ -91,7 +91,7 @@ p {
 .social ul li a {
 	position: relative;
 	font-size: 35px;
-	color: #777;
+	color: var(--wolf-text);
 	transition: .5s;
 	margin: 0 20px;
 }

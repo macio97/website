@@ -220,6 +220,10 @@ main {
 	height: 100px;
 }
 
+.space-small {
+	height: 50px;
+}
+
 
 /* Responsive */
 @media only screen and (max-width: 600px) {
