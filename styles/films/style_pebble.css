@@ -1,14 +1,3 @@
-/* Theme */
-:root {
-	--logos: brightness(100%);
-}
-
-@media (prefers-color-scheme: dark) {
-	:root {
-		--logos: var(--pebble-img);
-	}
-}
-
 h1, h2, p {
 	color: rgba(var(--pebble), 1);
 }
@@ -62,21 +51,34 @@ p {
 .container img {
 	width: 128px;
 	padding: 0 20px;
-	filter: var(--logos);
+	filter: var(--pebble-img);
 }
 
 .container p {
 	text-align: center;
 }
 
+.column1 {
+	float: left;
+}
 
-.description p {
-	text-align: left;
+.column2 {
+	float: left;
+}
+
+.column1 img {
+	width: 70%;
+	border-radius: var(--round);
 }
 
 
 /* Parallax */
-.concept {
+.concept-top {
+	position: relative;
+	height: 100vh;
+}
+
+.concept-bottom {
 	position: relative;
 	height: 100vh;
 }
@@ -112,8 +114,7 @@ p {
 	display: block;
 	width: 400px;
 	height: 170px;
-	background: rgba(0,0,0,0);
-	backdrop-filter: blur(20px);
+	background: rgba(var(--body), 1);
 	border-radius: var(--round);
 }
 
@@ -126,7 +127,7 @@ p {
 }
 
 .concept-description h2, .concept-description p {
-	color: rgba(var(--body), 1);
+	color: rgba(var(--pebble), 1);
 }
 
 
@@ -152,8 +153,13 @@ p {
 		width: 100%;
 		left: 0;
 	}
-	.concept {
+	.concept-top {
 		height: 50vh;
+		padding-bottom: 100px;
+	}
+	.concept-bottom {
+		height: 50vh;
+		padding-top: 100px;
 	}
 	.concept-image {
 		background-attachment: scroll;
@@ -177,6 +183,16 @@ p {
 	.process video {
 		width: 100%;
 	}
+	.column1 {
+		width: 100%;
+		text-align: center;
+	}
+	.column2 {
+		width: 100%;
+	}
+	.column2 p {
+		text-align: center;
+	}
 }
 
 @media only screen and (min-width: 600px) {
@@ -185,6 +201,19 @@ p {
 		width: 80%;
 		left: 10%;
 	}
+	.column1 {
+		width: 30%;
+		text-align: right;
+	}
+	.column2 {
+		width: 70%;
+	}
+	.column2 p {
+		text-align: left;
+	}
+	.concept-description {
+		top: 30%;
+	}
 }
 
 @media only screen and (min-width: 992px) {
@@ -192,8 +221,5 @@ p {
 		padding-bottom: 39.375%;
 		width: 70%;
 		left: 15%;
-	}
-	.concept-description {
-		top: 30%;
 	}
 }
