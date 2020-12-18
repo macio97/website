@@ -37,7 +37,7 @@
 	--snow-img: invert(76%) sepia(60%) saturate(258%) hue-rotate(169deg) brightness(93%) contrast(86%);
 
 	--pebble: 114, 188, 0;
-	--pebble-img: invert(62%) sepia(13%) saturate(6566%) hue-rotate(44deg) brightness(98%) contrast(104%);
+	--pebble-img: invert(55%) sepia(64%) saturate(599%) hue-rotate(41deg) brightness(98%) contrast(103%);
 
 	--marco: 0, 170, 255;
 	--marco-img: invert(69%) sepia(91%) saturate(5104%) hue-rotate(174deg) brightness(104%) contrast(107%);
@@ -83,7 +83,7 @@
 		--snow-img: invert(90%) sepia(22%) saturate(566%) hue-rotate(168deg) brightness(98%) contrast(88%);
 
 		--pebble: 187, 221, 146;
-		--pebble-img: invert(94%) sepia(10%) saturate(1279%) hue-rotate(31deg) brightness(94%) contrast(85%);
+		--pebble-img: invert(86%) sepia(20%) saturate(625%) hue-rotate(40deg) brightness(99%) contrast(85%);
 
 		--marco: 129, 213, 255;
 		--marco-img: invert(72%) sepia(59%) saturate(556%) hue-rotate(173deg) brightness(102%) contrast(103%);
