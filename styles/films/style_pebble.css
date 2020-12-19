@@ -143,6 +143,58 @@ p {
 }
 
 
+/* Credits */
+.credits {
+	width: 100%;
+	text-align: center;
+}
+
+.members {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.collapsible {
+	-webkit-tap-highlight-color: transparent;
+	border: none;
+	cursor: pointer;
+	outline: none;
+	border-radius: var(--round);
+	background: rgba(var(--pebble), var(--dp1));
+	width: 150px;
+	text-decoration: none;
+	transition: all 0.3s;
+}
+
+.collapsible img {
+	width: 100%;
+	filter: var(--pebble-img);
+}
+
+.collapsible:hover {
+	background: rgba(var(--pebble), var(--dp8));
+}
+
+button {
+	font: normal 20px Montserrat !important;
+	padding: 0 !important;
+}
+
+.collap {
+	background: rgba(var(--pebble), var(--dp1));
+	border-radius: var(--round);
+	max-height: 0;
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+	transition: all 0.3s;
+}
+
+.active {
+	background: rgba(var(--pebble), var(--dp8));
+}
+
+
 /* Responsive */
 @media only screen and (max-width: 600px) {
 	.title img {

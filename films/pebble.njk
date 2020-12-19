@@ -12,7 +12,7 @@ stylesheets: [
 		<img src="/images/films/pebble/title.svg">
 	</div>
 
-	<div class="space"></div>
+	<div class="space-small"></div>
 
 	<div class="video">
 		<iframe width="560" height="315" src="https://www.youtube.com/embed/HdadTpg0V0s" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -40,9 +40,35 @@ stylesheets: [
 	<div class="space"></div>
 
 	<h2>Credits</h2>
-	<p>Marco Pavanello: Director, Producer, Music Composer<br>
-Joseph Dowling: Caterpillar's Rigger, General Advisor<br>
-Nathan Craddock: Pebble's Designer, Story Assistant</p>
+	<div class="credits">
+		<div class="members">
+			<button class="collapsible">
+				<img src="/images/logos/wolf.svg">
+				<p>Joseph Dowling</p>
+			</button>
+			<div class="collap">
+				<p>Rigger<br>Advisor</p>
+			</div>
+		</div>
+		<div class="members">
+			<button class="collapsible">
+				<img src="/images/logos/wolf.svg">
+				<p>Marco Pavanello</p>
+			</button>
+			<div class="collap">
+				<p>Director<br>Producer<br>Music<br>Assets</p>
+			</div>
+		</div>
+		<div class="members">
+			<button class="collapsible">
+				<img src="/images/logos/wolf.svg">
+				<p>Nathan Craddock</p>
+			</button>
+			<div class="collap">
+				<p>Designer<br>Story</p>
+			</div>
+		</div>
+	</div>
 
 	<div class="space"></div>
 
@@ -123,3 +149,5 @@ Nathan Craddock: Pebble's Designer, Story Assistant</p>
 
 	<div class="space"></div>
 </main>
+
+<script src="/scripts/collapsible.js" type="text/javascript"></script>
