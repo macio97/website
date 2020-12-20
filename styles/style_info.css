@@ -26,27 +26,26 @@
 }
 
 .wolves a {
-	background: rgba(var(--sky), var(--dp1));
+	background: rgba(var(--wolf), var(--dp1));
 	text-align: center;
 	display: inline-block;
 	text-decoration: none;
-	margin: 0 20px;
 	width: 150px;
 	border-radius: var(--round);
 	transition: all 0.3s;
 }
 
 .wolves a:hover {
-	background: rgba(var(--sky), var(--dp8));
+	background: rgba(var(--wolf), var(--dp8));
 }
 
 .wolves p {
-	color: rgba(var(--sky), 1);
+	color: rgba(var(--wolf), 1);
 	text-align: center;
 }
 
 .wolves img {
-	filter: var(--sky-img);
+	filter: var(--wolf-img);
 	width: 100%;
 }
 
@@ -58,43 +57,23 @@
 
 /* Social */
 .social {
-	display: block;
-	margin-left: -45px;
-}
-
-.social ul {
+	width: 100%;
 	text-align: center;
 }
 
-.social ul li {
-	list-style: none;
+.social a {
+	width: 50px;
 	display: inline-block;
+	margin: 10px;
+	padding: 5px;
+	border-radius: var(--round);
+	transition: all 0.3s;
 }
 
-.social ul li a {
-	position: relative;
-	font-size: 35px;
-	color: rgb(var(--wolf));
-	transition: .5s;
-	margin: 0 20px;
+.social a:hover {
+	background: rgba(var(--wolf), var(--dp8));
 }
 
-.social ul li:nth-child(1) a:hover {
-	color: #d44638;
-}
-
-.social ul li:nth-child(2) a:hover {
-	color: #3b5998;
-}
-
-.social ul li:nth-child(3) a:hover {
-	color: #ff0000;
-}
-
-.social ul li:nth-child(4) a:hover {
-	color: #1da1f2;
-}
-
-.social ul li:nth-child(5) a:hover {
-	color: #333333;
+.social img {
+	filter: var(--wolf-img);
 }
