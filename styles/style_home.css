@@ -25,7 +25,7 @@
 .wolf img {
 	height: 100%;
 	padding: 10% 0 0 10%;
-	filter: var(--menu-img) var(--draw);
+	filter: var(--wolf-img) var(--draw);
 }
 
 

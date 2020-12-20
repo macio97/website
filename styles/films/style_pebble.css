@@ -147,6 +147,8 @@ p {
 .credits {
 	width: 100%;
 	text-align: center;
+	overflow-x: auto;
+	white-space: nowrap;
 }
 
 .members {
