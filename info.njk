@@ -17,7 +17,7 @@ stylesheets: [
 	<h2>Members</h2>
 	<div class="wolves">
 		{% for member in members %}
-			<a class="box {{ member }}" title="{{members_list[member].name}}" href="{{members_list[member].link}}">
+			<a title="{{members_list[member].name}}" href="{{members_list[member].link}}">
 				<img src="/images/logos/wolf.svg">
 				<p>{{members_list[member].name}}</p>
 			</a>
@@ -26,18 +26,20 @@ stylesheets: [
 
 	<div class="space"></div>
 
-	<h2>Who</h2>
-	<p>We are a group of artists</p>
+	<div class="information">
+		<h2>Who</h2>
+		<p>We are a group of artists</p>
 
-	<div class="space-small"></div>
+		<div class="space-small"></div>
 
-	<h2>What</h2>
-	<p>We use Blender 3D for making free and paid tools but also open movies</p>
+		<h2>What</h2>
+		<p>We use Blender 3D for making free and paid tools but also open movies</p>
 
-	<div class="space-small"></div>
-	
-	<h2>Why</h2>
-	<p>Wolf is the "big picture" future studio company we would like to found</p>
+		<div class="space-small"></div>
+		
+		<h2>Why</h2>
+		<p>Wolf is the "big picture" future studio company we would like to found</p>
+	</div>
 
 	<div class="space"></div>
 

@@ -38,12 +38,6 @@
 
 	--pebble: 114, 188, 0;
 	--pebble-img: invert(55%) sepia(64%) saturate(599%) hue-rotate(41deg) brightness(98%) contrast(103%);
-
-	--marco: 0, 170, 255;
-	--marco-img: invert(69%) sepia(91%) saturate(5104%) hue-rotate(174deg) brightness(104%) contrast(107%);
-
-	--joseph: 255, 8, 0;
-	--joseph-img: invert(10%) sepia(100%) saturate(7291%) hue-rotate(2deg) brightness(104%) contrast(101%);
 }
 
 
@@ -84,11 +78,5 @@
 
 		--pebble: 187, 221, 146;
 		--pebble-img: invert(86%) sepia(20%) saturate(625%) hue-rotate(40deg) brightness(99%) contrast(85%);
-
-		--marco: 129, 213, 255;
-		--marco-img: invert(72%) sepia(59%) saturate(556%) hue-rotate(173deg) brightness(102%) contrast(103%);
-
-		--joseph: 255, 162, 138;
-		--joseph-img: invert(75%) sepia(20%) saturate(1328%) hue-rotate(316deg) brightness(101%) contrast(101%);
 	}
 }

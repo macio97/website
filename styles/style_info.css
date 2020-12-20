@@ -1,29 +1,3 @@
-/* Content */
-p {
-	text-align: center;
-}
-
-.wolves {
-	text-align: center;
-	overflow-x: auto;
-	white-space: nowrap;
-}
-
-.box {
-	text-align: center;
-	display: inline-block;
-	text-decoration: none;
-	margin: 0 20px;
-	width: 180px;
-	border-radius: var(--round);
-	transition: all 0.3s;
-}
-
-.box img {
-	width: 100%;
-}
-
-
 /* Chat */
 .chat {
 	position: fixed;
@@ -44,36 +18,45 @@ p {
 }
 
 
-/* Marco */
-.marco {
-	background: rgba(var(--marco), var(--dp1));
-}
-.marco:hover {
-	background: rgba(var(--marco), var(--dp8));
-}
-.marco p {
-	color: rgba(var(--marco), 1);
-}
-.marco img {
-	filter: var(--marco-img);
+/* Members */
+.wolves {
+	text-align: center;
+	overflow-x: auto;
+	white-space: nowrap;
 }
 
-/* Joseph */
-.joseph {
-	background: rgba(var(--joseph), var(--dp1));
+.wolves a {
+	background: rgba(var(--sky), var(--dp1));
+	text-align: center;
+	display: inline-block;
+	text-decoration: none;
+	margin: 0 20px;
+	width: 150px;
+	border-radius: var(--round);
+	transition: all 0.3s;
 }
-.joseph:hover {
-	background: rgba(var(--joseph), var(--dp8));
+
+.wolves a:hover {
+	background: rgba(var(--sky), var(--dp8));
 }
-.joseph p {
-	color: rgba(var(--joseph), 1);
+
+.wolves p {
+	color: rgba(var(--sky), 1);
+	text-align: center;
 }
-.joseph img {
-	filter: var(--joseph-img);
+
+.wolves img {
+	filter: var(--sky-img);
+	width: 100%;
 }
 
 
-/* Social Icons */
+.information p {
+	text-align: center;
+}
+
+
+/* Social */
 .social {
 	display: block;
 	margin-left: -45px;
