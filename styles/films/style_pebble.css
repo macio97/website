@@ -72,6 +72,39 @@ p {
 }
 
 
+/* Buttons */
+.buttons {
+	position: relative;
+	text-align: center;
+	display: inline-block;
+	width: 200px;
+	margin-top: 20px;
+	left: 50%;
+	margin-left: -100px;
+}
+
+.buttons a {
+	display: block;
+	font-size: 20px;
+	color: rgb(var(--pebble));
+	background: rgba(var(--pebble), var(--dp1));
+	width: 200px;
+	line-height: 2em;
+	border-radius: var(--round);
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: all 0.3s;
+}
+
+.buttons a:hover{
+	background: rgba(var(--pebble), var(--dp8));
+}
+
+.buttons p {
+	margin: 10px 0;
+}
+
+
 /* Parallax */
 .concept-top {
 	position: relative;
@@ -134,12 +167,6 @@ p {
 .process {
 	width: 100%;
 	text-align: center;
-}
-
-.process video {
-	width: 60%;
-	border-radius: var(--round);
-	-webkit-tap-highlight-color: transparent;
 }
 
 
@@ -233,9 +260,6 @@ button {
 	.concept-right {
 		right: 0;
 		top : 0;
-	}
-	.process video {
-		width: 100%;
 	}
 	.column1 {
 		width: 100%;
