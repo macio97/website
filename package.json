@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/macio97/website.git"
+    "url": "git+https://github.com/marcopavanello/website.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/macio97/website/issues"
+    "url": "https://github.com/marcopavanello/website/issues"
   },
-  "homepage": "https://github.com/macio97/website#readme",
+  "homepage": "https://github.com/marcopavanello/website#readme",
   "dependencies": {
     "@11ty/eleventy": "^0.11.0"
   }
