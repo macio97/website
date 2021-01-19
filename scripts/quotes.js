@@ -12,11 +12,17 @@ var quote = [
 
     "Live as if you were to die tomorrow. Learn as if you were to live forever - Mahatma Gandhi",
     "Freedom is not worth having if it does not include the freedom to make mistakes - Mahatma Gandhi",
+    "You assist an evil system most effectively by obeying its orders and decrees. An evil system never deserves such allegiance. Allegiance to it means partaking of the evil. A good person will resist an evil system with his or her whole soul - Mahatma Gandhi",
 
     "Our highest endeavor must be to develop free human beings who are able of themselves to impart purpose and direction to their lives. The need for imagination, a sense of truth, and a feeling of responsibility, these three forces are the very nerve of education - Rudolf Steiner",
     "The main difference in the effectiveness of teaching comes from the thoughts the teacher has had during the entire time of his or her existence and brings into the classroom. A teacher concerned with developing humans affects the students quite differently from a teacher who never thinks about such things - Rudolf Steiner",
 
-    "All our dreams can come true if we have the courage to pursue them - Walt Disney"
+    "All our dreams can come true if we have the courage to pursue them - Walt Disney",
+
+    "With software there are only two possibilites: either the users control the programme or the programme controls the users. If the programme controls the users, and the developer controls the programme, then the programme is an instrument of unjust power - Richard Stallman",
+    "Free software is software that respects your freedom and the social solidarity of your community. So it's free as in freedom - Richard Stallman",
+    "People said I should accept the world. Bullshit! I don't accept the world - Richard Stallman",
+    "Proprietary software tends to have malicious features. The point is with a proprietary program, when the users dont have the source code, we can never tell. So you must consider every proprietary program as potential malware - Richard Stallman"
 ];
 
 var i = Math.floor(quote.length * Math.random());
