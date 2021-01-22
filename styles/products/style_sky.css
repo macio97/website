@@ -1,7 +1,6 @@
 /* Theme */
 :root {
-	--theme: rgba(var(--sky), 1);
-	--collap: var(--sky);
+	--theme: var(--sky);
 	--img: var(--sky-img);
 }
 

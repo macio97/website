@@ -1,6 +1,5 @@
 /* Theme */
 :root {
-	--theme: rgba(var(--archdec), 1);
-	--collap: var(--archdec);
+	--theme: var(--archdec);
 	--img: var(--archdec-img);
 }

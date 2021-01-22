@@ -1,7 +1,6 @@
 /* Theme */
 :root {
-	--theme: rgba(var(--trees), 1);
-	--collap: var(--trees);
+	--theme: var(--trees);
 	--img: var(--trees-img);
 }
 

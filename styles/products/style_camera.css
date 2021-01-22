@@ -1,7 +1,6 @@
 /* Theme */
 :root {
-	--theme: rgba(var(--camera), 1);
-	--collap: var(--camera);
+	--theme: var(--camera);
 	--img: var(--camera-img);
 }
 

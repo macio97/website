@@ -1,7 +1,6 @@
 /* Theme */
 :root {
-	--theme: rgba(var(--materials), 1);
-	--collap: var(--materials);
+	--theme: var(--materials);
 	--img: var(--materials-img);
 }
 

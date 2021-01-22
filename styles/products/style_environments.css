@@ -1,7 +1,6 @@
 /* Theme */
 :root {
-	--theme: rgba(var(--environments), 1);
-	--collap: var(--environments);
+	--theme: var(--environments);
 	--img: var(--environments-img);
 	--height: 200px;
 	--fadecol: 20%;
