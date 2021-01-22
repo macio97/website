@@ -25,8 +25,11 @@ a {
 .sky .box:hover {
 	background: rgba(var(--sky), var(--dp8));
 }
-.sky h2, .sky p {
+.sky h2 {
 	color: rgba(var(--sky), 1);
+}
+.sky p {
+	color: rgba(var(--sky), var(--high-emphasis));
 }
 .sky img {
 	filter: var(--sky-img);
@@ -39,8 +42,11 @@ a {
 .grass .box:hover {
 	background: rgba(var(--grass), var(--dp8));
 }
-.grass h2, .grass p {
+.grass h2 {
 	color: rgba(var(--grass), 1);
+}
+.grass p {
+	color: rgba(var(--grass), var(--high-emphasis));
 }
 .grass img {
 	filter: var(--grass-img);
@@ -53,8 +59,11 @@ a {
 .trees .box:hover {
 	background: rgba(var(--trees), var(--dp8));
 }
-.trees h2, .trees p {
+.trees h2 {
 	color: rgba(var(--trees), 1);
+}
+.trees p {
+	color: rgba(var(--trees), var(--high-emphasis));
 }
 .trees img {
 	filter: var(--trees-img);
@@ -67,8 +76,11 @@ a {
 .environments .box:hover {
 	background: rgba(var(--environments), var(--dp8));
 }
-.environments h2, .environments p {
+.environments h2 {
 	color: rgba(var(--environments), 1);
+}
+.environments p {
+	color: rgba(var(--environments), var(--high-emphasis));
 }
 .environments img {
 	filter: var(--environments-img);
@@ -81,8 +93,11 @@ a {
 .archdec .box:hover {
 	background: rgba(var(--archdec), var(--dp8));
 }
-.archdec h2, .archdec p {
+.archdec h2 {
 	color: rgba(var(--archdec), 1);
+}
+.archdec p {
+	color: rgba(var(--archdec), var(--high-emphasis));
 }
 .archdec img {
 	filter: var(--archdec-img);
@@ -95,8 +110,11 @@ a {
 .archdec_2 .box:hover {
 	background: rgba(var(--archdec_2), var(--dp8));
 }
-.archdec_2 h2, .archdec_2 p {
+.archdec_2 h2 {
 	color: rgba(var(--archdec_2), 1);
+}
+.archdec_2 p {
+	color: rgba(var(--archdec_2), var(--high-emphasis));
 }
 .archdec_2 img {
 	filter: var(--archdec_2-img);
@@ -109,8 +127,11 @@ a {
 .materials .box:hover {
 	background: rgba(var(--materials), var(--dp8));
 }
-.materials h2, .materials p {
+.materials h2 {
 	color: rgba(var(--materials), 1);
+}
+.materials p {
+	color: rgba(var(--materials), var(--high-emphasis));
 }
 .materials img {
 	filter: var(--materials-img);
@@ -123,8 +144,11 @@ a {
 .camera .box:hover {
 	background: rgba(var(--camera), var(--dp8));
 }
-.camera h2, .camera p {
+.camera h2 {
 	color: rgba(var(--camera), 1);
+}
+.camera p {
+	color: rgba(var(--camera), var(--high-emphasis));
 }
 .camera img {
 	filter: var(--camera-img);
@@ -137,8 +161,11 @@ a {
 .snow .box:hover {
 	background: rgba(var(--snow), var(--dp8));
 }
-.snow h2, .snow p {
+.snow h2 {
 	color: rgba(var(--snow), 1);
+}
+.snow p {
+	color: rgba(var(--snow), var(--high-emphasis));
 }
 .snow img {
 	filter: var(--snow-img);
