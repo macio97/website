@@ -4,11 +4,15 @@
 /* Light/Dark theme */
 :root {
 	--draw: contrast(0%);
+	--theme: var(--wolf);
+	--img: var(--wolf-img);
 }
 
 @media (prefers-color-scheme: dark) {
 	:root {
 		--draw: contrast(103%);
+		--theme: var(--wolf);
+		--img: var(--wolf-img);
 	}
 }
 

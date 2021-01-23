@@ -1,13 +1,16 @@
 /* Light theme */
 :root {
+	/* Elevations */
 	--dp1: 0.05;
 	--dp8: 0.12;
-	--round: 14px;
 
-	/* Text */
+	/* Text emphasis */
 	--high-emphasis: 0.87;
 	--medium-emphasis: 0.6;
 	--disabled: 0.38;
+
+	/* Properties */
+	--round: 14px;
 
 	--body: 255,255,255;
 	--menu-opa: 0.5;

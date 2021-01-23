@@ -1,3 +1,10 @@
+/* Theme */
+:root {
+	--theme: var(--wolf);
+	--img: var(--wolf-img);
+}
+
+
 /* Members */
 .wolves {
 	text-align: center;

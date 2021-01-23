@@ -3,9 +3,3 @@
 	--theme: var(--grass);
 	--img: var(--grass-img);
 }
-
-	
-/* Contents */
-.column li {
-	color: var(--theme);
-}

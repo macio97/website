@@ -1,3 +1,10 @@
+/* Theme */
+:root {
+	--theme: var(--pebble);
+	--img: var(--pebble-img);
+}
+
+
 h1, h2, p {
 	color: rgba(var(--pebble), 1);
 }
@@ -155,7 +162,7 @@ p {
 .license img {
 	filter: var(--pebble-img);
 	width: 64px;
-	margin: 0 10px;
+	margin: 0 5px;
 }
 
 

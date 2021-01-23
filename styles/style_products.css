@@ -1,3 +1,10 @@
+/* Theme */
+:root {
+	--theme: var(--wolf);
+	--img: var(--wolf-img);
+}
+
+
 main {
 	text-align: center;
 }
