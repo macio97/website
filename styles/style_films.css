@@ -29,7 +29,6 @@ a {
 .box {
 	width: 600px;
 	height: 200px;
-	margin: 2px;
 	border-radius: var(--round);
 	display: grid;
 	grid-template-columns: 25% auto;
@@ -53,8 +52,11 @@ a {
 .pebble .box:hover {
 	background: rgba(var(--pebble), var(--dp8));
 }
-.pebble h2, .pebble p {
+.pebble h2 {
 	color: rgba(var(--pebble), 1);
+}
+.pebble p {
+	color: rgba(var(--pebble), var(--high-emphasis));
 }
 .pebble img {
 	filter: var(--pebble-img);

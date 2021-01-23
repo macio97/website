@@ -32,6 +32,7 @@
 
 .information p {
 	text-align: center;
+	color: rgba(var(--wolf), var(--high-emphasis));
 }
 
 
