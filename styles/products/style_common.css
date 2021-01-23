@@ -75,24 +75,28 @@ p {
 
 
 /* Collapsible */
+/* Collapsible */
 .collapsible {
 	border: none;
-	display: block;
 	cursor: pointer;
 	outline: none;
 	font: normal 18px Montserrat;
 	padding: 0;
-	line-height: 2em;
 	color: rgb(var(--theme));
 	background: rgba(var(--theme), var(--dp1));
-	width: 200px;
 	text-decoration: none;
-	text-transform: uppercase;
 	transition: all 0.3s;
 }
 
 .collapsible:hover {
 	background: rgba(var(--theme), var(--dp8));
+}
+
+.buttons .collapsible {
+	display: block;
+	width: 200px;
+	line-height: 2em;
+	text-transform: uppercase;
 }
 
 .collap {
@@ -111,6 +115,12 @@ p {
 
 .active {
 	background: rgba(var(--theme), var(--dp8));
+}
+
+.license img {
+	filter: var(--img);
+	width: 64px;
+	margin: 0 10px;
 }
 
 

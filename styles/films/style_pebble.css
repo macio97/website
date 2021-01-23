@@ -148,10 +148,6 @@ p {
 	transition: all 0.3s;
 }
 
-.collap p {
-	text-align: center;
-}
-
 .active {
 	background: rgba(var(--pebble), var(--dp8));
 }
@@ -220,7 +216,6 @@ p {
 .concept-description h2, .concept-description p {
 	color: rgba(var(--pebble), 1);
 }
-
 
 .process {
 	width: 100%;
