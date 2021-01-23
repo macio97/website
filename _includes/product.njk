@@ -72,9 +72,15 @@ layout: base.njk
 
 				{%- if license -%}
 					<button class="collapsible downend">License</button>
-					<div class="collap license">
-						<h2>{{ license }}</h2>
-						<p>{{licenses_list[license].description}}</p>
+					<div class="collap">
+						<p>{{ license }}</p>
+						{%- if licenses_list[license].logo -%}
+							<div>
+								{%- for logo in licenses_list[license].logo -%}
+									<img src="{{ logo }}">
+								{%- endfor -%}
+							</div>
+						{%- endif -%}
 					</div>
 				{%- endif -%}
 			</div>

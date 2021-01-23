@@ -113,10 +113,6 @@ p {
 	background: rgba(var(--theme), var(--dp8));
 }
 
-.license p {
-	text-align: left;
-}
-
 
 /* Content */
 .description {
