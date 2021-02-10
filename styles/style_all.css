@@ -110,14 +110,12 @@ main {
 	text-transform: uppercase;
 	font-size: 18px;
 	width: 100%;
-	color: rgb(var(--theme));
-	filter: brightness(70%);
 	transition: all 0.3s;
 }
 
-#menu a:hover {
+.main a:hover, .selected {
 	color: rgb(var(--theme));
-	filter: brightness(70%);
+	opacity: 0.6;
 }
 
 #menu ul {

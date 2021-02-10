@@ -50,7 +50,6 @@ p {
 	color: rgb(var(--body));
 	background: rgb(var(--theme));
 	width: 200px;
-	font-weight: bold;
 	line-height: 2em;
 	text-decoration: none;
 	text-transform: uppercase;
@@ -74,7 +73,6 @@ p {
 	cursor: pointer;
 	outline: none;
 	font: normal 18px Montserrat;
-	font-weight: bold;
 	padding: 0;
 	color: rgb(var(--body));
 	background: rgb(var(--theme));
@@ -90,7 +88,7 @@ p {
 }
 
 .collap {
-	background: rgba(var(--theme), var(--dp8));
+	background: rgba(var(--theme), var(--dp4));
 	border-radius: var(--round);
 	padding: 0 10px;
 	position: relative;
@@ -119,7 +117,7 @@ p {
 	text-align: center;
 	display: block;
 	padding: 10px;
-	background: rgba(var(--theme), var(--dp8));
+	background: rgba(var(--theme), var(--dp4));
 	border-radius: var(--round);
 }
 

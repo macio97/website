@@ -58,10 +58,12 @@
 	transition: all 0.3s;
 }
 
-.social a:hover {
-	background: rgba(var(--wolf), var(--dp8));
-}
-
 .social img {
 	filter: var(--wolf-img);
+	transition: all 0.3s;
+}
+
+.social a:hover img {
+	filter: var(--wolf-img);
+	opacity: var(--selected);
 }

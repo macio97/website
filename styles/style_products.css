@@ -2,12 +2,10 @@
 :root {
 	--theme: var(--wolf);
 	--img: var(--wolf-img);
+	--box-normal: var(--dp2);
+	--box-hover: var(--dp24);
 }
 
-
-main {
-	text-align: center;
-}
 
 h2 {
 	margin-top: 0;
@@ -27,10 +25,10 @@ a {
 
 /* Sky */
 .sky .box {
-	background: rgba(var(--sky), var(--dp1));
+	background: rgba(var(--sky), var(--box-normal));
 }
 .sky .box:hover {
-	background: rgba(var(--sky), var(--dp8));
+	background: rgba(var(--sky), var(--box-hover));
 }
 .sky h2 {
 	color: rgba(var(--sky), 1);
@@ -44,10 +42,10 @@ a {
 
 /* Grass */
 .grass .box {
-	background: rgba(var(--grass), var(--dp1));
+	background: rgba(var(--grass), var(--box-normal));
 }
 .grass .box:hover {
-	background: rgba(var(--grass), var(--dp8));
+	background: rgba(var(--grass), var(--box-hover));
 }
 .grass h2 {
 	color: rgba(var(--grass), 1);
@@ -61,10 +59,10 @@ a {
 
 /* Trees */
 .trees .box {
-	background: rgba(var(--trees), var(--dp1));
+	background: rgba(var(--trees), var(--box-normal));
 }
 .trees .box:hover {
-	background: rgba(var(--trees), var(--dp8));
+	background: rgba(var(--trees), var(--box-hover));
 }
 .trees h2 {
 	color: rgba(var(--trees), 1);
@@ -78,10 +76,10 @@ a {
 
 /* Environments */
 .environments .box {
-	background: rgba(var(--environments), var(--dp1));
+	background: rgba(var(--environments), var(--box-normal));
 }
 .environments .box:hover {
-	background: rgba(var(--environments), var(--dp8));
+	background: rgba(var(--environments), var(--box-hover));
 }
 .environments h2 {
 	color: rgba(var(--environments), 1);
@@ -95,10 +93,10 @@ a {
 
 /* ArchDec */
 .archdec .box {
-	background: rgba(var(--archdec), var(--dp1));
+	background: rgba(var(--archdec), var(--box-normal));
 }
 .archdec .box:hover {
-	background: rgba(var(--archdec), var(--dp8));
+	background: rgba(var(--archdec), var(--box-hover));
 }
 .archdec h2 {
 	color: rgba(var(--archdec), 1);
@@ -112,10 +110,10 @@ a {
 
 /* ArchDec 2 */
 .archdec_2 .box {
-	background: rgba(var(--archdec_2), var(--dp1));
+	background: rgba(var(--archdec_2), var(--box-normal));
 }
 .archdec_2 .box:hover {
-	background: rgba(var(--archdec_2), var(--dp8));
+	background: rgba(var(--archdec_2), var(--box-hover));
 }
 .archdec_2 h2 {
 	color: rgba(var(--archdec_2), 1);
@@ -129,10 +127,10 @@ a {
 
 /* Materials */
 .materials .box {
-	background: rgba(var(--materials), var(--dp1));
+	background: rgba(var(--materials), var(--box-normal));
 }
 .materials .box:hover {
-	background: rgba(var(--materials), var(--dp8));
+	background: rgba(var(--materials), var(--box-hover));
 }
 .materials h2 {
 	color: rgba(var(--materials), 1);
@@ -146,10 +144,10 @@ a {
 
 /* Camera */
 .camera .box {
-	background: rgba(var(--camera), var(--dp1));
+	background: rgba(var(--camera), var(--box-normal));
 }
 .camera .box:hover {
-	background: rgba(var(--camera), var(--dp8));
+	background: rgba(var(--camera), var(--box-hover));
 }
 .camera h2 {
 	color: rgba(var(--camera), 1);
@@ -163,10 +161,10 @@ a {
 
 /* Snow */
 .snow .box {
-	background: rgba(var(--snow), var(--dp1));
+	background: rgba(var(--snow), var(--box-normal));
 }
 .snow .box:hover {
-	background: rgba(var(--snow), var(--dp8));
+	background: rgba(var(--snow), var(--box-hover));
 }
 .snow h2 {
 	color: rgba(var(--snow), 1);
@@ -195,6 +193,7 @@ a {
 	display: grid;
 	grid-template-columns: 25% auto;
 	place-items: center;
+	text-align: center;
 	transition: all 0.3s;
 }
 

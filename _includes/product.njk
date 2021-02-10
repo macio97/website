@@ -7,7 +7,7 @@ layout: base.njk
 	<div class="video">
 		<iframe width="560" height="315" src="{{ video }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	</div>
-	
+
 	<div class="space"></div>
 
 	<div class="halfpage">
@@ -56,11 +56,11 @@ layout: base.njk
 				{%- if requirements -%}
 					<button class="collapsible">Requirements</button>
 					<div class="collap">
-						<h2>Minimum</h2>
+						<p><b>Minimum</b></p>
 							{%- for req in requirements["minimum"] -%}
 								<p> - {{ req }}</p>
 							{%- endfor -%}
-						<h2>Recommended</h2>
+						<p><b>Recommended</b></p>
 							{%- for req in requirements["recommended"] -%}
 								<p> - {{ req }}</p>
 							{%- endfor -%}

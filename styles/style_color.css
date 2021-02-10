@@ -2,7 +2,13 @@
 :root {
 	/* Elevations */
 	--dp1: 0.05;
+	--dp2: 0.07;
+	--dp3: 0.08;
+	--dp4: 0.09;
+	--dp6: 0.11;
 	--dp8: 0.12;
+	--dp12: 0.14;
+	--dp16: 0.15;
 	--dp24: 0.16;
 
 	/* Text emphasis */
@@ -12,13 +18,13 @@
 
 	/* Properties */
 	--round: 14px;
-	--selected: 0.8;
+	--selected: 0.75;
 
 	--body: 255,255,255;
 	--menu-opa: 0.5;
 
-	--wolf: 0, 0, 0;
-	--wolf-img: brightness(0%);
+	--wolf: 0, 170, 255;
+	--wolf-img: invert(69%) sepia(91%) saturate(5104%) hue-rotate(174deg) brightness(104%) contrast(107%);
 
 	--sky: 0, 170, 255;
 	--sky-img: invert(69%) sepia(91%) saturate(5104%) hue-rotate(174deg) brightness(104%) contrast(107%);
