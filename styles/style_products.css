@@ -23,6 +23,35 @@ a {
 }
 
 
+/* Content */
+.products {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding: 0 50px;
+}
+
+.box {
+	width: 400px;
+	height: 170px;
+	margin: 2px;
+	border-radius: var(--round);
+	display: grid;
+	grid-template-columns: 25% auto;
+	place-items: center;
+	text-align: center;
+	transition: all 0.3s;
+}
+
+.box img {
+	width: 80%;
+}
+
+.box div {
+	width: 100%;
+}
+
+
 /* Sky */
 .sky .box {
 	background: rgba(var(--sky), var(--box-normal));
@@ -174,35 +203,6 @@ a {
 }
 .snow img {
 	filter: var(--snow-img);
-}
-
-
-/* Content */
-.products {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	padding: 0 50px;
-}
-
-.box {
-	width: 400px;
-	height: 170px;
-	margin: 2px;
-	border-radius: var(--round);
-	display: grid;
-	grid-template-columns: 25% auto;
-	place-items: center;
-	text-align: center;
-	transition: all 0.3s;
-}
-
-.box img {
-	width: 80%;
-}
-
-.box div {
-	width: 100%;
 }
 
 

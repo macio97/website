@@ -59,6 +59,7 @@
 }
 
 .social img {
+	width: 100%;
 	filter: var(--wolf-img);
 	transition: all 0.3s;
 }

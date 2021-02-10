@@ -144,10 +144,6 @@ p {
 	transition: all 0.3s;
 }
 
-.roles p {
-	text-align: center;
-}
-
 
 /* Responsive */
 @media only screen and (max-width: 600px) {

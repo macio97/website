@@ -2,12 +2,10 @@
 :root {
 	--theme: var(--wolf);
 	--img: var(--wolf-img);
+	--box-normal: var(--dp2);
+	--box-hover: var(--dp24);
 }
 
-
-main {
-	text-align: center;
-}
 
 h2 {
 	margin-top: 0;
@@ -40,6 +38,7 @@ a {
 	display: grid;
 	grid-template-columns: 25% auto;
 	place-items: center;
+	text-align: center;
 	transition: all 0.3s;
 }
 
