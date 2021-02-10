@@ -19,9 +19,10 @@
 	/* Properties */
 	--round: 14px;
 	--selected: 0.75;
+	--menu-opa: 0.5;
 
 	--body: 255,255,255;
-	--menu-opa: 0.5;
+	--body-img: invert(100%);
 
 	--wolf: 0, 170, 255;
 	--wolf-img: invert(69%) sepia(91%) saturate(5104%) hue-rotate(174deg) brightness(104%) contrast(107%);
@@ -62,8 +63,10 @@
 @media (prefers-color-scheme: dark) {
 	:root {
 		/* Properties */
-		--body: 18, 18, 18;
 		--menu-opa: 0.8;
+
+		--body: 18, 18, 18;
+		--body-img: invert(7%);
 		
 		--wolf: 129, 213, 255;
 		--wolf-img: invert(72%) sepia(59%) saturate(556%) hue-rotate(173deg) brightness(102%) contrast(103%);

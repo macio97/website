@@ -3,5 +3,7 @@
         "films"
     ],
     "layout": "base.njk",
-    "stylesheets": []
+    "stylesheets": [
+        "/styles/style_common.css"
+    ]
 }

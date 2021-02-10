@@ -1,12 +1,4 @@
-h1 {
-	color: rgb(var(--theme));
-}
-
-h2 {
-	color: rgb(var(--theme));
-}
-
-p {
+h1, h2, p {
 	color: rgb(var(--theme));
 }
 
@@ -91,8 +83,9 @@ p {
 	background: rgba(var(--theme), var(--dp4));
 	border-radius: var(--round);
 	padding: 0 10px;
-	position: relative;
 	max-height: 0;
+	width: 100%;
+	position: relative;
 	overflow: hidden;
 	transition: all 0.3s;
 }
@@ -136,7 +129,6 @@ p {
 
 .container {
 	display: inline-block;
-	max-width: 500px;
 }
 
 .container p {
@@ -144,6 +136,7 @@ p {
 }
 
 .supcontainer {
+	padding: 0 5%;
 	width: 100%;
 	text-align: center;
 }
