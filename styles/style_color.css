@@ -26,8 +26,8 @@
 	--grass: 0, 212, 35;
 	--grass-img: invert(57%) sepia(52%) saturate(7094%) hue-rotate(109deg) brightness(114%) contrast(111%);
 
-	--trees: 156, 215, 156;
-	--trees-img: invert(26%) sepia(92%) saturate(5292%) hue-rotate(139deg) brightness(101%) contrast(102%);
+	--trees: 39, 156, 39;
+	--trees-img: invert(52%) sepia(66%) saturate(6724%) hue-rotate(101deg) brightness(104%) contrast(69%);
 
 	--environments: 168, 143, 101;
 	--environments-img: invert(53%) sepia(42%) saturate(321%) hue-rotate(359deg) brightness(100%) contrast(87%);
