@@ -48,17 +48,13 @@ p {
 .buttons a {
 	display: block;
 	font-size: 18px;
-	color: rgb(var(--theme));
-	background: rgba(var(--theme), var(--dp1));
+	color: rgb(var(--body));
+	background: rgb(var(--theme));
 	width: 200px;
 	line-height: 2em;
 	text-decoration: none;
 	text-transform: uppercase;
 	transition: all 0.3s;
-}
-
-.buttons a:hover{
-	background: rgba(var(--theme), var(--dp8));
 }
 
 .buttons p {
@@ -73,23 +69,16 @@ p {
 	border-radius: 0 0 var(--round) var(--round);
 }
 
-
-/* Collapsible */
-/* Collapsible */
 .collapsible {
 	border: none;
 	cursor: pointer;
 	outline: none;
 	font: normal 18px Montserrat;
 	padding: 0;
-	color: rgb(var(--theme));
-	background: rgba(var(--theme), var(--dp1));
+	color: rgb(var(--body));
+	background: rgb(var(--theme));
 	text-decoration: none;
 	transition: all 0.3s;
-}
-
-.collapsible:hover {
-	background: rgba(var(--theme), var(--dp8));
 }
 
 .buttons .collapsible {
@@ -113,8 +102,8 @@ p {
 	text-align: center;
 }
 
-.active {
-	background: rgba(var(--theme), var(--dp8));
+.buttons a:hover, .collapsible:hover, .active {
+	background: rgba(var(--theme), var(--selected));
 }
 
 .license img {
@@ -173,9 +162,14 @@ p {
 	display: inline-block;
 	text-decoration: none;
 	text-transform: none;
-	width: 150px;
+	width: 128px;
 	border-radius: var(--round);
+	background: rgba(var(--theme), var(--dp1));
 	transition: all 0.3s;
+}
+
+.members a:hover {
+	background: rgba(var(--theme), var(--dp8));;
 }
 
 .members p {
