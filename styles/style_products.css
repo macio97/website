@@ -103,6 +103,23 @@ a {
 	filter: var(--trees-img);
 }
 
+/* Rocks */
+.rocks .box {
+	background: rgba(var(--rocks), var(--box-normal));
+}
+.rocks .box:hover {
+	background: rgba(var(--rocks), var(--box-hover));
+}
+.rocks h2 {
+	color: rgba(var(--rocks), 1);
+}
+.rocks p {
+	color: rgba(var(--rocks), var(--high-emphasis));
+}
+.rocks img {
+	filter: var(--rocks-img);
+}
+
 /* Environments */
 .environments .box {
 	background: rgba(var(--environments), var(--box-normal));

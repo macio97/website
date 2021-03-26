@@ -1,0 +1,20 @@
+/* Theme */
+:root {
+	--theme: var(--rocks);
+	--img: var(--rocks-img);
+}
+
+.countdown {
+	text-align: center;
+	color: rgb(var(--theme));
+}
+
+.countdown div {
+	display: inline-block;
+	padding: 25px;
+}
+
+.countdown span {
+	display: block;
+	font-size: 50px;
+}
