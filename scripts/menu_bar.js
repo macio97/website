@@ -1,3 +1,5 @@
+// @license magnet:?xt=urn:btih:1f739d935676111cfff4b4693e3816e664797050&dn=gpl-3.0.txt GPL-v3-or-Later
+
 function mouseOver() {
   if (screen.width >= 600) {
     document.getElementById("section").style.height = "160px";
@@ -20,3 +22,5 @@ function openMenu() {
     document.getElementById("section").style.height = "50px";
   }
 }
+
+// @license-end
