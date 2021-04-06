@@ -31,5 +31,6 @@ module.exports = {
     "textures": getFolderFilePathsWithNames("images/products/materials/textures"),
     "grass": getFolderFilePathsWithNames("images/products/grass/grass"),
     "weeds": getFolderFilePathsWithNames("images/products/grass/weeds"),
-    "trees": getFolderFilePathsWithNames("images/products/trees/icons")
+    "trees": getFolderFilePathsWithNames("images/products/trees/icons"),
+    "rocks": getFolderFilePathsWithNames("images/products/rocks/icons")
 };

@@ -5,26 +5,46 @@ full_name: Real Rocks
 title: Rocks
 icon: images/products/icons/rocks.svg
 
-description: Coming soon...
-description_short: Coming soon...
+description: Real Rocks is a pack of procedural rock shaders
+description_short: Pack of procedural rocks
 
-download_link:
-download_type: Coming
+download_link: https://blendermarket.com/products/archdec-2
+download_type: Buy
+guide_link: https://cryptpad.fr/pad/#/2/pad/view/oDEi04U-vud8kL8XTuN8VquUS5Ju7GOTbdRwUs9+wFM/
+version: "1.0"
+changelog: "First version"
 license: Royalty Free
+
+coverimg: "images/products/rocks/cover.webp"
 
 stylesheets: [
     "/styles/products/style_rocks.css"
 ]
-scripts: [
-	"scripts/countdown.js"
-]
 ---
 
-<div class="countdown">
-	<div><span id="days"></span>Days</div>
-	<div><span id="hours"></span>Hours</div>
-	<div><span id="minutes"></span>Minutes</div>
-	<div><span id="seconds"></span>Seconds</div>
+<h2>Procedural</h2>
+<div class="halfpage">
+	<div class="column panel">
+	    <video width="512" height="600" autoplay muted loop>
+            <source src="../images/products/rocks/turntable.webm" type="video/webm">
+        </video>
+	</div>
+	<div class="column desc">
+		<p>The pack contains 14 procedural rock shaders that are 100% customizable.<br>
+        These are some of the most common rock types from Metamorphic, Sedimentary and Igneous.<br>
+        They are ready both for close up and far scenes since they can be used in conjunction with microdisplacement.
+        </p>
+	</div>
 </div>
 
-<script src="/scripts/countdown.js" type="text/javascript"></script>
+<div class="space"></div>
+
+<h2>Rocks</h2>
+<div class="supcontainer">
+	{% for img in rocks %}
+        <div class="container">
+            <img src="/{{img.path}}">
+			<p>{{img.name}}</p>
+        </div>
+    {% endfor %}
+</div>

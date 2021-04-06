@@ -4,17 +4,21 @@
 	--img: var(--rocks-img);
 }
 
-.countdown {
-	text-align: center;
-	color: rgb(var(--theme));
+
+.panel video {
+	height: auto;
 }
 
-.countdown div {
-	display: inline-block;
-	padding: 25px;
+
+/* Responsive */
+@media only screen and (max-width: 600px) {
+	.panel video {
+		width: 100%;
+	}
 }
 
-.countdown span {
-	display: block;
-	font-size: 50px;
+@media only screen and (min-width: 600px) {
+	.panel video {
+		width: 60%;
+	}
 }
