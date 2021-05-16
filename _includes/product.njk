@@ -6,7 +6,7 @@ layout: base.njk
 	<h1>{{ full_name }}</h1>
 	{%- if video -%}
 		<div class="video">
-			<iframe width="560" height="315" src="{{ video }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<iframe width="560" height="315" sandbox="allow-same-origin allow-scripts allow-popups" src="{{ video }}?title=0&warningTitle=0" frameborder="0" allowfullscreen></iframe>
 		</div>
 	{%- endif -%}
 
