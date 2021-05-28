@@ -197,10 +197,6 @@ main {
 	filter: var(--img);
 }
 
-#submenu::-webkit-scrollbar {
-	display: none;
-}
-
 
 /* Content */
 .halfpage {
