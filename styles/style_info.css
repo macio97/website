@@ -43,6 +43,38 @@
 }
 
 
+/* Donation */
+.donation {
+	width: 100%;
+	text-align: center;
+}
+
+.donation a {
+	width: 50px;
+	display: inline-block;
+	margin: 10px;
+	padding: 5px;
+	border-radius: var(--round);
+	transition: all 0.3s;
+}
+
+.donation img {
+	width: 100%;
+	filter: var(--wolf-img);
+	transition: all 0.3s;
+}
+
+.donation a:hover img {
+	filter: var(--wolf-img);
+	opacity: var(--selected);
+}
+
+.donation p {
+	text-align: center;
+	color: rgba(var(--wolf), var(--high-emphasis));
+}
+
+
 /* Social */
 .social {
 	width: 100%;
