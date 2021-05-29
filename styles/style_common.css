@@ -155,6 +155,7 @@ h1, h2, p {
 	text-decoration: none;
 	text-transform: none;
 	width: 128px;
+	padding: 10px;
 	border-radius: var(--round);
 	background: rgba(var(--theme), var(--dp1));
 	transition: all 0.3s;
