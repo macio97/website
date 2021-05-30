@@ -16,7 +16,7 @@ function mouseOut() {
 }
 function openMenu() {
   if (document.getElementById("hambmenu").checked) {
-    document.getElementById("section").style.height = "250px";
+    document.getElementById("section").style.height = "280px";
   }
   else {
     document.getElementById("section").style.height = "50px";

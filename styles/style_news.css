@@ -1,0 +1,52 @@
+/* Theme */
+:root {
+	--theme: var(--wolf);
+	--img: var(--wolf-img);
+	--box-normal: var(--dp2);
+	--box-hover: var(--dp24);
+}
+
+
+a {
+	text-decoration: none;
+}
+
+
+.posts {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.post {
+	width: 300px;
+	height: 350px;
+	margin: 10px;
+	border-radius: var(--round);
+	display: grid;
+	background: rgba(var(--theme), var(--box-normal));
+	text-align: center;
+	transition: all 0.3s;
+}
+
+.post img {
+	top: 0;
+	width: 100%;
+	border-radius: var(--round) var(--round) 0 0;
+}
+
+.date {
+	color: rgba(var(--theme), var(--medium-emphasis));
+}
+
+.post:hover {
+	background: rgba(var(--sky), var(--box-hover));
+}
+
+
+/* Responsive */
+@media only screen and (max-width: 600px) {
+	.post {
+		width: 90%;
+	}
+}

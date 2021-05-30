@@ -1,0 +1,25 @@
+---
+layout: base.njk
+permalink: /news.html
+title: News
+
+stylesheets: [
+    "/styles/style_news.css"
+]
+---
+
+
+<main>
+	<div class="space"></div>
+	<div class="posts">
+		{%- for post in collections.post -%}
+			<a href="{{ post.url | prettyURL }}">
+				<div class="post">
+					<img src="/{{ post.data.image }}">
+					<h2>{{ post.data.title }}</h2>
+					<p class="date">{{ post.date.toUTCString() }}</p>
+				</div>
+			</a>
+		{%- endfor -%}
+	</div>
+</main>
