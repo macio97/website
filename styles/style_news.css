@@ -27,6 +27,7 @@ a {
 	background: rgba(var(--theme), var(--box-normal));
 	text-align: center;
 	transition: all 0.3s;
+	position:relative;
 }
 
 .post img {
@@ -41,6 +42,8 @@ a {
 
 .date {
 	color: rgba(var(--theme), var(--medium-emphasis));
+	position: absolute;
+	bottom: 0;
 }
 
 .post:hover {

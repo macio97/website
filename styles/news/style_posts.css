@@ -3,3 +3,8 @@
 	--theme: var(--wolf);
 	--img: var(--wolf-img);
 }
+
+
+a {
+	color: var(--theme);
+}

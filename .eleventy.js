@@ -59,6 +59,7 @@ module.exports = function(eleventyConfig) {
 
     /* Format the date for the news page */
     eleventyConfig.addFilter("dateformat", date => {
-        return moment.parseZone(date.toUTCString()).format("YYYY MM DD");
+        date = date.setHours(0, 0, 0);
+        return moment.parseZone(date).format("YYYY MM DD");
     });
 };
