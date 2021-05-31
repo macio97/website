@@ -1,3 +1,5 @@
+const moment = require('moment');
+
 function find_product(name, all_products) {
     found_product = null;
 
@@ -53,5 +55,10 @@ module.exports = function(eleventyConfig) {
         });
 
         return sorted_products;
+    });
+
+    /* Format the date for the news page */
+    eleventyConfig.addFilter("dateformat", date => {
+        return moment.parseZone(date.toUTCString()).format("YYYY MM DD");
     });
 };

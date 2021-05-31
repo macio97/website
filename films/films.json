@@ -1,9 +1,5 @@
 {
-    "tags": [
-        "films"
-    ],
     "layout": "base.njk",
-    "stylesheets": [
-        "/styles/style_common.css"
-    ]
+    "tags": ["films"],
+    "stylesheets": ["/styles/style_common.css"]
 }

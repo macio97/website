@@ -16,6 +16,7 @@ a {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
+	padding: 0 50px;
 }
 
 .post {
@@ -23,16 +24,19 @@ a {
 	height: 350px;
 	margin: 10px;
 	border-radius: var(--round);
-	display: grid;
 	background: rgba(var(--theme), var(--box-normal));
 	text-align: center;
 	transition: all 0.3s;
 }
 
 .post img {
-	top: 0;
 	width: 100%;
 	border-radius: var(--round) var(--round) 0 0;
+	filter: var(--img);
+}
+
+.post h2 {
+	font-size: 25px;
 }
 
 .date {
@@ -43,10 +47,13 @@ a {
 	background: rgba(var(--sky), var(--box-hover));
 }
 
-
 /* Responsive */
 @media only screen and (max-width: 600px) {
+	.posts {
+		padding: 0 5%;
+	}
 	.post {
-		width: 90%;
+		width: 100%;
+		margin: 10px 0;
 	}
 }
