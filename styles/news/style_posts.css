@@ -8,3 +8,26 @@
 a {
 	color: var(--theme);
 }
+
+.background {
+	text-align: center;
+}
+
+.background img {
+	filter: var(--img);
+	width: 100%;
+}
+
+
+/* Responsive */
+@media only screen and (max-width: 600px) {
+	.background {
+		width: 100%;
+	}
+}
+
+@media only screen and (min-width: 600px) {
+	.background img {
+		width: 512px;
+	}
+}

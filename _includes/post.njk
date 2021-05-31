@@ -1,0 +1,15 @@
+---
+layout: base.njk
+---
+
+
+<main>
+	<h1>{{ title }}</h1>
+	<div class="background">
+		<img src="/{{ image }}">
+	</div>
+	
+	{{ content | safe }}
+
+	<div class="space"></div>
+</main>

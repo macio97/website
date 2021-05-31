@@ -1,5 +1,5 @@
 {
-    "layout": "base.njk",
+    "layout": "post.njk",
     "tags": ["post"],
     "stylesheets": ["/styles/news/style_posts.css"]
 }
