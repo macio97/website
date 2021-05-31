@@ -18,6 +18,11 @@ a {
 	width: 100%;
 }
 
+.date {
+	color: rgba(var(--theme), var(--medium-emphasis));
+	text-align: center;
+}
+
 
 /* Responsive */
 @media only screen and (max-width: 600px) {
@@ -28,6 +33,6 @@ a {
 
 @media only screen and (min-width: 600px) {
 	.background img {
-		width: 512px;
+		width: 400px;
 	}
 }
