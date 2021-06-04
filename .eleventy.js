@@ -27,12 +27,8 @@ module.exports = function(eleventyConfig) {
 
     eleventyConfig.addFilter("urlname", function(url) {
         parts = url.replace(".html", "").split("/");
-        return parts[parts.length - 1];
+        return parts[parts.length - 2];
     });
-
-    eleventyConfig.setBrowserSyncConfig(
-        require("./configs/browsersync.js")("_site")
-    );
 
     /* This setting should be default in future versions of eleventy.
      * It allows the data in the files to behave nicer. */
