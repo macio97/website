@@ -14,8 +14,8 @@ a {
 }
 
 .background img {
-	filter: var(--img);
 	width: 100%;
+	border-radius: var(--round);
 }
 
 .date {
@@ -29,10 +29,16 @@ a {
 	.background {
 		width: 100%;
 	}
+	.post {
+		padding: 0;
+	}
 }
 
 @media only screen and (min-width: 600px) {
 	.background img {
-		width: 400px;
+		width: 60%;
+	}
+	.post {
+		padding: 0 15%;
 	}
 }

@@ -9,8 +9,12 @@ layout: base.njk
 	<div class="background">
 		<img src="/{{ image }}">
 	</div>
-	
-	{{ content | safe }}
+
+	<div class="space-small"></div>
+
+	<div class="post">
+		{{ content | safe }}
+	</div>
 
 	<div class="space"></div>
 </main>
