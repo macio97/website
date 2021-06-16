@@ -1,10 +1,10 @@
 const moment = require('moment');
 
-function find_product(name, all_products) {
+function find_product(title, all_products) {
     found_product = null;
 
     all_products.forEach(function(product) {
-        if (product.data.name === name) {
+        if (product.data.title === title) {
             found_product = product;
         }
     });

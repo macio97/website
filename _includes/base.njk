@@ -51,7 +51,7 @@
                                     <li>
 										<a class="{% if url === product.fileSlug %} selected {% endif %}" href="{{ product.url | prettyURL }}">
 										    <img src="/{{ product.data.icon }}">
-										<br>{{ product.data.name }}</a>
+										<br>{{ product.data.title }}</a>
 									</li>
                                     {%- endfor -%}
                                 </ul>

@@ -1,7 +1,3 @@
-h1, h2, p {
-	color: rgb(var(--theme));
-}
-
 .collapsible {
 	-webkit-tap-highlight-color: transparent;
 }

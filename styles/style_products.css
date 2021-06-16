@@ -188,6 +188,23 @@ a {
 	filter: var(--materials-img);
 }
 
+/* Models */
+.models .box {
+	background: rgba(var(--models), var(--box-normal));
+}
+.models .box:hover {
+	background: rgba(var(--models), var(--box-hover));
+}
+.models h2 {
+	color: rgba(var(--models), 1);
+}
+.models p {
+	color: rgba(var(--models), var(--high-emphasis));
+}
+.models img {
+	filter: var(--models-img);
+}
+
 /* Camera */
 .camera .box {
 	background: rgba(var(--camera), var(--box-normal));

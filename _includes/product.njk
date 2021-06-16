@@ -4,7 +4,10 @@ layout: base.njk
 
 
 <main>
-	<h1>{{ full_name }}</h1>
+	{%- if name -%}
+		<h1>{{ name }}</h1>
+	{%- endif -%}
+
 	{%- if video -%}
 		<div class="video">
 			<iframe width="560" height="315" sandbox="allow-same-origin allow-scripts allow-popups" src="{{ video }}?title=0&warningTitle=0" frameborder="0" allowfullscreen></iframe>
@@ -15,16 +18,20 @@ layout: base.njk
 
 	<div class="halfpage">
 		<div class="column">
-			<div class="description">
-				<h2>Description</h2>
-				<p>{{ description }}</p>
-			</div>
+			{%- if guide_link -%}
+				<div class="description">
+					<h2>Description</h2>
+					<p>{{ description }}</p>
+				</div>
+			{%- endif -%}
 		</div>
 		<div class="column">
 			<div class="buttons">
-				<a class="downstart" href="{{ download_link }}">
-					{{ download_type }}
-				</a>
+				{%- if download_link -%}
+					<a class="downstart" href="{{ download_link }}">
+						{{ download_type }}
+					</a>
+				{%- endif -%}
 
 				{%- if guide_link -%}
 					<a href="{{ guide_link }}">Guide</a>

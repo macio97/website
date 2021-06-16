@@ -1,5 +1,3 @@
 {
-    "layout": "product.njk",
-    "tags": ["product"],
-    "stylesheets": ["/styles/style_common.css"]
+    "tags": ["product"]
 }

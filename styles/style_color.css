@@ -51,6 +51,9 @@
 	--materials: 226, 67, 31;
 	--materials-img: invert(30%) sepia(42%) saturate(4160%) hue-rotate(353deg) brightness(94%) contrast(88%);
 
+	--models: 117, 0, 255;
+	--models-img: invert(14%) sepia(93%) saturate(4004%) hue-rotate(265deg) brightness(100%) contrast(143%);
+
 	--camera: 138, 138, 138;
 	--camera-img: invert(59%) sepia(8%) saturate(0%) hue-rotate(268deg) brightness(91%) contrast(94%);
 
@@ -97,6 +100,9 @@
 
 		--materials: 255, 173, 150;
 		--materials-img: invert(84%) sepia(21%) saturate(1623%) hue-rotate(304deg) brightness(106%) contrast(101%);
+
+		--models: 193, 152, 255;
+		--models-img: invert(62%) sepia(44%) saturate(2315%) hue-rotate(213deg) brightness(107%) contrast(102%);
 
 		--camera: 226, 226, 226;
 		--camera-img: invert(100%) sepia(3%) saturate(566%) hue-rotate(312deg) brightness(114%) contrast(77%);
