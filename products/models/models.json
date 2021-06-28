@@ -1,0 +1,6 @@
+{
+    "layout": "models.njk",
+    "tags": ["models"],
+    "stylesheets": ["/styles/style_common.css",
+        "/styles/products/models/style_theme.css"]
+}

@@ -11,7 +11,22 @@ stylesheets: [
 ---
 
 <main>
-    <h1>CC-0 Models</h1>
+	<div class="space"></div>
 
-    <h2>Coming soon...</h2>
+	<div class="models">
+        {%- for model in collections.models -%}
+            <a href="{{ model.url | prettyURL }}">
+                <div class="box">
+                    <div>
+                        <img src="/{{ model.data.icon }}">
+                    </div>
+                    <div>
+                        <h2>{{ model.data.title }}</h2>
+                    </div>
+                </div>
+            </a>
+        {%- endfor -%}
+    </div>
+
+    <div class="space"></div>
 </main>

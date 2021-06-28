@@ -36,7 +36,7 @@ module.exports = function(eleventyConfig) {
 
     /* Ensure a fixed order for the products.
      * Modify the order in this array to change the order on the products page and in the navigation. */
-    let products = ["Sky", "Grass", "Trees", "Rocks", "Environments", "ArchDec", "ArchDec 2", "Materials", "Models", "Camera", "Snow"];
+    let products = ["Sky", "Grass", "Trees", "Rocks", "Environments", "ArchDec 2", "Materials", "Models", "Camera", "Snow"];
 
     /* Reorder the product pages to match the above array. */
     eleventyConfig.addCollection("products", function(collectionApi) {

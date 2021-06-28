@@ -1,0 +1,60 @@
+---
+layout: base.njk
+---
+
+<main>
+	<div class="space-small"></div>
+
+	{%- if video -%}
+		<div class="video">
+			<iframe width="560" height="315" sandbox="allow-same-origin allow-scripts allow-popups" src="{{ video }}?title=0&warningTitle=0" frameborder="0" allowfullscreen></iframe>
+		</div>
+	{%- endif -%}
+
+	<div class="space"></div>
+
+	<div class="buttons">
+		{%- if download_link -%}
+			<a class="downstart" href="{{ download_link }}">
+				{{ download_type }}
+			</a>
+		{%- endif -%}
+
+		{%- if members -%}
+			<button class="collapsible">Collaborators</button>
+			<div class="collap">
+				<div class="members">
+					{% for member in members %}
+						<a title="{{members_list[member].name}}" href="{{members_list[member].link}}">
+							<img src="/images/logos/wolf.svg">
+							<p>{{members_list[member].name}}</p>
+						</a>
+					{% endfor %}
+				</div>
+			</div>
+		{%- endif -%}
+
+		{%- if license -%}
+			<button class="collapsible downend">License</button>
+			<div class="collap license">
+				<p>{{ license }}</p>
+				{%- if licenses_list[license].logo -%}
+					<div>
+						{%- for logo in licenses_list[license].logo -%}
+							<img src="{{ logo }}">
+						{%- endfor -%}
+					</div>
+				{%- endif -%}
+			</div>
+		{%- endif -%}
+	</div>
+
+	<div class="space"></div>
+
+	{{ content | safe }}
+	
+</main>
+
+<div class="space"></div>
+
+<script src="/scripts/collapsible.js" type="text/javascript"></script>

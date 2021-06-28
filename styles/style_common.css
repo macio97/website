@@ -137,6 +137,14 @@
 	text-align: center;
 }
 
+.supcontainer {
+	padding: 0 5%;
+}
+
+.container img {
+	border-radius: var(--round);
+}
+
 
 /* Members */
 .members {
@@ -208,6 +216,9 @@
 		height: 50vh;
 		background-attachment: scroll;
 	}
+	.container img {
+		width: 128px;
+	}
 }
 
 @media only screen and (min-width: 600px) {
@@ -234,6 +245,9 @@
 	.collap {
 		margin-left: -100px;
 		width: 400px;
+	}
+	.container img {
+		width: 200px;
 	}
 }
 

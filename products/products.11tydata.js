@@ -25,7 +25,8 @@ function getFolderFilePathsWithNames(folder) {
 
 module.exports = {
     "archdec_2": getFolderFilePaths("images/products/archdec_2/icons"),
-    "archdec": getFolderFilePaths("images/products/archdec/icons"),
+    "archdec": getFolderFilePaths("images/products/models/interior"),
+    "spaceships": getFolderFilePaths("images/products/models/spaceships"),
     "dielectrics": getFolderFilePathsWithNames("images/products/materials/dielectrics"),
     "metals": getFolderFilePathsWithNames("images/products/materials/metals"),
     "textures": getFolderFilePathsWithNames("images/products/materials/textures"),

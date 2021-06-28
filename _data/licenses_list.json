@@ -8,5 +8,8 @@
     },
     "CC-BY": {
         "logo": ["/images/logos/cc.svg", "/images/logos/by.svg"]
+    },
+    "CC-0": {
+        "logo": ["/images/logos/cc.svg", "/images/logos/0.svg"]
     }
 }
