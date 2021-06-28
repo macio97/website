@@ -42,9 +42,6 @@
 	--environments: 168, 143, 101;
 	--environments-img: invert(53%) sepia(42%) saturate(321%) hue-rotate(359deg) brightness(100%) contrast(87%);
 
-	--archdec: 241, 157, 54;
-	--archdec-img: invert(72%) sepia(86%) saturate(1710%) hue-rotate(336deg) brightness(101%) contrast(89%);
-
 	--archdec_2: 255, 152, 111;
 	--archdec_2-img: invert(92%) sepia(15%) saturate(6373%) hue-rotate(307deg) brightness(93%) contrast(118%);
 
@@ -91,9 +88,6 @@
 
 		--environments: 199, 174, 138;
 		--environments-img: invert(90%) sepia(4%) saturate(3298%) hue-rotate(338deg) brightness(84%) contrast(82%);
-
-		--archdec: 248, 205, 140;
-		--archdec-img: invert(96%) sepia(94%) saturate(844%) hue-rotate(309deg) brightness(101%) contrast(95%);
 
 		--archdec_2: 255, 180, 152;
 		--archdec_2-img: invert(65%) sepia(74%) saturate(226%) hue-rotate(327deg) brightness(103%) contrast(102%);

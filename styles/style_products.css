@@ -137,23 +137,6 @@ a {
 	filter: var(--environments-img);
 }
 
-/* ArchDec */
-.archdec .box {
-	background: rgba(var(--archdec), var(--box-normal));
-}
-.archdec .box:hover {
-	background: rgba(var(--archdec), var(--box-hover));
-}
-.archdec h2 {
-	color: rgba(var(--archdec), 1);
-}
-.archdec p {
-	color: rgba(var(--archdec), var(--high-emphasis));
-}
-.archdec img {
-	filter: var(--archdec-img);
-}
-
 /* ArchDec 2 */
 .archdec_2 .box {
 	background: rgba(var(--archdec_2), var(--box-normal));
