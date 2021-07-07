@@ -1,0 +1,9 @@
+baseURL: http://3d-wolf.com/
+languageCode: en-us
+title: Wolf
+sectionPagesMenu: main
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true

@@ -1,0 +1,19 @@
+{{ define "main" }}
+
+<div class="space-small"></div>
+
+<div class="posts">
+    {{ range .Pages }}
+    <a href="{{ .Permalink }}">
+	<div class="post">
+	    <img src="{{ .Params.image }}">
+	    <h2>{{ .Title }}</h2>
+	    <p class="date">{{ .Date.Format "2006-01-02" }}</p>
+	</div>
+    </a>
+    {{ end }}
+</div>
+
+<div class="space"></div>
+
+{{ end }}

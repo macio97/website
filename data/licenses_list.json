@@ -1,0 +1,15 @@
+{
+    "Royalty Free": {
+        "description": "You, the purchaser can use the product for personal, educational or commercial uses but: You can’t resell, redistribute, or repackage the purchased product without explicit permission from the author, You can't use the purchased product in a logo, watermark, or trademark of any kind except if it is a shader, a material or a texture."
+    },
+    "GPL": {
+        "description": "You can use the software for any purpose. You can change the software to suit your needs. You can share the software with your friends and neighbors. You can share the changes you make.",
+        "logo": ["/images/logos/gpl.svg"]
+    },
+    "CC-BY": {
+        "logo": ["/images/logos/cc.svg", "/images/logos/by.svg"]
+    },
+    "CC-0": {
+        "logo": ["/images/logos/cc.svg", "/images/logos/0.svg"]
+    }
+}

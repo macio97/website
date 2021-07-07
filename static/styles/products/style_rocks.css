@@ -1,0 +1,24 @@
+/* Theme */
+:root {
+	--theme: var(--rocks);
+	--img: var(--rocks-img);
+}
+
+
+.panel video {
+	height: auto;
+}
+
+
+/* Responsive */
+@media only screen and (max-width: 600px) {
+	.panel video {
+		width: 100%;
+	}
+}
+
+@media only screen and (min-width: 600px) {
+	.panel video {
+		width: 60%;
+	}
+}

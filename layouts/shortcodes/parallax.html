@@ -1,0 +1,6 @@
+{{ $path := .Get "path" }}
+<div class="space"></div>
+
+{{ range $.Page.Resources.Match $path }}
+    <div class="parallax" style="background-image: url('{{ .RelPermalink }}');"></div>
+{{ end }}

@@ -1,0 +1,5 @@
+/* Theme */
+:root {
+	--theme: var(--archdec_2);
+	--img: var(--archdec_2-img);
+}

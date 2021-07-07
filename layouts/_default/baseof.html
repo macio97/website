@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>{{ .Page.Title }}</title>
+        <meta name="description" content="{{ .Params.description }}">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="/images/logos/wolf_theme.svg" type="image/svg+xml">
+
+        {{/* Shared Stylesheets */}}
+        <link rel="stylesheet" type="text/css" href="/styles/style_all.css">
+        <link rel="stylesheet" type="text/css" href="/styles/style_color.css">
+
+        {{ range .Params.stylesheets }}
+            <link rel="stylesheet" type="text/css" href="{{ . }}">
+        {{ end }}
+
+        <script src="/scripts/menu_bar.js" type="text/javascript"></script>
+    </head>
+
+    <body>
+        <header>
+            <div id="section">
+                <div id="menu">
+                    <input id="hambmenu" type="checkbox" onclick="openMenu()">
+                        <div class="hamburger"></div>
+                        <div class="hamburger"></div>
+                    </input>
+                    <div id="links" onmouseleave="mouseOut()">
+                        <ul>
+                            <li class="main"><a class="" href="/">Home</a></li>
+                            <li class="main"><a class="" href="/products" onmouseover="mouseOver()">Products</a>
+
+                                <ul id="submenu">
+                                    {{/* to get ONLY the product pages, get the product page then iterate over its sub pages */}}
+                                    {{ with .Site.GetPage "/products" }}
+                                        {{ range .Pages.ByTitle }}
+                                        <li>
+                                            <a href="{{ .Permalink }}">
+                                                <img src="{{ .Params.icon }}">
+                                                <br>{{ .Params.title }}
+                                            </a>
+                                        </li>
+                                        {{ end }}
+                                    {{ end }}
+                                </ul>
+
+                            </li>
+                            <li class="main"><a class="" href="/films">Films</a></li>
+                            <li class="main"><a class="" href="/news">News</a></li>
+                            <li class="main"><a class="" href="/info">Info</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            {{/* Each page will define the "main" block which is included here */}}
+            {{ block "main" . }}
+
+            {{ end }}
+        </main>
+
+    </body>
+</html>

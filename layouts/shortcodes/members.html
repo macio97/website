@@ -1,0 +1,9 @@
+<div class="wolves">
+    {{ range .Params }}
+        {{ $member := index $.Site.Data.members . }}
+        <a title="{{ $member.name }}" href="{{ $member.link }}">
+            <img src="/images/logos/wolf.svg">
+            <p>{{ $member.name }}</p>
+        </a>
+    {{ end }}
+</div>

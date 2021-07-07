@@ -1,0 +1,149 @@
+/* Theme */
+:root {
+	--theme: var(--environments);
+	--img: var(--environments-img);
+	--height: 200px;
+	--fadecol: 20%;
+	--fadetra: 60%;
+}
+
+
+/* Content */
+.fadeleft {
+	position: relative;
+	height: var(--height);
+}
+.fadetextleft {
+	position: absolute;
+	display: flex;
+	top: 0;
+	right: 5%;
+	height: var(--height);
+	margin: auto;
+	z-index: 1;
+}
+.fadeleft h2 {
+	color: rgba(var(--body), 1);
+	text-align: right;
+	margin: auto;
+}
+.fadeleft:after {
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	content: '';
+	display: block;
+	position: absolute;
+}
+
+.faderight {
+	position: relative;
+	height: var(--height);
+}
+.fadetextright {
+	position: absolute;
+	display: flex;
+	top: 0;
+	left: 5%;
+	height: var(--height);
+	margin: auto;
+	z-index: 1;
+}
+.faderight h2 {
+	color: rgba(var(--body), 1);
+	text-align: left;
+	margin: auto;
+}
+.faderight:after {
+	width: 100%;
+	height: 100%;
+	top: 0;
+	right: 0;
+	content: '';
+	display: block;
+	position: absolute;
+}
+
+.fadecol1:after {
+	background: linear-gradient(to left, rgba(212,100,44,1) var(--fadecol),rgba(255,255,255,0) var(--fadetra));
+}
+.fadecol2:after {
+	background: linear-gradient(to right, rgba(224,171,56,1) var(--fadecol),rgba(255,255,255,0) var(--fadetra));
+}
+.fadecol3:after {
+	background: linear-gradient(to left, rgba(158,201,2,1) var(--fadecol),rgba(255,255,255,0) var(--fadetra));
+}
+.fadecol4:after {
+	background: linear-gradient(to right, rgba(30,148,53,1) var(--fadecol),rgba(255,255,255,0) var(--fadetra));
+}
+.fadecol5:after {
+	background: linear-gradient(to left, rgba(52,84,163,1) var(--fadecol),rgba(255,255,255,0) var(--fadetra));
+}
+.fadecol6:after {
+	background: linear-gradient(to right, rgba(24,242,224,1) var(--fadecol),rgba(255,255,255,0) var(--fadetra));
+}
+.fadecol7:after {
+	background: linear-gradient(to left, rgba(255,98,0,1) var(--fadecol),rgba(255,255,255,0) var(--fadetra));
+}
+.fadecol8:after {
+	background: linear-gradient(to right, rgba(102,186,108,1) var(--fadecol),rgba(255,255,255,0) var(--fadetra));
+}
+.fadecol9:after {
+	background: linear-gradient(to left, rgba(188,229,245,1) var(--fadecol),rgba(255,255,255,0) var(--fadetra));
+}
+.fadecol10:after {
+	background: linear-gradient(to right, rgba(230,245,247,1) var(--fadecol),rgba(255,255,255,0) var(--fadetra));
+}
+
+.fadeimgleft {
+	width: calc(100% - var(--fadecol));
+	height: 100%;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.fadeimgright {
+	width: calc(100% - var(--fadecol));
+	height: 100%;
+	margin-left: var(--fadecol);
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.videos {
+	width: 100%;
+	text-align: center;
+}
+
+.videos video {
+	height: auto;
+}
+
+.videos p {
+	text-align: center;
+	transform: translateY(-30px);
+}
+
+
+/* Responsive */
+@media only screen and (max-width: 600px) {
+	.videos video {
+		width: 100%;
+	}
+}
+
+@media only screen and (min-width: 600px) {
+	.videos video {
+		width: 60%;
+	}
+}
+
+@media only screen and (min-width: 992px) {
+	.videos video {
+		width: 33%;
+	}
+}

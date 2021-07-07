@@ -1,0 +1,17 @@
+{{ define "main" }}
+
+<p class="date">{{ .Date.Format "2006-01-02" }}</p>
+<h1>{{ .Title }}</h1>
+<div class="background">
+    <img src="{{ .Params.image }}">
+</div>
+
+<div class="space-small"></div>
+
+<div class="post">
+{{ .Content }}
+</div>
+
+<div class="space"></div>
+
+{{ end }}

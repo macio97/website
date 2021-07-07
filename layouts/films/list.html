@@ -1,0 +1,21 @@
+{{ define "main" }}
+
+<div class="space"></div>
+
+<div class="films">
+    {{ range .Pages }}
+    <a href="{{ .Permalink }}" class="{{ path.Base .Permalink }}">
+        <div class="box">
+            <div>
+                <img src="{{ .Params.icon }}">
+            </div>
+            <div>
+                <h2>{{ .Params.title }}</h2>
+                <p>{{ .Params.shorttitle }}</p>
+            </div>
+        </div>
+    </a>
+    {{ end }}
+</div>
+
+{{ end }}

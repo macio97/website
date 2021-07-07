@@ -1,0 +1,12 @@
+/* Theme */
+:root {
+	--theme: var(--materials);
+	--img: var(--materials-img);
+}
+
+	
+/* Content */
+.supcontainer {
+	width: 90%;
+	margin-left: 5%;
+}

@@ -1,0 +1,13 @@
+{{ $path := .Get "path" }}
+{{ $labels := .Get "labels" }}
+<div class="supcontainer">
+    {{ range $.Page.Resources.Match $path }}
+        <div class="container">
+            <img src="{{ .RelPermalink }}">
+            {{ if $labels }}
+                {{ $base := path.Base .Name }}
+                <p>{{ replace $base (path.Ext $base) "" }}</p>
+            {{ end }}
+        </div>
+    {{ end }}
+</div>

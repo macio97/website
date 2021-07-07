@@ -1,0 +1,89 @@
+{{ $download := .Get "download" }}
+{{ $buy := .Get "buy" }}
+{{ $downloadlabel := .Get "downloadlabel" }}
+{{ $guide := .Get "guide" }}
+{{ $version := .Get "version" }}
+{{ $changelog := .Get "changelog" }}
+{{ $members := .Get "members" }}
+{{ $requirements := .Get "requirements" }}
+{{ $license := .Get "license" }}
+
+<div class="buttons">
+    {{ if $download }}
+        <a class="downstart" href="{{ $download }}">
+            {{ if $downloadlabel }}
+            {{ $downloadlabel }}
+            {{ else }}
+            Download
+            {{ end }}
+        </a>
+    {{ end }}
+    {{ if $buy }}
+        <a class="downstart" href="{{ $buy }}">
+            Buy
+        </a>
+    {{ end }}
+
+    {{ if $guide }}
+        <a href="{{ $guide }}">Guide</a>
+    {{ end }}
+
+    {{ if $version }}
+        <button class="collapsible">Version</button>
+        <div class="collap">
+            <p>{{ $version }}</p>
+        </div>
+    {{ end }}
+
+    {{ if $changelog }}
+        <button class="collapsible">Changelog</button>
+        <div class="collap">
+            <p>{{ $changelog }}</p>
+        </div>
+    {{ end }}
+
+    {{ if $members }}
+        {{ $list := split $members "," }}
+        <button class="collapsible">Collaborators</button>
+        <div class="collap">
+            <div class="members">
+                {{ range $list }}
+                    {{ $member := index $.Site.Data.members . }}
+                    <a title="{{ $member.name }}" href="{{ $member.link }}">
+                        <img src="/images/logos/wolf.svg">
+                        <p>{{ $member.name }}</p>
+                    </a>
+                {{ end }}
+            </div>
+        </div>
+    {{ end }}
+
+    {{ if $requirements }}
+        <button class="collapsible">Requirements</button>
+        <div class="collap">
+            <p><b>Minimum</b></p>
+                {{ range $.Page.Params.requirements.minimum }}
+                <p> - {{ . }}</p>
+                {{ end }}
+            <p><b>Recommended</b></p>
+                {{ range $.Page.Params.requirements.recommended }}
+                    <p> - {{ . }}</p>
+                {{ end }}
+        </div>
+    {{ end }}
+
+    {{ if $license }}
+        <button class="collapsible downend">License</button>
+        <div class="collap license">
+            <p>{{ $license }}</p>
+            {{ $license_data := index $.Site.Data.licenses_list .Params.license }}
+            {{ if $license_data.logo }}
+                <div>
+                    {{ range $license_data.logo }}
+                        <img src="{{ . }}">
+                    {{ end }}
+                </div>
+            {{ end }}
+        </div>
+    {{ end }}
+</div>

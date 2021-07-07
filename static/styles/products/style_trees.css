@@ -1,0 +1,11 @@
+/* Theme */
+:root {
+	--theme: var(--trees);
+	--img: var(--trees-img);
+}
+
+
+/* Content */
+.treefeatures img {
+	width: 100%;
+}
