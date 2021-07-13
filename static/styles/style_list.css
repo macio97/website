@@ -24,7 +24,7 @@ a {
 
 
 /* Content */
-.products {
+.list {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
@@ -51,6 +51,22 @@ a {
 	width: 100%;
 }
 
+/* Default box */
+.box {
+	background: rgba(var(--models), var(--dp1));
+}
+.box:hover {
+	background: rgba(var(--models), var(--dp8));
+}
+h2 {
+	color: rgba(var(--models), 1);
+}
+p {
+	color: rgba(var(--models), var(--high-emphasis));
+}
+img {
+	filter: var(--models-img);
+}
 
 /* Sky */
 .sky .box {
