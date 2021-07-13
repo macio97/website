@@ -11,6 +11,9 @@
             </div>
             <div>
                 <h2>{{ .Params.title }}</h2>
+                {{ if .Params.description_short }}
+                <p>{{ .Params.description_short }}</p>
+                {{ end }}
             </div>
         </div>
     </a>
