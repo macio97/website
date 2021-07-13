@@ -4,8 +4,8 @@ icon: /films/pebble/images/icon.svg
 shorttitle: Our first short film
 
 stylesheets: [
-    "/styles/films/style_pebble.css",
     "/styles/style_common.css",
+    "/styles/films/style_pebble.css",
 ]
 
 license: CC-BY

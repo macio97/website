@@ -23,7 +23,7 @@ p {
 }
 
 .container img {
-	width: 128px;
+	width: 128px !important;
 	padding: 0 20px;
 	filter: var(--pebble-img);
 }
