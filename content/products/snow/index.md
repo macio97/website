@@ -30,7 +30,7 @@ stylesheets: [
 	    download="https://github.com/marcopavanello/real-snow"
 	    guide="https://cryptpad.fr/pad/#/2/pad/view/qDtU+C1osVLw7ZAbpYGVqeoeesaZhgPRNlKE4jTzTm8/"
 	    version="1.1"
-	    changelog="First Version"
+	    changelog="First version"
 	    requirements=true
 	    license="GPL"
 	>}}
