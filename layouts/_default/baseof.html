@@ -28,15 +28,17 @@
                     </input>
                     <div id="links" onmouseleave="mouseOut()">
                         <ul>
-                            <li class="main"><a class="" href="/">Home</a></li>
-                            <li class="main"><a class="" href="/products" onmouseover="mouseOver()">Products</a>
+                            {{ $current := lower (path.Base .RelPermalink) }}
+                            <li class="main"><a class="{{ if eq $current "/" }}selected{{ end }}" href="/">Home</a></li>
+                            <li class="main"><a class="{{ if in .RelPermalink "products" }}selected{{ end }}" href="/products" onmouseover="mouseOver()">Products</a>
 
                                 <ul id="submenu">
                                     {{/* to get ONLY the product pages, get the product page then iterate over its sub pages */}}
                                     {{ with .Site.GetPage "/products" }}
-                                        {{ range .Pages.ByTitle }}
+                                        {{ range .Pages.ByWeight }}
                                         <li>
-                                            <a href="{{ .Permalink }}">
+                                            {{ $title := replace (lower .Params.title) " " "-" }}
+                                            <a href="{{ .Permalink }}" class="{{ if eq $title $current }}selected{{ end }}">
                                                 <img src="{{ .Params.icon }}">
                                                 <br>{{ .Params.title }}
                                             </a>
@@ -46,9 +48,9 @@
                                 </ul>
 
                             </li>
-                            <li class="main"><a class="" href="/films">Films</a></li>
-                            <li class="main"><a class="" href="/news">News</a></li>
-                            <li class="main"><a class="" href="/info">Info</a></li>
+                            <li class="main"><a class="{{ if in .RelPermalink "films" }}selected{{ end }}" href="/films">Films</a></li>
+                            <li class="main"><a class="{{ if in .RelPermalink "news" }}selected{{ end }}" href="/news">News</a></li>
+                            <li class="main"><a class="{{ if in .RelPermalink "info" }}selected{{ end }}" href="/info">Info</a></li>
                         </ul>
                     </div>
                 </div>
