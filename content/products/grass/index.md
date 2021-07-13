@@ -1,5 +1,6 @@
 ---
 title: Grass
+weight: 10
 icon: /products/grass/images/icon.svg
 description_short: Pack of grass and weeds
 

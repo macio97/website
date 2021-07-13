@@ -1,5 +1,6 @@
 ---
 title: Materials
+weight: 60
 icon: /products/materials/images/icon.svg
 description_short: Add-on to add physically based materials
 

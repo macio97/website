@@ -1,5 +1,6 @@
 ---
 title: Trees
+weight: 20
 icon: /products/trees/images/icon.svg
 description_short: Pack of trees
 

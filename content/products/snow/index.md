@@ -1,5 +1,6 @@
 ---
 title: Snow
+weight: 90
 icon: /products/snow/images/icon.svg
 description_short: Add-on to add snow
 
