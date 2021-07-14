@@ -73,6 +73,6 @@ stylesheets: [
 <div class="space"></div>
 
 ## Models
-{{< gallery path="images/gallery/*" labels=true >}}
+{{< items path="images/items/*" labels=true >}}
 
 {{< parallax path="images/parallax/*" >}}

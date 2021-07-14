@@ -35,14 +35,14 @@ stylesheets: [
 <div class="space"></div>
 
 ## Dielectrics
-{{< gallery path="images/dielectrics/*" labels=true >}}
+{{< items path="images/dielectrics/*" labels=true >}}
 
 <div class="space"></div>
 
 ## Metals
-{{< gallery path="images/metals/*" labels=true >}}
+{{< items path="images/metals/*" labels=true >}}
 
 <div class="space"></div>
 
 ## Textures
-{{< gallery path="images/textures/*" labels=true >}}
+{{< items path="images/textures/*" labels=true >}}

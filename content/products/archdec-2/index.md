@@ -49,6 +49,6 @@ stylesheets: [
 <div class="space"></div>
 
 ## Items
-{{< gallery path="images/gallery/*" >}}
+{{< items path="images/items/*" >}}
 
 {{< parallax path="images/parallax/*" >}}

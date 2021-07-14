@@ -58,11 +58,11 @@ The pack comes with:<br>
 <div class="space"></div>
 
 <h2>Grass</h2>
-{{< gallery path="images/grass/*" labels=true >}}
+{{< items path="images/grass/*" labels=true >}}
 
 <div class="space"></div>
 
 <h2>Weeds</h2>
-{{< gallery path="images/weeds/*" labels=true >}}
+{{< items path="images/weeds/*" labels=true >}}
 
 {{< parallax path="images/parallax/*" >}}

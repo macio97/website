@@ -57,6 +57,6 @@ stylesheets: [
 <div class="space"></div>
 
 <h2>Rocks</h2>
-{{< gallery path="images/gallery/*" labels=true >}}
+{{< items path="images/items/*" labels=true >}}
 
 {{< parallax path="images/parallax/*" >}}
