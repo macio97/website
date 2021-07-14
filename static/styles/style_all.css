@@ -1,3 +1,115 @@
+/* Light theme */
+:root {
+	/* Elevations */
+	--dp1: 0.05;
+	--dp2: 0.07;
+	--dp3: 0.08;
+	--dp4: 0.09;
+	--dp6: 0.11;
+	--dp8: 0.12;
+	--dp12: 0.14;
+	--dp16: 0.15;
+	--dp24: 0.16;
+
+	/* Text emphasis */
+	--high-emphasis: 0.87;
+	--medium-emphasis: 0.6;
+	--disabled: 0.38;
+
+	/* Properties */
+	--round: 14px;
+	--selected: 0.75;
+	--menu-opa: 0.5;
+
+	--body: 255,255,255;
+	--body-img: invert(100%);
+
+	--wolf: 0, 170, 255;
+	--wolf-img: invert(69%) sepia(91%) saturate(5104%) hue-rotate(174deg) brightness(104%) contrast(107%);
+
+	--sky: 0, 170, 255;
+	--sky-img: invert(69%) sepia(91%) saturate(5104%) hue-rotate(174deg) brightness(104%) contrast(107%);
+
+	--grass: 0, 212, 35;
+	--grass-img: invert(57%) sepia(52%) saturate(7094%) hue-rotate(109deg) brightness(114%) contrast(111%);
+
+	--trees: 39, 156, 39;
+	--trees-img: invert(52%) sepia(66%) saturate(6724%) hue-rotate(101deg) brightness(104%) contrast(69%);
+
+	--rocks: 138, 138, 138;
+	--rocks-img: invert(59%) sepia(8%) saturate(0%) hue-rotate(268deg) brightness(91%) contrast(94%);
+
+	--environments: 168, 143, 101;
+	--environments-img: invert(53%) sepia(42%) saturate(321%) hue-rotate(359deg) brightness(100%) contrast(87%);
+
+	--archdec_2: 255, 152, 111;
+	--archdec_2-img: invert(92%) sepia(15%) saturate(6373%) hue-rotate(307deg) brightness(93%) contrast(118%);
+
+	--materials: 226, 67, 31;
+	--materials-img: invert(30%) sepia(42%) saturate(4160%) hue-rotate(353deg) brightness(94%) contrast(88%);
+
+	--models: 117, 0, 255;
+	--models-img: invert(14%) sepia(93%) saturate(4004%) hue-rotate(265deg) brightness(100%) contrast(143%);
+
+	--camera: 138, 138, 138;
+	--camera-img: invert(59%) sepia(8%) saturate(0%) hue-rotate(268deg) brightness(91%) contrast(94%);
+
+	--snow: 150, 198, 221;
+	--snow-img: invert(76%) sepia(60%) saturate(258%) hue-rotate(169deg) brightness(93%) contrast(86%);
+
+	--pebble: 114, 188, 0;
+	--pebble-img: invert(55%) sepia(64%) saturate(599%) hue-rotate(41deg) brightness(98%) contrast(103%);
+}
+
+
+/* Dark theme */
+@media (prefers-color-scheme: dark) {
+	:root {
+		/* Properties */
+		--menu-opa: 0.8;
+
+		--body: 18, 18, 18;
+		--body-img: invert(7%);
+		
+		--wolf: 129, 213, 255;
+		--wolf-img: invert(72%) sepia(59%) saturate(556%) hue-rotate(173deg) brightness(102%) contrast(103%);
+
+		--sky: 129, 213, 255;
+		--sky-img: invert(72%) sepia(59%) saturate(556%) hue-rotate(173deg) brightness(102%) contrast(103%);
+
+		--grass: 165, 235, 156;
+		--grass-img: invert(89%) sepia(51%) saturate(371%) hue-rotate(47deg) brightness(97%) contrast(90%);
+
+		--trees: 156, 215, 156;
+		--trees-img: invert(93%) sepia(8%) saturate(1519%) hue-rotate(58deg) brightness(89%) contrast(87%);
+
+		--rocks: 226, 226, 226;
+		--rocks-img: invert(100%) sepia(3%) saturate(566%) hue-rotate(312deg) brightness(114%) contrast(77%);
+
+		--environments: 199, 174, 138;
+		--environments-img: invert(90%) sepia(4%) saturate(3298%) hue-rotate(338deg) brightness(84%) contrast(82%);
+
+		--archdec_2: 255, 180, 152;
+		--archdec_2-img: invert(65%) sepia(74%) saturate(226%) hue-rotate(327deg) brightness(103%) contrast(102%);
+
+		--materials: 255, 173, 150;
+		--materials-img: invert(84%) sepia(21%) saturate(1623%) hue-rotate(304deg) brightness(106%) contrast(101%);
+
+		--models: 193, 152, 255;
+		--models-img: invert(62%) sepia(44%) saturate(2315%) hue-rotate(213deg) brightness(107%) contrast(102%);
+
+		--camera: 226, 226, 226;
+		--camera-img: invert(100%) sepia(3%) saturate(566%) hue-rotate(312deg) brightness(114%) contrast(77%);
+
+		--snow: 188, 221, 235;
+		--snow-img: invert(90%) sepia(22%) saturate(566%) hue-rotate(168deg) brightness(98%) contrast(88%);
+
+		--pebble: 187, 221, 146;
+		--pebble-img: invert(86%) sepia(20%) saturate(625%) hue-rotate(40deg) brightness(99%) contrast(85%);
+	}
+}
+
+
 /* General */
 * {
 	box-sizing: border-box;
