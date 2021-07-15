@@ -12,11 +12,6 @@ requirements: {
 }
 
 coverimg: "images/cover.webp"
-
-stylesheets: [
-    "/styles/style_common.css",
-    "/styles/products/style_environments.css"
-]
 ---
 
 # Real Environments

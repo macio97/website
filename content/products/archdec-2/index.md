@@ -3,11 +3,6 @@ title: ArchDec 2
 weight: 50
 icon: /products/archdec-2/images/icon.svg
 description_short: Pack of architecture decoration models
-
-stylesheets: [
-    "/styles/style_common.css",
-    "/styles/products/style_archdec_2.css"
-]
 ---
 
 # ArchDec 2

@@ -8,11 +8,6 @@ requirements: {
     "minimum": ["8GB of RAM", "medium end CPU"],
     "recommended": ["16GB of RAM", "high end CPU"]
 }
-
-stylesheets: [
-    "/styles/style_common.css",
-    "/styles/products/style_trees.css"
-]
 ---
 
 # Real Trees

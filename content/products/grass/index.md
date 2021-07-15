@@ -8,11 +8,6 @@ requirements: {
     "minimum": ["4GB of RAM", "medium end CPU"],
     "recommended": ["8GB of RAM", "medium end CPU"]
 }
-
-stylesheets: [
-    "/styles/style_common.css",
-    "/styles/products/style_grass.css"
-]
 ---
 
 # Real Grass
