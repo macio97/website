@@ -1,7 +1,6 @@
 ---
 title: Introducing the News page
 image: "/news/2021-05-31/background.webp"
-"stylesheets": ["/styles/news/style_posts.css"]
 ---
 
 Hello, I'm Marco and I'm keeping this website alive.

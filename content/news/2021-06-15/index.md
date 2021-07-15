@@ -1,7 +1,6 @@
 ---
 title: New assets pack coming
 image: "/news/2021-06-15/background.webp"
-"stylesheets": ["/styles/news/style_posts.css"]
 ---
 
 [Kless](https://www.artstation.com/kless) and I are currently working on a new assets pack, it's going to be a pack of models of an urban city.

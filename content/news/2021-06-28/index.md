@@ -1,7 +1,6 @@
 ---
 title: Introducing CC-0 Models
 image: "/news/2021-06-28/background.webp"
-"stylesheets": ["/styles/news/style_posts.css"]
 ---
 
 Starting from today the ArchDec models, which are 4 years old, are going to be available for free under the CC-0
