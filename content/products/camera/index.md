@@ -1,6 +1,5 @@
 ---
 title: Camera
-weight: 80
 icon: /products/camera/images/icon.svg
 description_short: Add-on to control the camera
 ---

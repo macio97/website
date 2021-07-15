@@ -1,6 +1,5 @@
 ---
 title: Rocks
-weight: 30
 icon: /products/rocks/images/icon.svg
 description_short: Pack of procedural rocks
 requirements: {

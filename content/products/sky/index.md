@@ -1,6 +1,5 @@
 ---
 title: Sky
-weight: 01
 icon: /products/sky/images/icon.svg
 description_short: Add-on for procedural sky and clouds
 

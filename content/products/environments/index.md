@@ -1,6 +1,5 @@
 ---
 title: Environments
-weight: 40
 name: Real Environments
 icon: /products/environments/images/icon.svg
 

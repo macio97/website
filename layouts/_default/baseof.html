@@ -37,16 +37,15 @@
 
                                 <ul id="submenu">
                                     {{/* to get ONLY the product pages, get the product page then iterate over its sub pages */}}
-                                    {{ with .Site.GetPage "/products" }}
-                                        {{ range .Pages.ByWeight }}
+                                    {{ range $.Site.Data.products }}
+                                        {{ $page := $.Site.GetPage . }}
                                         <li>
-                                            {{ $title := replace (lower .Params.title) " " "-" }}
-                                            <a href="{{ .Permalink }}" class="{{ if eq $title $current }}selected{{ end }}">
-                                                <img src="{{ .Params.icon }}">
-                                                <br>{{ .Params.title }}
+                                            {{ $title := replace (lower $page.Params.title) " " "-" }}
+                                            <a href="{{ $page.Permalink }}" class="{{ if eq $title $current }}selected{{ end }}">
+                                                <img src="{{ $page.Params.icon }}">
+                                                <br>{{ $page.Params.title }}
                                             </a>
                                         </li>
-                                        {{ end }}
                                     {{ end }}
                                 </ul>
 

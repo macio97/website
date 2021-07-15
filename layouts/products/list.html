@@ -1,0 +1,26 @@
+{{ define "main" }}
+
+<div class="space"></div>
+
+<div class="list">
+    {{ range $.Site.Data.products }}
+    {{ $page := $.Site.GetPage . }}
+    <a href="{{ $page.Permalink }}" class="{{ replace (path.Base $page.Permalink) "-" "_" }}">
+        <div class="box">
+            <div>
+                <img src="{{ $page.Params.icon }}">
+            </div>
+            <div>
+                <h2>{{ $page.Params.title }}</h2>
+                {{ if $page.Params.description_short }}
+                <p>{{ $page.Params.description_short }}</p>
+                {{ end }}
+            </div>
+        </div>
+    </a>
+    {{ end }}
+</div>
+
+<div class="space"></div>
+
+{{ end }}
