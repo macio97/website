@@ -1,11 +1,6 @@
 ---
 title: Furnitures
 icon: furniture/images/icon.svg
-
-stylesheets: [
-    "/styles/style_common.css",
-    "/styles/products/models/style_theme.css"
-]
 ---
 
 <div class="space-small"></div>

@@ -1,16 +1,6 @@
 ---
 title: Spaceships
 icon: spaceships/images/icon.svg
-
-video:
-
-download_link:
-license: CC-0
-
-stylesheets: [
-    "/styles/style_common.css",
-    "/styles/products/models/style_theme.css"
-]
 ---
 
 <div class="space-small"></div>

@@ -1,0 +1,5 @@
+/* Theme */
+:root {
+	--theme: var(--models);
+	--img: var(--models-img);
+}
