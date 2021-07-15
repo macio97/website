@@ -1,6 +1,5 @@
 ---
 title: New assets pack coming
-date: 2021-06-15
 image: "/news/2021-06-15/background.webp"
 "stylesheets": ["/styles/news/style_posts.css"]
 ---

@@ -1,6 +1,5 @@
 ---
 title: Introducing the News page
-date: 2021-05-31
 image: "/news/2021-05-31/background.webp"
 "stylesheets": ["/styles/news/style_posts.css"]
 ---

@@ -1,6 +1,5 @@
 ---
 title: Introducing CC-0 Models
-date: 2021-06-28
 image: "/news/2021-06-28/background.webp"
 "stylesheets": ["/styles/news/style_posts.css"]
 ---
