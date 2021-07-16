@@ -3,22 +3,31 @@
 <div class="space"></div>
 
 <div class="list">
-    {{ if .Params.weights }}
-        {{ range .Pages.ByWeight }}
-        <a href="{{ .Permalink }}" class="{{ replace (path.Base .Permalink) "-" "_" }}">
+    {{/*
+        If a list page has a sort key in the front matter, look for a file
+        in the site data folder with the same value. For example: "sort: products"
+        would look for the products list in the data folder and use that order for sorting
+    */}}
+    {{ if isset .Params "sort" }}
+        {{ range index $.Site.Data .Params.sort }}
+        {{ $page := $.Site.GetPage . }}
+        <a href="{{ $page.Permalink }}" class="{{ replace (path.Base $page.Permalink) "-" "_" }}">
             <div class="box">
                 <div>
-                    <img src="{{ .Params.icon }}">
+                    <img src="{{ $page.Params.icon }}">
                 </div>
                 <div>
-                    <h2>{{ .Params.title }}</h2>
-                    {{ if .Params.description_short }}
-                        <p>{{ .Params.description_short }}</p>
+                    <h2>{{ $page.Params.title }}</h2>
+                    {{ if $page.Params.description_short }}
+                    <p>{{ $page.Params.description_short }}</p>
                     {{ end }}
                 </div>
             </div>
         </a>
         {{ end }}
+    {{/*
+        Otherwise use alphabetical sorting
+    */}}
     {{ else }}
         {{ range .Pages.ByTitle }}
         <a href="{{ .Permalink }}" class="{{ replace (path.Base .Permalink) "-" "_" }}">
